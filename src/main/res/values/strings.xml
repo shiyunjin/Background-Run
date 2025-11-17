@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">Background Run</string>
+
+    <!-- To translators: you can leave your here -->
+    <string name="translation_contributors" />
+
+    <!-- Home - Status -->
+    <string name="home_status_service_is_running">Service running</string>
+    <string name="home_status_service_not_running">Service not running</string>
+    <string name="home_status_service_version">Version %2$s, %1$s</string>
+    <string name="home_status_service_version_update"><![CDATA[Version %2$s, %1$s<br>Start again to update to version %3$s]]></string>
+
+    <!-- Home - Shizuku Permission -->
+    <string name="home_shizuku_permission_title">Shizuku Permission</string>
+    <string name="home_shizuku_permission_description"><![CDATA[Why do you need Shizuku? <br>Background processes require ADB privileges to operate. Shizuku provides this interface. You need to install and run Shizuku and authorize it before you can use it.<br>%s]]></string>
+    <string name="home_shizuku_permission_button">Authorize</string>
+
+    <!-- Home - Learn more -->
+    <string name="home_learn_more_title">Learn Background Run</string>
+    <string name="home_learn_more_description">Learn how to use Background Run</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_language">Language</string>
+    <string name="settings_user_interface">Appearance</string>
+    <string name="settings_black_night_theme">Black night theme</string>
+    <string name="settings_black_night_theme_summary">Use the pure black theme if night mode is enabled</string>
+    <string name="settings_pro">Pro Settings</string>
+    <string name="settings_multi_app">Multi Background App</string>
+    <string name="settings_multi_app_summary">Multiple applications can be run in the background.</string>
+    <string name="settings_translation_contributors">Translation contributors</string>
+    <string name="settings_translation">Participate in translation</string>
+    <string name="settings_translation_summary">Help us translate %s into your language</string>
+    <string name="settings_use_system_color">Use system theme color</string>
+    <string name="settings_action">Action Settings</string>
+    <string name="settings_multi_window_mode_summary">Floating window mode triggers the current application to the background, such as when the smart sidebar is launched.</string>
+    <string name="settings_multi_window_mode">Floating window Trigger</string>
+
+    <!-- About -->
+    <string name="action_about">About</string>
+    <string name="about_view_source_code"><![CDATA[View source code at %s]]></string>
+
+    <!-- Stop -->
+    <string name="action_stop">Stop Service</string>
+    <string name="dialog_stop_message">Service will be stop.</string>
+
+    <!-- Restart -->
+    <string name="action_restart">Restart Service</string>
+    <string name="dialog_restart_message">Service will be restart, It will take about 10 seconds.</string>
+
+    <!-- Misc -->
+    <string name="dialog_cannot_open_browser_title">Can\'t start browser</string>
+    <string name="toast_copied_to_clipboard">%s has been copied to clipboard.</string>
+    <string name="toast_copied_to_clipboard_with_text"><![CDATA[<b>%s</b> has been copied to clipboard.]]></string>
+
+    <!-- Tile -->
+    <string name="tile_title">Background Run</string>
+
+    <!-- Notification -->
+    <string name="notification_task_resume_channel_name">Background Task Running</string>
+    <string name="notification_task_resume_channel_description">Notify which apps are running in the background</string>
+    <string name="notification_task_resume_title">Background Running</string>
+    <string name="notification_task_resume_text">App: %s is running</string>
+    <string name="notification_task_resume_action">Exit Background</string>
+
+    <!-- Home - Notification -->
+    <string name="home_notification_title">Notification</string>
+    <string name="home_notification_description"><![CDATA[Notification permissions are required to notify you which apps are running in the background and to provide a method to bring them back to the foreground in the notification.]]></string>
+    <string name="home_notification_button">Grant Permissions</string>
+
+    <!-- Home - Server Need Update -->
+    <string name="home_server_need_update_title">Server Need Upgrade</string>
+    <string name="home_server_need_update_description"><![CDATA[The service version is incompatible with the built-in version and needs to be updated.]]></string>
+    <string name="home_server_need_update_button">Upgrade</string>
+
+    <!-- Version -->
+    <string name="version_mode_unknow">unknow</string>
+    <string name="version_mode_free">free</string>
+    <string name="version_mode_pro">pro</string>
+
+    <!-- Home - Add Tile -->
+    <string name="home_add_tile_title">Use Tips: Add Quick Settings Tile</string>
+    <string name="home_add_tile_description"><![CDATA[After adding a Tile, you can quickly switch the app to run in the background by tapping the Tile in the swipe-down status bar.]]></string>
+    <string name="home_add_tile_button">Add Tile</string>
+    <string name="home_tips_smart_side_bar_title">Use Tips: Smart SideBar</string>
+    <string name="home_tips_smart_side_bar_description">Phones from brands like OnePlus and Xiaomi have a Smart Sidebar where you can click \"Background Run\" to switch the currently running app to the background.</string>
+    <string name="home_tips_smart_side_bar_button">Open Trigger Feature</string>
+</resources>
