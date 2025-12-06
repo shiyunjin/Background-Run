@@ -35,6 +35,8 @@
     <string name="settings_action">Action Settings</string>
     <string name="settings_multi_window_mode_summary">Floating window mode triggers the current application to the background, such as when the smart sidebar is launched.</string>
     <string name="settings_multi_window_mode">Floating window Trigger</string>
+    <string name="settings_start_on_boot_summary">Start automatically on boot</string>
+    <string name="settings_start_on_boot">Start on boot</string>
 
     <!-- About -->
     <string name="action_about">About</string>
@@ -62,6 +64,8 @@
     <string name="notification_task_resume_title">Background Running</string>
     <string name="notification_task_resume_text">App: %s is running</string>
     <string name="notification_task_resume_action">Exit Background</string>
+    <string name="notification_start_on_boot">Start on boot</string>
+    <string name="notification_start_on_boot_summary">Waiting for Shizuku init...</string>
 
     <!-- Home - Notification -->
     <string name="home_notification_title">Notification</string>
@@ -69,9 +73,14 @@
     <string name="home_notification_button">Grant Permissions</string>
 
     <!-- Home - Server Need Update -->
-    <string name="home_server_need_update_title">Server Need Upgrade</string>
+    <string name="home_server_need_update_title">Service Need Upgrade</string>
     <string name="home_server_need_update_description"><![CDATA[The service version is incompatible with the built-in version and needs to be updated.]]></string>
     <string name="home_server_need_update_button">Upgrade</string>
+
+    <!-- Home - Service Start -->
+    <string name="home_service_start_title">Service Start</string>
+    <string name="home_service_start_description"><![CDATA[The service is not running. It will take 5-10 seconds to start the service.]]></string>
+    <string name="home_service_start_button">Start</string>
 
     <!-- Version -->
     <string name="version_mode_unknow">unknow</string>
@@ -85,4 +94,16 @@
     <string name="home_tips_smart_side_bar_title">Use Tips: Smart SideBar</string>
     <string name="home_tips_smart_side_bar_description">Phones from brands like OnePlus and Xiaomi have a Smart Sidebar where you can click \"Background Run\" to switch the currently running app to the background.</string>
     <string name="home_tips_smart_side_bar_button">Open Trigger Feature</string>
+
+    <!-- Toast -->
+    <string name="toast_server_start">Background Run is starting, please wait 5 seconds.</string>
+    <string name="toast_server_restart_retry">Background Run is starting, please wait 5 seconds retry.</string>
+    <string name="toast_task_background">Background Run Success</string>
+    <string name="toast_upgrade_pro">Upgrading to Professional Version</string>
+    <string name="toast_add_tile">Only one of the same tile is allowed.</string>
+    <string name="toast_add_tile_error">Not supported. Please add it from the status bar editor.</string>
+
+    <!-- Purchase -->
+    <string name="purchase_pro">Purchase Pro Version</string>
+    <string name="purchase_resume">Resume purchase</string>
 </resources>

@@ -24,6 +24,8 @@
     <string name="settings_use_system_color">使用系统主题颜色</string>
     <string name="settings_multi_window_mode_summary">当以浮动窗口启动时将会把当前应用程序切换到后台运行，例如通过智能侧边栏启动时。</string>
     <string name="settings_multi_window_mode">浮窗触发器</string>
+    <string name="settings_start_on_boot_summary">开机后自动启动服务</string>
+    <string name="settings_start_on_boot">开机启动</string>
     <string name="action_about">关于</string>
     <string name="about_view_source_code"><![CDATA[在 %s 查看源代码]]></string>
     <string name="dialog_restart_message">服务将被重启，大概需要10秒。</string>
@@ -36,6 +38,7 @@
     <string name="notification_task_resume_title">后台挂机中</string>
     <string name="notification_task_resume_text">应用: %s 正在运行</string>
     <string name="notification_task_resume_action">退出后台挂机</string>
+    <string name="notification_start_on_boot_summary">等待Shizuku初始化中...</string>
     <string name="home_notification_title">通知权限</string>
     <string name="home_notification_description"><![CDATA[需要通知权限来通知你哪些应用正在后台运行，并在通知中提供恢复前台的方法。]]></string>
     <string name="home_notification_button">授予权限</string>
@@ -43,6 +46,7 @@
     <string name="action_restart">重启服务</string>
     <string name="home_server_need_update_description"><![CDATA[服务版本与内置版本不匹配，需要更新。]]></string>
     <string name="home_server_need_update_button">升级服务</string>
+    <string name="home_service_start_button">启动</string>
     <string name="version_mode_unknow">未知</string>
     <string name="home_server_need_update_title">服务需要升级</string>
     <string name="version_mode_free">基础版</string>
@@ -55,4 +59,15 @@
     <string name="action_stop">停止服务</string>
     <string name="settings_action">功能设置</string>
     <string name="home_tips_smart_side_bar_button">开启触发器特性</string>
+    <string name="toast_server_start">后台运行服务正在启动，请稍等5秒。</string>
+    <string name="toast_server_restart_retry">后台运行服务正在启动，请稍等5秒后重试。</string>
+    <string name="toast_task_background">后台运行成功</string>
+    <string name="toast_add_tile_error">不支持，请从状态栏编辑添加。</string>
+    <string name="purchase_pro">购买专业版</string>
+    <string name="purchase_resume">恢复购买</string>
+    <string name="toast_upgrade_pro">正在升级到专业版</string>
+    <string name="toast_add_tile">相同的磁贴只能存在一个</string>
+    <string name="home_service_start_title">启动服务</string>
+    <string name="home_service_start_description">服务未运行。启动服务需要5-10秒。</string>
+    <string name="notification_start_on_boot">开机启动</string>
 </resources>
