@@ -99,9 +99,11 @@
     <string name="toast_server_start">Background Run is starting, please wait 5 seconds.</string>
     <string name="toast_server_restart_retry">Background Run is starting, please wait 5 seconds retry.</string>
     <string name="toast_task_background">Background Run Success</string>
-    <string name="toast_upgrade_pro">Upgrading to Professional Version</string>
+    <string name="toast_upgrade_pro">Upgrade to Pro Success</string>
+    <string name="toast_loading">Loading</string>
     <string name="toast_add_tile">Only one of the same tile is allowed.</string>
     <string name="toast_add_tile_error">Not supported. Please add it from the status bar editor.</string>
+    <string name="toast_network_error">Network Error.</string>
 
     <!-- Purchase -->
     <string name="purchase_pro">Purchase Pro Version</string>
