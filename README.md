@@ -2,6 +2,11 @@
 
 ***Required: [Shizuku Manager](https://shizuku.rikka.app/)***
 
+<a href="https://play.google.com/store/apps/details?id=com.shiyunjin.backgroundrun" target="_blank">
+  <img alt="Get on Google Play" vspace="20"
+       src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png" height="70" />
+</a>
+
 ## 🚀 Core Function: True Foreground Simulation
 Background Run utilizes advanced technology to simulate a continuous foreground running environment for your apps. This ensures that any app placed into "Background Run" will maintain a state and effect identical to being actively used in the foreground, even when you switch to other apps or return to your home screen.
 
