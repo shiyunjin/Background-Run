@@ -1,6 +1,6 @@
 # Background Run
 
-***Required: Shizuku Manager***
+***Required: [Shizuku Manager](https://shizuku.rikka.app/)***
 
 ## 🚀 Core Function: True Foreground Simulation
 Background Run utilizes advanced technology to simulate a continuous foreground running environment for your apps. This ensures that any app placed into "Background Run" will maintain a state and effect identical to being actively used in the foreground, even when you switch to other apps or return to your home screen.
