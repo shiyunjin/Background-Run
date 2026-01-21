@@ -31,4 +31,9 @@ Stable Performance: Utilizes an advanced "keep-alive" mechanism to ensure the ap
 
 High Compatibility: Compatible with most mainstream games and utility applications on the market.
 
-### ❗ Note: Certain applications that heavily rely on standard system foreground services might still be subject to OS restrictions. Please test the app's performance on your device.
+***❗ Note: Certain applications that heavily rely on standard system foreground services might still be subject to OS restrictions. Please test the app's performance on your device.***
+
+# Translations
+Please help me with your native language at:
+[Crowdin Translate System](https://crowdin.com/project/background-run)
+
