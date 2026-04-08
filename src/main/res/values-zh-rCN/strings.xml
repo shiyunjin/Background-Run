@@ -98,6 +98,8 @@
     <string name="home_tips_smart_side_bar_title">使用提示：智能侧边栏</string>
     <string name="home_tips_smart_side_bar_description">在一加和小米等品牌的手机上存在智能侧边栏，您可以在此处点击后台挂机，将目前的应用切换到后台运行。</string>
     <string name="home_tips_smart_side_bar_button">开启触发器特性</string>
+    <!-- Home - App List -->
+    <string name="dialog_app_list_stop_task_message">Are you sure you want to stop?</string>
     <!-- Toast -->
     <string name="toast_server_start">后台运行服务正在启动，请稍等5秒。</string>
     <string name="toast_server_restart_retry">后台运行服务正在启动，请稍等5秒后重试。</string>
@@ -110,4 +112,9 @@
     <!-- Purchase -->
     <string name="purchase_pro">购买高级版</string>
     <string name="purchase_resume">恢复购买</string>
+    <!-- Switch Move -->
+    <string name="switch_move">Switch Move Method</string>
+    <string name="switch_move_display">move app stack (default)</string>
+    <string name="switch_move_recents">Wake up from recent tasks</string>
+    <string name="toast_switch_move_restart">Switching successful. The changes will take effect after restarting the service.</string>
 </resources>
