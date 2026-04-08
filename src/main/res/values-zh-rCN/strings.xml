@@ -22,6 +22,7 @@
     <string name="settings_translation">参与翻译</string>
     <string name="settings_translation_summary">请帮助我们将 %s 翻译成您的语言</string>
     <string name="settings_use_system_color">使用系统主题颜色</string>
+    <string name="diagnostic_checking_shizuku_install">检查 Shizuku 安装状态...</string>
     <string name="settings_multi_window_mode_summary">当以浮动窗口启动时将会把当前应用程序切换到后台运行，例如通过智能侧边栏启动时。</string>
     <string name="settings_multi_window_mode">浮窗触发器</string>
     <string name="settings_start_on_boot_summary">开机后自动启动服务</string>
@@ -72,4 +73,22 @@
     <string name="home_service_start_title">启动服务</string>
     <string name="home_service_start_description">服务未运行。启动服务需要5-10秒。</string>
     <string name="notification_start_on_boot">开机启动</string>
+    <string name="settings_diagnostic">诊断服务</string>
+    <string name="settings_diagnostic_summary">如果服务启动失败或启动异常，可以在这里检测问题.</string>
+    <string name="diagnostic_title">诊断</string>
+    <string name="diagnostic_start">开始检测</string>
+    <string name="diagnostic_checking_shizuku">检查 Shizuku 连接状态...</string>
+    <string name="diagnostic_result_success">成功</string>
+    <string name="diagnostic_result_failed">失败</string>
+    <string name="diagnostic_item_setsid">setsid 存在</string>
+    <string name="diagnostic_item_app_process">app_process 存在</string>
+    <string name="diagnostic_item_port">端口8127未被占用</string>
+    <string name="diagnostic_item_slibpath">LibPath 可读</string>
+    <string name="diagnostic_item_shizuku">Shizuku 已连接</string>
+    <string name="diagnostic_checking_setsid">检查 setsid...</string>
+    <string name="diagnostic_checking_app_process">检查 app_process...</string>
+    <string name="diagnostic_checking_port">检查 端口 8127...</string>
+    <string name="diagnostic_checking_slibpath">检查 LibPath 可读...</string>
+    <string name="diagnostic_progress_format">%d%%</string>
+    <string name="diagnostic_item_shizuku_install">Shizuku 已安装</string>
 </resources>
