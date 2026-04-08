@@ -60,6 +60,7 @@
     <string name="action_stop">停止服务</string>
     <string name="settings_action">功能设置</string>
     <string name="home_tips_smart_side_bar_button">开启触发器特性</string>
+    <string name="dialog_app_list_stop_task_message">确定停止吗？</string>
     <string name="toast_server_start">后台运行服务正在启动，请稍等5秒。</string>
     <string name="toast_server_restart_retry">后台运行服务正在启动，请稍等5秒后重试。</string>
     <string name="toast_task_background">后台运行成功</string>
@@ -91,4 +92,8 @@
     <string name="diagnostic_checking_slibpath">检查 LibPath 可读...</string>
     <string name="diagnostic_progress_format">%d%%</string>
     <string name="diagnostic_item_shizuku_install">Shizuku 已安装</string>
+    <string name="switch_move">切换移动方法</string>
+    <string name="switch_move_display">移动应用栈 (默认)</string>
+    <string name="switch_move_recents">从最近任务唤醒</string>
+    <string name="toast_switch_move_restart">切换成功，重启服务后生效</string>
 </resources>

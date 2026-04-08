@@ -114,6 +114,9 @@
     <string name="home_tips_smart_side_bar_description">Phones from brands like OnePlus and Xiaomi have a Smart Sidebar where you can click \"Background Run\" to switch the currently running app to the background.</string>
     <string name="home_tips_smart_side_bar_button">Open Trigger Feature</string>
 
+    <!-- Home - App List -->
+    <string name="dialog_app_list_stop_task_message">Are you sure you want to stop?</string>
+
     <!-- Toast -->
     <string name="toast_server_start">Background Run is starting, please wait 5 seconds.</string>
     <string name="toast_server_restart_retry">Background Run is starting, please wait 5 seconds retry.</string>
@@ -127,4 +130,10 @@
     <!-- Purchase -->
     <string name="purchase_pro">Purchase Pro Version</string>
     <string name="purchase_resume">Resume purchase</string>
+
+    <!-- Switch Move -->
+    <string name="switch_move">Switch Move Method</string>
+    <string name="switch_move_display">move app stack (default)</string>
+    <string name="switch_move_recents">Wake up from recent tasks</string>
+    <string name="toast_switch_move_restart">Switching successful. The changes will take effect after restarting the service.</string>
 </resources>
