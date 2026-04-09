@@ -48,6 +48,14 @@
     <string name="diagnostic_item_shizuku">Shizuku connected</string>
     <string name="diagnostic_item_shizuku_install">Shizuku installed</string>
     <string name="diagnostic_checking_shizuku_install">Checking Shizuku installation...</string>
+    <string name="diagnostic_share_log">Share Log</string>
+    <string name="diagnostic_checking_restart_server">Restarting service...</string>
+    <string name="diagnostic_item_restart_server">Restart service</string>
+    <string name="diagnostic_checking_log_start">Starting logcat...</string>
+    <string name="diagnostic_item_log_start">Start logcat</string>
+    <string name="diagnostic_checking_log_stop">Stopping logcat...</string>
+    <string name="diagnostic_item_log_stop">Stop logcat</string>
+    <string name="diagnostic_share_log_file_not_found">Log file not found</string>
     <string name="settings_multi_window_mode_summary">当以浮动窗口启动时将会把当前应用程序切换到后台运行，例如通过智能侧边栏启动时。</string>
     <string name="settings_multi_window_mode">浮窗触发器</string>
     <string name="settings_start_on_boot_summary">开机后自动启动服务</string>
@@ -98,6 +106,8 @@
     <string name="home_tips_smart_side_bar_title">使用提示：智能侧边栏</string>
     <string name="home_tips_smart_side_bar_description">在一加和小米等品牌的手机上存在智能侧边栏，您可以在此处点击后台挂机，将目前的应用切换到后台运行。</string>
     <string name="home_tips_smart_side_bar_button">开启触发器特性</string>
+    <string name="home_tips_media_tek_title">MediaTek Platform Tips</string>
+    <string name="home_tips_media_tek_description">Shizuku version v13.6.0 is incompatible with MediaTek platforms and will fail to start the service. Please check your Shizuku version and select an alternative version.</string>
     <!-- Home - App List -->
     <string name="dialog_app_list_stop_task_message">Are you sure you want to stop?</string>
     <!-- Toast -->
@@ -109,6 +119,7 @@
     <string name="toast_add_tile">相同的磁贴只能存在一个</string>
     <string name="toast_add_tile_error">不支持，请从状态栏编辑添加。</string>
     <string name="toast_network_error">网络错误</string>
+    <string name="toast_start_server_failed">Service failed to start via Shizuku:</string>
     <!-- Purchase -->
     <string name="purchase_pro">购买高级版</string>
     <string name="purchase_resume">恢复购买</string>
