@@ -52,6 +52,14 @@
     <string name="diagnostic_item_shizuku">Shizuku connected</string>
     <string name="diagnostic_item_shizuku_install">Shizuku installed</string>
     <string name="diagnostic_checking_shizuku_install">Checking Shizuku installation...</string>
+    <string name="diagnostic_share_log">Share Log</string>
+    <string name="diagnostic_checking_restart_server">Restarting service...</string>
+    <string name="diagnostic_item_restart_server">Restart service</string>
+    <string name="diagnostic_checking_log_start">Starting logcat...</string>
+    <string name="diagnostic_item_log_start">Start logcat</string>
+    <string name="diagnostic_checking_log_stop">Stopping logcat...</string>
+    <string name="diagnostic_item_log_stop">Stop logcat</string>
+    <string name="diagnostic_share_log_file_not_found">Log file not found</string>
     <string name="settings_multi_window_mode_summary">Floating window mode triggers the current application to the background, such as when the smart sidebar is launched.</string>
     <string name="settings_multi_window_mode">Floating window Trigger</string>
     <string name="settings_start_on_boot_summary">Start automatically on boot</string>
@@ -114,6 +122,10 @@
     <string name="home_tips_smart_side_bar_description">Phones from brands like OnePlus and Xiaomi have a Smart Sidebar where you can click \"Background Run\" to switch the currently running app to the background.</string>
     <string name="home_tips_smart_side_bar_button">Open Trigger Feature</string>
 
+
+    <string name="home_tips_media_tek_title">MediaTek Platform Tips</string>
+    <string name="home_tips_media_tek_description">Shizuku version v13.6.0 is incompatible with MediaTek platforms and will fail to start the service. Please check your Shizuku version and select an alternative version.</string>
+
     <!-- Home - App List -->
     <string name="dialog_app_list_stop_task_message">Are you sure you want to stop?</string>
 
@@ -126,6 +138,7 @@
     <string name="toast_add_tile">Only one of the same tile is allowed.</string>
     <string name="toast_add_tile_error">Not supported. Please add it from the status bar editor.</string>
     <string name="toast_network_error">Network Error.</string>
+    <string name="toast_start_server_failed">Service failed to start via Shizuku:</string>
 
     <!-- Purchase -->
     <string name="purchase_pro">Purchase Pro Version</string>
