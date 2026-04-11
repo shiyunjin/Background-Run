@@ -123,6 +123,8 @@
     <!-- Purchase -->
     <string name="purchase_pro">购买高级版</string>
     <string name="purchase_resume">恢复购买</string>
+    <string name="dialog_pro_need">Pro version required</string>
+    <string name="dialog_pro_need_view">You can view the current status of background applications and control them.</string>
     <!-- Switch Move -->
     <string name="switch_move">Switch Move Method</string>
     <string name="switch_move_display">move app stack (default)</string>
