@@ -81,6 +81,7 @@
     <string name="notification_task_resume_title">后台挂机中</string>
     <string name="notification_task_resume_text">应用: %s 正在运行</string>
     <string name="notification_task_resume_action">退出后台挂机</string>
+    <string name="notification_start_on_boot_channel_name">Start on boot</string>
     <string name="notification_start_on_boot">开机启动</string>
     <string name="notification_start_on_boot_summary">等待Shizuku初始化中...</string>
     <!-- Home - Notification -->
