@@ -144,6 +144,9 @@
     <string name="purchase_pro">Purchase Pro Version</string>
     <string name="purchase_resume">Resume purchase</string>
 
+    <string name="dialog_pro_need">Pro version required</string>
+    <string name="dialog_pro_need_view">You can view the current status of background applications and control them.</string>
+
     <!-- Switch Move -->
     <string name="switch_move">Switch Move Method</string>
     <string name="switch_move_display">move app stack (default)</string>

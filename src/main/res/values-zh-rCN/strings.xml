@@ -102,9 +102,11 @@
     <string name="diagnostic_checking_slibpath">检查 LibPath 可读...</string>
     <string name="diagnostic_progress_format">%d%%</string>
     <string name="diagnostic_item_shizuku_install">Shizuku 已安装</string>
+    <string name="dialog_pro_need_view">可以查看后台运行应用的当前状态并控制</string>
     <string name="switch_move">切换移动方法</string>
     <string name="switch_move_display">移动应用栈 (默认)</string>
     <string name="switch_move_recents">从最近任务唤醒</string>
     <string name="toast_switch_move_restart">切换成功，重启服务后生效</string>
     <string name="diagnostic_share_log">分享日志</string>
+    <string name="dialog_pro_need">请购买高级版</string>
 </resources>
