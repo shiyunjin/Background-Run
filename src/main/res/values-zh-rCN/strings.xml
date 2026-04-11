@@ -83,6 +83,7 @@
     <string name="toast_add_tile">相同的磁贴只能存在一个</string>
     <string name="home_service_start_title">启动服务</string>
     <string name="home_service_start_description">服务未运行。启动服务需要5-10秒。</string>
+    <string name="notification_start_on_boot_channel_name">开机启动</string>
     <string name="notification_start_on_boot">开机启动</string>
     <string name="settings_diagnostic">诊断服务</string>
     <string name="settings_diagnostic_summary">如果服务启动失败或启动异常，可以在这里检测问题.</string>
