@@ -81,6 +81,7 @@
     <string name="notification_task_resume_title">Background Running</string>
     <string name="notification_task_resume_text">App: %s is running</string>
     <string name="notification_task_resume_action">Exit Background</string>
+    <string name="notification_start_on_boot_channel_name">Start on boot</string>
     <string name="notification_start_on_boot">Start on boot</string>
     <string name="notification_start_on_boot_summary">Waiting for Shizuku init...</string>
     <!-- Home - Notification -->
