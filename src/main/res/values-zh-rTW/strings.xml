@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Background Run</string>
+    <string name="app_name">後台掛機</string>
     <!-- To translators: you can leave your here -->
     <string name="translation_contributors"></string>
     <!-- Home - Status -->
-    <string name="home_status_service_is_running">Service running</string>
-    <string name="home_status_service_not_running">Service not running</string>
+    <string name="home_status_service_is_running">服務運作中</string>
+    <string name="home_status_service_not_running">服務尚未執行</string>
     <string name="home_status_service_version">Version %2$s, %1$s</string>
     <string name="home_status_service_version_update"><![CDATA[Version %2$s, %1$s<br>Start again to update to version %3$s]]></string>
     <!-- Home - Shizuku Permission -->
