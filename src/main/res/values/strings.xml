@@ -153,4 +153,27 @@
     <string name="switch_move_display">move app stack (default)</string>
     <string name="switch_move_recents">Wake up from recent tasks</string>
     <string name="toast_switch_move_restart">Switching successful. The changes will take effect after restarting the service.</string>
+
+    <!-- Floating Settings -->
+    <string name="settings_floating">Floating Button Settings</string>
+    <string name="settings_floating_summary">The floating button allows you to check the status of the background application at any time.</string>
+    <string name="settings_floating_enabled">Enable Floating Button</string>
+    <string name="settings_floating_auto_hide">Auto Hide</string>
+    <string name="settings_floating_size">Size</string>
+    <string name="settings_floating_opacity">Opacity</string>
+    <string name="settings_floating_vertical_position">Vertical Position</string>
+    <string name="settings_floating_horizontal_position">Horizontal Position</string>
+    <string name="settings_floating_restore_defaults">Restore Default Settings</string>
+    <string name="settings_floating_restore_defaults_confirm_message">Are you sure you want to restore all floating button settings to their defaults?</string>
+    <string name="settings_floating_left">Left</string>
+    <string name="settings_floating_right">Right</string>
+
+    <string name="perm_title">Permission Detection</string>
+    <string name="perm_overlay_title">Floating Window Permission</string>
+    <string name="perm_battery_title">Battery Optimization</string>
+    <string name="perm_status_on">Enabled</string>
+    <string name="perm_status_off">Disabled, click to set</string>
+    <string name="perm_battery_summary_on">Battery optimization disabled (Recommended)</string>
+    <string name="perm_battery_summary_off">Optimizing, may cause floating window to close, click to set</string>
+    <string name="perm_notif_summary">Click to go to notification settings, find \"Display over other apps\" and turn it off</string>
 </resources>

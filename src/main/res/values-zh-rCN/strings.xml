@@ -108,6 +108,30 @@
     <string name="switch_move_display">移动应用栈 (默认)</string>
     <string name="switch_move_recents">从最近任务唤醒</string>
     <string name="toast_switch_move_restart">切换成功，重启服务后生效</string>
+
+    <!-- Floating Settings -->
+    <string name="settings_floating">浮标设置</string>
+    <string name="settings_floating_summary">浮标可以随时查看挂机应用状态</string>
+    <string name="settings_floating_enabled">启用浮标</string>
+    <string name="settings_floating_auto_hide">自动隐藏</string>
+    <string name="settings_floating_size">大小</string>
+    <string name="settings_floating_opacity">透明度</string>
+    <string name="settings_floating_vertical_position">上下位置</string>
+    <string name="settings_floating_horizontal_position">左右位置</string>
+    <string name="settings_floating_restore_defaults">恢复默认设置</string>
+    <string name="settings_floating_restore_defaults_confirm_message">确定要恢复所有悬浮窗设置到默认吗？</string>
+    <string name="settings_floating_left">左</string>
+    <string name="settings_floating_right">右</string>
+
     <string name="diagnostic_share_log">分享日志</string>
     <string name="dialog_pro_need">请购买高级版</string>
+
+    <string name="perm_title">权限检测</string>
+    <string name="perm_overlay_title">悬浮窗权限</string>
+    <string name="perm_battery_title">电池优化</string>
+    <string name="perm_status_on">已开启</string>
+    <string name="perm_status_off">未开启，点击去设置</string>
+    <string name="perm_battery_summary_on">已禁用优化（推荐）</string>
+    <string name="perm_battery_summary_off">优化中，可能导致浮窗关闭，点击去设置</string>
+    <string name="perm_notif_summary">点击前往通知设置，寻找“在其他应用上层显示”并关闭</string>
 </resources>
