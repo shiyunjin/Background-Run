@@ -10,6 +10,9 @@
     <string name="home_status_service_version_update"><![CDATA[Version %2$s, %1$s<br>Start again to update to version %3$s]]></string>
     <!-- Home - Shizuku Permission -->
     <string name="home_shizuku_permission_title">Shizuku Permission</string>
+    <string name="home_working_mode_title">Working Mode</string>
+    <string name="home_working_mode_shizuku">Shizuku</string>
+    <string name="home_working_mode_root">Root</string>
     <string name="home_shizuku_permission_description"><![CDATA[Why do you need Shizuku? <br>Background processes require ADB privileges to operate. Shizuku provides this interface. You need to install and run Shizuku and authorize it before you can use it.<br>%s]]></string>
     <string name="home_shizuku_permission_button">Authorize</string>
     <!-- Home - Learn more -->
@@ -39,6 +42,7 @@
     <string name="diagnostic_checking_port">Checking port 8127...</string>
     <string name="diagnostic_checking_slibpath">Checking LibPath readable...</string>
     <string name="diagnostic_checking_shizuku">Checking Shizuku connection...</string>
+    <string name="diagnostic_checking_root">Checking Root permission...</string>
     <string name="diagnostic_result_success">Success</string>
     <string name="diagnostic_result_failed">Failed</string>
     <string name="diagnostic_item_setsid">setsid exists</string>
@@ -46,6 +50,7 @@
     <string name="diagnostic_item_port">Port 8127 not occupied</string>
     <string name="diagnostic_item_slibpath">LibPath is readable</string>
     <string name="diagnostic_item_shizuku">Shizuku connected</string>
+    <string name="diagnostic_item_root">Root permission</string>
     <string name="diagnostic_item_shizuku_install">Shizuku installed</string>
     <string name="diagnostic_checking_shizuku_install">Checking Shizuku installation...</string>
     <string name="diagnostic_share_log">Share Log</string>
@@ -60,6 +65,9 @@
     <string name="settings_multi_window_mode">Floating window Trigger</string>
     <string name="settings_start_on_boot_summary">Start automatically on boot</string>
     <string name="settings_start_on_boot">Start on boot</string>
+    <string name="settings_persistent_notification">Persistent Notification</string>
+    <string name="settings_persistent_notification_summary">Show a persistent notification to quickly trigger background run</string>
+    <string name="persistent_notification_summary">click to background run</string>
     <!-- About -->
     <string name="action_about">About</string>
     <string name="about_view_source_code"><![CDATA[View source code at %s]]></string>
@@ -95,6 +103,7 @@
     <!-- Home - Service Start -->
     <string name="home_service_start_title">Service Start</string>
     <string name="home_service_start_description"><![CDATA[The service is not running. It will take 5-10 seconds to start the service.]]></string>
+    <string name="home_service_start_root_description"><![CDATA[The service is not running. It will take 5-10 seconds to start the service. If your device does not have Root access, please use Shizuku mode.]]></string>
     <string name="home_service_start_button">Start</string>
     <!-- Version -->
     <string name="version_mode_unknow">unknow</string>
@@ -120,7 +129,8 @@
     <string name="toast_add_tile">Only one of the same tile is allowed.</string>
     <string name="toast_add_tile_error">Not supported. Please add it from the status bar editor.</string>
     <string name="toast_network_error">Network Error.</string>
-    <string name="toast_start_server_failed">Service failed to start via Shizuku:</string>
+    <string name="toast_start_server_failed">Service failed to start:</string>
+    <string name="toast_root_required">Can\'t open root shell, try again…</string>
     <!-- Purchase -->
     <string name="purchase_pro">Purchase Pro Version</string>
     <string name="purchase_resume">Resume purchase</string>
