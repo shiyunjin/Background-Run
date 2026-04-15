@@ -6,6 +6,9 @@
     <string name="home_status_service_version">版本 %2$s, %1$s</string>
     <string name="home_status_service_version_update"><![CDATA[Version %2$s, %1$s<br>重启更新到最新版本 %3$s]]></string>
     <string name="home_shizuku_permission_title">Shizuku 权限</string>
+    <string name="home_working_mode_title">工作模式</string>
+    <string name="home_working_mode_shizuku">Shizuku</string>
+    <string name="home_working_mode_root">Root</string>
     <string name="home_shizuku_permission_description"><![CDATA[为什么需要 Shizuku?<br>后台进程需要 ADB 权限才能运行。Shizuku 提供了这个接口。您需要先安装并运行 Shizuku，并对其进行授权才能使用。<br>%s]]></string>
     <string name="home_shizuku_permission_button">授权</string>
     <string name="home_learn_more_title">了解后台挂机</string>
@@ -34,6 +37,9 @@
     <string name="settings_multi_window_mode">浮窗触发器</string>
     <string name="settings_start_on_boot_summary">开机后自动启动服务</string>
     <string name="settings_start_on_boot">开机启动</string>
+    <string name="settings_persistent_notification">常驻通知</string>
+    <string name="settings_persistent_notification_summary">显示一个常驻通知以快速触发后台挂机</string>
+    <string name="persistent_notification_summary">点击触发后台挂机</string>
     <string name="action_about">关于</string>
     <string name="about_view_source_code"><![CDATA[在 %s 查看源代码]]></string>
     <string name="dialog_restart_message">服务将被重启，大概需要10秒。</string>
@@ -54,6 +60,7 @@
     <string name="action_restart">重启服务</string>
     <string name="home_server_need_update_description"><![CDATA[服务版本与内置版本不匹配，需要更新。]]></string>
     <string name="home_server_need_update_button">升级服务</string>
+    <string name="home_service_start_root_description">服务未运行。启动服务需要5-10秒。如果设备没有Root权限，请使用Shizuku模式。</string>
     <string name="home_service_start_button">启动</string>
     <string name="version_mode_unknow">未知</string>
     <string name="home_server_need_update_title">服务需要升级</string>
@@ -75,7 +82,8 @@
     <string name="toast_task_background">后台运行成功</string>
     <string name="toast_add_tile_error">不支持，请从状态栏编辑添加。</string>
     <string name="toast_network_error">网络错误</string>
-    <string name="toast_start_server_failed">通过Shizuku启动服务失败:</string>
+    <string name="toast_start_server_failed">启动服务失败:</string>
+    <string name="toast_root_required">未获取到Root权限，请重试...</string>
     <string name="purchase_pro">购买高级版</string>
     <string name="purchase_resume">恢复购买</string>
     <string name="toast_upgrade_pro">升级到高级版成功</string>
@@ -90,6 +98,7 @@
     <string name="diagnostic_title">诊断</string>
     <string name="diagnostic_start">开始检测</string>
     <string name="diagnostic_checking_shizuku">检查 Shizuku 连接状态...</string>
+    <string name="diagnostic_checking_root">检查 Root 权限...</string>
     <string name="diagnostic_result_success">成功</string>
     <string name="diagnostic_result_failed">失败</string>
     <string name="diagnostic_item_setsid">setsid 存在</string>
@@ -102,6 +111,7 @@
     <string name="diagnostic_checking_port">检查 端口 8127...</string>
     <string name="diagnostic_checking_slibpath">检查 LibPath 可读...</string>
     <string name="diagnostic_progress_format">%d%%</string>
+    <string name="diagnostic_item_root">Root 权限</string>
     <string name="diagnostic_item_shizuku_install">Shizuku 已安装</string>
     <string name="dialog_pro_need_view">可以查看后台运行应用的当前状态并控制</string>
     <string name="switch_move">切换移动方法</string>
