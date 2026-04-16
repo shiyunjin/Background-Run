@@ -141,9 +141,11 @@
     <string name="perm_battery_title">电池优化</string>
     <string name="perm_status_on">已开启</string>
     <string name="perm_status_off">未开启，点击去设置</string>
+    <string name="perm_status_on_blocked">已屏蔽通知</string>
     <string name="perm_battery_summary_on">已禁用优化（推荐）</string>
     <string name="perm_battery_summary_off">优化中，可能导致浮窗关闭，点击去设置</string>
-    <string name="perm_notif_summary">点击前往通知设置，寻找"在其他应用上层显示"并关闭</string>
+    <string name="perm_notification_listener_title">关闭\"正在其他应用的上层显示内容\"通知</string>
+    <string name="perm_notif_summary">点击授予后台挂机权限，以关闭通知</string>
 
     <!-- Home - Floating Promo -->
     <string name="home_floating_promo_title">浮窗快捷控制</string>

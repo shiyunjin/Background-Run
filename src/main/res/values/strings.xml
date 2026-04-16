@@ -183,9 +183,11 @@
     <string name="perm_battery_title">Battery Optimization</string>
     <string name="perm_status_on">Enabled</string>
     <string name="perm_status_off">Disabled, click to set</string>
+    <string name="perm_status_on_blocked">Notification blocked</string>
     <string name="perm_battery_summary_on">Battery optimization disabled (Recommended)</string>
     <string name="perm_battery_summary_off">Optimizing, may cause floating window to close, click to set</string>
-    <string name="perm_notif_summary">Click to go to notification settings, find \"Display over other apps\" and turn it off</string>
+    <string name="perm_notification_listener_title">Turn off "Display over other apps" notification</string>
+    <string name="perm_notif_summary">Tap to grant Background Run permission to disable the notification</string>
 
     <!-- Home - Floating Promo -->
     <string name="home_floating_promo_title">Floating Quick Control</string>
