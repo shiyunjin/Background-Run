@@ -208,4 +208,7 @@
     <string name="settings_floating_trial_expired_summary">Tap here to upgrade to Pro and continue using floating window</string>
     <string name="settings_floating_trial_available_title">🎁 7-day free trial available</string>
     <string name="settings_floating_trial_available_summary">Enable floating window to start your trial</string>
+
+    <!-- Floating Window Empty State -->
+    <string name="floating_empty_text">No background apps yet</string>
 </resources>

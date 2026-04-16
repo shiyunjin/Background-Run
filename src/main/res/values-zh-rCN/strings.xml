@@ -166,4 +166,7 @@
     <string name="settings_floating_trial_expired_summary">点击此处升级高级版继续使用浮窗功能</string>
     <string name="settings_floating_trial_available_title">🎁 可开启7天免费试用</string>
     <string name="settings_floating_trial_available_summary">开启浮窗即可开始试用</string>
+
+    <!-- Floating Window Empty State -->
+    <string name="floating_empty_text">暂无后台应用</string>
 </resources>
