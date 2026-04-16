@@ -186,4 +186,26 @@
     <string name="perm_battery_summary_on">Battery optimization disabled (Recommended)</string>
     <string name="perm_battery_summary_off">Optimizing, may cause floating window to close, click to set</string>
     <string name="perm_notif_summary">Click to go to notification settings, find \"Display over other apps\" and turn it off</string>
+
+    <!-- Home - Floating Promo -->
+    <string name="home_floating_promo_title">Floating Quick Control</string>
+    <string name="home_floating_promo_description_pro">Swipe from the edge of the screen to quickly control background apps</string>
+    <string name="home_floating_promo_description_trial">Pro exclusive feature, start your 7-day free trial now</string>
+    <string name="home_floating_promo_description_expired">Trial has ended, upgrade to Pro to continue using</string>
+    <string name="home_floating_promo_button_enable">Enable Floating</string>
+    <string name="home_floating_promo_button_trial">Start 7-Day Trial</string>
+    <string name="home_floating_promo_button_upgrade">Upgrade to Pro</string>
+    <string name="toast_floating_trial_started">7-day floating window trial has started</string>
+    <string name="toast_floating_trial_expired">Floating window trial has ended</string>
+
+    <!-- Home - Floating Promo Trial Banner -->
+    <string name="home_floating_promo_trial_banner">⏰ Trial: %d days remaining - Upgrade to Pro for unlimited access</string>
+
+    <!-- Settings - Floating Trial Info -->
+    <string name="settings_floating_trial_remaining">⏰ Trial: %d days remaining</string>
+    <string name="settings_floating_trial_summary">Upgrade to Pro for unlimited access</string>
+    <string name="settings_floating_trial_expired_title">⚠️ Trial has ended</string>
+    <string name="settings_floating_trial_expired_summary">Tap here to upgrade to Pro and continue using floating window</string>
+    <string name="settings_floating_trial_available_title">🎁 7-day free trial available</string>
+    <string name="settings_floating_trial_available_summary">Enable floating window to start your trial</string>
 </resources>

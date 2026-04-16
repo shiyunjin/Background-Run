@@ -143,5 +143,27 @@
     <string name="perm_status_off">未开启，点击去设置</string>
     <string name="perm_battery_summary_on">已禁用优化（推荐）</string>
     <string name="perm_battery_summary_off">优化中，可能导致浮窗关闭，点击去设置</string>
-    <string name="perm_notif_summary">点击前往通知设置，寻找“在其他应用上层显示”并关闭</string>
+    <string name="perm_notif_summary">点击前往通知设置，寻找"在其他应用上层显示"并关闭</string>
+
+    <!-- Home - Floating Promo -->
+    <string name="home_floating_promo_title">浮窗快捷控制</string>
+    <string name="home_floating_promo_description_pro">从屏幕边缘滑动即可快速控制后台应用</string>
+    <string name="home_floating_promo_description_trial">高级版专属功能，立即开启7天免费试用</string>
+    <string name="home_floating_promo_description_expired">试用已结束，升级高级版继续使用</string>
+    <string name="home_floating_promo_button_enable">开启浮窗</string>
+    <string name="home_floating_promo_button_trial">开启7天试用</string>
+    <string name="home_floating_promo_button_upgrade">升级高级版</string>
+    <string name="toast_floating_trial_started">已开启7天浮窗试用</string>
+    <string name="toast_floating_trial_expired">浮窗试用期已结束</string>
+
+    <!-- Home - Floating Promo Trial Banner -->
+    <string name="home_floating_promo_trial_banner">⏰ 试用期剩余 %d 天 - 升级高级版解锁完整功能</string>
+
+    <!-- Settings - Floating Trial Info -->
+    <string name="settings_floating_trial_remaining">⏰ 试用期剩余 %d 天</string>
+    <string name="settings_floating_trial_summary">升级高级版解锁完整功能</string>
+    <string name="settings_floating_trial_expired_title">⚠️ 试用期已结束</string>
+    <string name="settings_floating_trial_expired_summary">点击此处升级高级版继续使用浮窗功能</string>
+    <string name="settings_floating_trial_available_title">🎁 可开启7天免费试用</string>
+    <string name="settings_floating_trial_available_summary">开启浮窗即可开始试用</string>
 </resources>
