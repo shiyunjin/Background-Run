@@ -113,6 +113,7 @@
     <string name="home_add_tile_title">Use Tips: Add Quick Settings Tile</string>
     <string name="home_add_tile_description"><![CDATA[After adding a Tile, you can quickly switch the app to run in the background by tapping the Tile in the swipe-down status bar.]]></string>
     <string name="home_add_tile_button">Add Tile</string>
+    <string name="home_add_tile_video_tutorial">Video Tutorial</string>
     <string name="home_tips_smart_side_bar_title">Use Tips: Smart SideBar</string>
     <string name="home_tips_smart_side_bar_description">Phones from brands like OnePlus and Xiaomi have a Smart Sidebar where you can click \"Background Run\" to switch the currently running app to the background.</string>
     <string name="home_tips_smart_side_bar_button">Open Trigger Feature</string>
