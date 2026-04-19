@@ -76,7 +76,7 @@
     <string name="dialog_stop_message">服务将被停止.</string>
     <!-- Restart -->
     <string name="action_restart">重启服务</string>
-    <string name="dialog_restart_message">服务将被重启，大概需要10秒。</string>
+    <string name="dialog_restart_message">Service will restart, It will take about 10 seconds.</string>
     <!-- Misc -->
     <string name="dialog_cannot_open_browser_title">不能启动浏览器</string>
     <string name="toast_copied_to_clipboard">%s 已经复制到剪贴板.</string>
