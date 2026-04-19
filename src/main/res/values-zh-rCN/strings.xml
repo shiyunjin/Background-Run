@@ -172,4 +172,16 @@
 
     <!-- Floating Window Empty State -->
     <string name="floating_empty_text">暂无后台应用</string>
+    <string name="xposed_description">可启动服务并且防止挂机应用重启</string>
+
+    <!-- Settings - Xposed Enhanced Mode -->
+    <string name="settings_xposed_title">增强模式 (Xposed)</string>
+    <string name="settings_xposed_summary">防止后台应用被系统重新启动</string>
+    <string name="settings_xposed_service_status">服务连接</string>
+    <string name="settings_xposed_not_connected">未连接到服务</string>
+    <string name="settings_xposed_reboot_hint">（如果刚刚激活请重启）</string>
+    <string name="settings_xposed_activated">服务已连接</string>
+    <string name="settings_xposed_module_status">模块状态</string>
+    <string name="settings_xposed_module_activated">模块已激活</string>
+    <string name="settings_xposed_module_not_activated">模块未激活</string>
 </resources>

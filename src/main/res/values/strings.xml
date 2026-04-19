@@ -214,4 +214,17 @@
 
     <!-- Floating Window Empty State -->
     <string name="floating_empty_text">No background apps yet</string>
+
+    <string name="xposed_description">Can launch services and prevent background applications from restarting.</string>
+
+    <!-- Settings - Xposed Enhanced Mode -->
+    <string name="settings_xposed_title">Enhanced Mode (Xposed)</string>
+    <string name="settings_xposed_summary">Prevent background apps from being restarted by system</string>
+    <string name="settings_xposed_service_status">Service Connection</string>
+    <string name="settings_xposed_not_connected">Not connected to service</string>
+    <string name="settings_xposed_reboot_hint"> (if just activated, please reboot)</string>
+    <string name="settings_xposed_activated">Service connected</string>
+    <string name="settings_xposed_module_status">Module Status</string>
+    <string name="settings_xposed_module_activated">Module activated</string>
+    <string name="settings_xposed_module_not_activated">Module not activated</string>
 </resources>
