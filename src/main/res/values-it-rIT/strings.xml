@@ -76,7 +76,7 @@
     <string name="dialog_stop_message">Service will be stop.</string>
     <!-- Restart -->
     <string name="action_restart">Restart Service</string>
-    <string name="dialog_restart_message">Service will be restart, It will take about 10 seconds.</string>
+    <string name="dialog_restart_message">Service will restart, It will take about 10 seconds.</string>
     <!-- Misc -->
     <string name="dialog_cannot_open_browser_title">Can\'t start browser</string>
     <string name="toast_copied_to_clipboard">%s has been copied to clipboard.</string>
