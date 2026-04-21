@@ -153,14 +153,21 @@
     <string name="home_floating_promo_description_pro">从屏幕边缘滑动即可快速控制后台应用</string>
     <string name="home_floating_promo_description_trial">高级版专属功能，立即开启7天免费试用</string>
     <string name="home_floating_promo_description_expired">试用已结束，升级高级版继续使用</string>
+    <string name="home_floating_promo_description_extend">试用已过期，观看%d个广告可续期7天</string>
+    <string name="home_floating_promo_button_watch_ad">观看广告续期</string>
     <string name="home_floating_promo_button_enable">开启浮窗</string>
     <string name="home_floating_promo_button_trial">开启7天试用</string>
     <string name="home_floating_promo_button_upgrade">升级高级版</string>
     <string name="toast_floating_trial_started">已开启7天浮窗试用</string>
     <string name="toast_floating_trial_expired">浮窗试用期已结束</string>
+    <string name="toast_ad_watched">广告观看成功，试用已续期7天</string>
+    <string name="toast_ad_not_completed">请先看完%d个广告</string>
+    <string name="toast_ad_failed">广告加载失败，请重试</string>
+    <string name="toast_ad_loading">正在加载广告，请稍候…</string>
 
     <!-- Home - Floating Promo Trial Banner -->
     <string name="home_floating_promo_trial_banner">⏰ 试用期剩余 %d 天 - 升级高级版解锁完整功能</string>
+    <string name="home_floating_promo_ad_remaining">📺 还需观看%d个广告续期</string>
 
     <!-- Settings - Floating Trial Info -->
     <string name="settings_floating_trial_remaining">⏰ 试用期剩余 %d 天</string>
