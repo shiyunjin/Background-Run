@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="octrm_app_name">Octrm Assistant</string>
+    <!-- Octrm Settings -->
+    <string name="octrm_settings_title">Octrm Settings</string>
+    <string name="octrm_settings_category_ai_provider">AI Provider</string>
+    <string name="octrm_settings_enabled">Enable Octrm</string>
+    <string name="octrm_settings_enabled_summary">Enable AI assistant features</string>
+    <string name="octrm_settings_provider_settings">Provider Settings</string>
+    <string name="octrm_settings_provider_summary">Configure API endpoint and credentials</string>
+    <string name="octrm_settings_system_prompt">System Prompt</string>
+    <string name="octrm_settings_system_prompt_summary">Configure AI assistant behavior</string>
+    <string name="octrm_settings_desktop_icon">Desktop Icon</string>
+    <string name="octrm_settings_desktop_icon_summary">Add Octrm icon to home screen</string>
+    <string name="octrm_settings_chat_summary">Start AI conversation</string>
+    <string name="octrm_settings_memory_summary">Manage AI notes and memories</string>
+    <string name="octrm_settings_desktop_icon_enabled">Desktop icon enabled</string>
+    <string name="octrm_settings_desktop_icon_disabled">Desktop icon disabled</string>
+    <!-- AI Provider Settings -->
+    <string name="octrm_provider_title">AI Provider Settings</string>
+    <string name="octrm_provider_api_base_url">API Base URL</string>
+    <string name="octrm_provider_api_base_url_hint">https://api.openai.com/v1</string>
+    <string name="octrm_provider_api_key">API Key</string>
+    <string name="octrm_provider_api_key_hint">Enter your API key</string>
+    <string name="octrm_provider_model">Model</string>
+    <string name="octrm_provider_model_hint">Use multimodal model (e.g. gpt-4o)</string>
+    <string name="octrm_provider_test">Test</string>
+    <string name="octrm_provider_save">Save</string>
+    <string name="octrm_provider_test_success">Connection successful!</string>
+    <string name="octrm_provider_test_failed">Connection failed: %s</string>
+    <string name="octrm_provider_saved">Settings saved</string>
+    <string name="octrm_provider_not_configured">Please configure API settings first</string>
+    <string name="octrm_provider_enabled">Enable Custom AI Provider</string>
+    <string name="octrm_provider_configs">Provider Configurations</string>
+    <string name="octrm_provider_add">Add Configuration</string>
+    <string name="octrm_provider_edit">Edit</string>
+    <string name="octrm_provider_delete">Delete</string>
+    <string name="octrm_provider_name">Configuration Name</string>
+    <string name="octrm_provider_type">Provider Type</string>
+    <string name="octrm_provider_type_openai">OpenAI</string>
+    <string name="octrm_provider_type_anthropic">Anthropic</string>
+    <string name="octrm_provider_activate">Activate</string>
+    <string name="octrm_provider_activated">Activated</string>
+    <string name="octrm_provider_delete_confirm">Delete this configuration?</string>
+    <string name="octrm_provider_empty">No configurations. Tap + to add one.</string>
+    <string name="octrm_provider_testing">Testing connection…</string>
+    <string name="octrm_provider_fetch_models">Fetch Models</string>
+    <string name="octrm_provider_fetching_models">Fetching model list…</string>
+    <string name="octrm_provider_fetch_models_failed">Failed to fetch models: %s</string>
+    <string name="octrm_provider_fetch_models_success">Fetched %d models</string>
+    <!-- Chat -->
+    <string name="octrm_chat_title">Octrm Assistant (Alpha)</string>
+    <string name="octrm_chat_history">History</string>
+    <string name="octrm_chat_input_hint">Type a message…</string>
+    <string name="octrm_chat_send">Send</string>
+    <string name="octrm_chat_stop_generation">Stop Generation</string>
+    <string name="octrm_chat_voice_input">Voice Input</string>
+    <string name="octrm_chat_text_input">Text Input</string>
+    <!-- Voice Input -->
+    <string name="octrm_voice_listening">Listening…</string>
+    <string name="octrm_voice_streaming_preview">Listening…</string>
+    <string name="octrm_voice_processing">Processing…</string>
+    <string name="octrm_voice_model_loading">Loading voice model…</string>
+    <string name="octrm_voice_no_model">Voice model not downloaded. Please download in Settings.</string>
+    <string name="octrm_voice_input_hint">Hold to speak</string>
+    <string name="octrm_voice_hint">Hold to talk</string>
+    <string name="octrm_voice_recognizing">Recognizing… %d%%</string>
+    <string name="octrm_voice_downloading_progress">Downloading %1$s… %2$d%%</string>
+    <string name="octrm_voice_slide_cancel">Slide up to cancel</string>
+    <string name="octrm_voice_cancelled">Cancelled</string>
+    <!-- Voice Language -->
+    <string name="octrm_settings_voice_language">Voice Language</string>
+    <string name="octrm_settings_voice_language_summary">Select speech recognition language</string>
+    <string name="octrm_voice_language_title">Voice Language</string>
+    <string name="octrm_voice_language_downloading">Downloading %s…</string>
+    <string name="octrm_voice_language_download_failed">Download failed: %s</string>
+    <string name="octrm_voice_language_delete_confirm">Delete %s language model?</string>
+    <string name="octrm_voice_language_not_downloaded">Not downloaded</string>
+    <string name="octrm_voice_language_downloaded">Downloaded</string>
+    <string name="octrm_voice_language_active">Active</string>
+    <string name="octrm_voice_language_waiting_wifi">Waiting for Wi-Fi…</string>
+    <!-- Memory -->
+    <string name="octrm_memory_title">AI Memory</string>
+    <string name="octrm_memory_empty">No notes yet</string>
+    <string name="octrm_memory_add">Add Note</string>
+    <string name="octrm_memory_search_hint">Search notes…</string>
+    <string name="octrm_memory_delete">Delete</string>
+    <string name="octrm_memory_edit">Edit</string>
+    <string name="octrm_memory_title_hint">Title (optional)</string>
+    <string name="octrm_memory_content_hint">Content</string>
+    <!-- Auto Operation -->
+    <string name="octrm_auto_operation_title">Auto Operation</string>
+    <string name="octrm_auto_operation_start">Start</string>
+    <string name="octrm_auto_operation_stop">Stop</string>
+    <string name="octrm_auto_operation_takeover">Takeover</string>
+    <string name="octrm_auto_operation_supplement">Supplement</string>
+    <string name="octrm_auto_operation_current_step">Current Step: %s</string>
+    <string name="octrm_auto_operation_status_idle">Idle</string>
+    <string name="octrm_auto_operation_status_running">Running</string>
+    <string name="octrm_auto_operation_status_paused">Paused</string>
+    <string name="octrm_auto_operation_status_completed">Completed</string>
+    <string name="octrm_auto_operation_status_failed">Failed</string>
+    <string name="octrm_auto_operation_input_hint">Describe what you want to do…</string>
+    <!-- System Prompt -->
+    <string name="octrm_system_prompt_title">System Prompt Settings</string>
+    <string name="octrm_system_prompt_builtin">Built-in Prompt</string>
+    <string name="octrm_system_prompt_custom">Custom Prompt</string>
+    <string name="octrm_system_prompt_custom_enabled">Enable Custom Prompt</string>
+    <string name="octrm_system_prompt_custom_hint">Enter your custom system prompt…</string>
+    <string name="octrm_system_prompt_reset">Reset to Default</string>
+    <string name="octrm_system_prompt_reset_confirm">Reset system prompt to built-in version?</string>
+    <string name="octrm_system_prompt_saved">Prompt saved</string>
+    <!-- History -->
+    <string name="octrm_new_conversation">New Conversation</string>
+    <string name="octrm_new_conversation_toast">Started a new conversation</string>
+    <string name="octrm_history_title">Conversation History</string>
+    <string name="octrm_history_empty">No conversations yet</string>
+    <string name="octrm_history_delete">Delete</string>
+    <string name="octrm_history_delete_confirm">Delete this conversation?</string>
+    <!-- Notification -->
+    <string name="octrm_notification_channel_name">Auto Operation</string>
+    <string name="octrm_notification_channel_description">Shows current auto operation progress</string>
+    <string name="octrm_notification_title">Auto Operation Running</string>
+    <string name="octrm_notification_step">Step: %s</string>
+    <string name="octrm_notification_detail">%s</string>
+    <!-- General -->
+    <string name="octrm_retry">Retry</string>
+    <string name="octrm_cancel">Cancel</string>
+    <string name="octrm_confirm">Confirm</string>
+    <string name="octrm_ok">OK</string>
+    <string name="octrm_error">Error</string>
+    <string name="octrm_loading">Loading…</string>
+    <string name="octrm_voice_no_model_en">English voice model not downloaded. Please download in Settings for mixed language support.</string>
+    <string name="octrm_voice_downloading">Downloading voice models…</string>
+    <string name="octrm_voice_download_completed">Voice model %s downloaded</string>
+    <string name="octrm_voice_download_failed">%1$s download failed: %2$s</string>
+    <!-- Whisper 语音识别 -->
+    <string name="octrm_whisper_download_completed">Whisper %s model downloaded</string>
+    <string name="octrm_whisper_download_failed">Whisper %1$s download failed: %2$s</string>
+    <string name="octrm_whisper_no_model">Whisper model not downloaded. Please wait for download.</string>
+    <!-- 语音引擎设置 -->
+    <string name="octrm_settings_voice_engine">Voice Engine</string>
+    <string name="octrm_settings_voice_engine_summary">Select speech recognition engine</string>
+    <string name="octrm_voice_engine_sherpa_ncnn">Sherpa-NCNN (Default)</string>
+    <string name="octrm_voice_engine_whisper">OpenAI Whisper</string>
+    <string name="octrm_voice_engine_vosk">Vosk</string>
+    <!-- Sherpa-NCNN 语音识别 -->
+    <string name="octrm_sherpa_ncnn_download_completed">Sherpa-NCNN model downloaded</string>
+    <string name="octrm_sherpa_ncnn_download_failed">Sherpa-NCNN download failed: %s</string>
+    <string name="octrm_sherpa_ncnn_no_model">Sherpa-NCNN model not downloaded. Please download in Settings.</string>
+    <string name="octrm_sherpa_ncnn_extracting">Extracting model…</string>
+    <!-- 对话历史 -->
+    <string name="octrm_history_new_chat">New Chat</string>
+    <string name="octrm_history_continue">Continue conversation</string>
+    <!-- 输入组件 -->
+    <string name="octrm_input_permission_launcher_required">Please set permission launcher first</string>
+    <!-- Chat Toggles -->
+    <string name="octrm_toggle_operate_phone">Operate Phone</string>
+    <string name="octrm_toggle_deep_thinking">Deep Thinking</string>
+    <!-- Thinking -->
+    <string name="octrm_thinking_label">Thinking…</string>
+    <string name="octrm_thinking_done">Deeply Thought</string>
+    <!-- Thought Chain -->
+    <string name="octrm_thought_chain_running">Thinking · Round %1$d</string>
+    <string name="octrm_thought_chain_running_step">Thinking · Round %1$d · %2$s</string>
+    <string name="octrm_thought_chain_done">Done · %1$d rounds · %2$d steps</string>
+    <string name="octrm_thought_chain_round_running">Round %1$d</string>
+    <string name="octrm_thought_chain_round_done">Round %1$d · %2$d tools</string>
+    <!-- AI Execution Live Notification -->
+    <string name="octrm_notification_live_channel_name">AI Execution</string>
+    <string name="octrm_notification_live_channel_description">Shows AI execution progress while running in the background</string>
+    <string name="octrm_notification_live_title">Octrm Assistant</string>
+    <string name="octrm_notification_live_streaming">Thinking…</string>
+    <string name="octrm_notification_live_executing_step">Round %1$d: %2$s</string>
+    <string name="octrm_notification_live_executing_multi">Round %1$d: %2$d tools running</string>
+    <string name="octrm_notification_live_completed">Completed</string>
+    <string name="octrm_notification_live_failed">Failed: %s</string>
+    <string name="octrm_notification_live_auto_running">Auto operation running</string>
+    <string name="octrm_notification_live_auto_paused">Auto operation paused</string>
+    <string name="octrm_notification_live_stop">Stop</string>
+    <string name="octrm_notification_live_progress_summary">%1$d / %2$d steps</string>
+    <!-- Token Usage Statistics -->
+    <string name="octrm_settings_token_usage">Token Usage</string>
+    <string name="octrm_settings_token_usage_summary">View AI token consumption and request statistics</string>
+    <string name="octrm_token_usage_title">Token Usage</string>
+    <string name="octrm_token_usage_total_tokens">Total Tokens</string>
+    <string name="octrm_token_usage_total_requests">Total Requests</string>
+    <string name="octrm_token_usage_conversations">Conversations</string>
+    <string name="octrm_token_usage_messages">Messages</string>
+    <string name="octrm_token_usage_io_breakdown">Input / Output</string>
+    <string name="octrm_token_usage_input">Input</string>
+    <string name="octrm_token_usage_output">Output</string>
+    <string name="octrm_token_usage_per_model">Per-Model Statistics</string>
+    <string name="octrm_token_usage_no_data">No usage data yet</string>
+    <string name="octrm_token_usage_requests_format">%d requests</string>
+    <string name="octrm_token_usage_clear">Clear Data</string>
+    <string name="octrm_token_usage_clear_confirm">Clear all token usage data?</string>
+    <!-- Model Parameters & Context Settings -->
+    <string name="octrm_settings_model_param">Model Parameters</string>
+    <string name="octrm_settings_model_param_summary">Configure context length, model parameters, and custom headers</string>
+    <string name="octrm_model_param_title">Model Parameters &amp; Context</string>
+    <string name="octrm_model_param_scope">Settings Scope</string>
+    <string name="octrm_model_param_scope_global">Global (Default)</string>
+    <string name="octrm_model_param_use_global">Use Global Settings</string>
+    <string name="octrm_model_param_use_global_summary">Reset this provider to use global model parameters</string>
+    <string name="octrm_model_param_section_context">Context Settings</string>
+    <string name="octrm_model_param_context_length">Context Length (k tokens)</string>
+    <string name="octrm_model_param_max_context_length">Max Context Length (k tokens)</string>
+    <string name="octrm_model_param_section_summary">Summary Settings</string>
+    <string name="octrm_model_param_summary_enabled">Enable Conversation Summary</string>
+    <string name="octrm_model_param_context_usage_ratio">Context Usage Ratio Threshold</string>
+    <string name="octrm_model_param_message_count_summary_enabled">Enable Message-Count Summary</string>
+    <string name="octrm_model_param_message_count_threshold">Message Count Threshold</string>
+    <string name="octrm_model_param_section_params">Model Parameters</string>
+    <string name="octrm_model_param_max_tokens">Max Tokens</string>
+    <string name="octrm_model_param_temperature">Temperature</string>
+    <string name="octrm_model_param_top_p">Top P</string>
+    <string name="octrm_model_param_top_k">Top K</string>
+    <string name="octrm_model_param_presence_penalty">Presence Penalty</string>
+    <string name="octrm_model_param_frequency_penalty">Frequency Penalty</string>
+    <string name="octrm_model_param_repetition_penalty">Repetition Penalty</string>
+    <string name="octrm_model_param_section_headers">Custom Request Headers</string>
+    <string name="octrm_model_param_header_key">Header Name</string>
+    <string name="octrm_model_param_header_value">Header Value</string>
+    <string name="octrm_model_param_add_header">Add Header</string>
+    <string name="octrm_model_param_preset_headers">Preset Headers</string>
+    <string name="octrm_model_param_preset_android_browser">Android Browser</string>
+    <string name="octrm_model_param_preset_desktop_browser">Desktop Browser</string>
+    <string name="octrm_model_param_preset_claude_code">Claude Code</string>
+    <string name="octrm_model_param_preset_accept_lang_en">Accept-Language: en</string>
+    <string name="octrm_model_param_preset_accept_lang_zh">Accept-Language: zh</string>
+    <string name="octrm_model_param_saved">Model parameters saved</string>
+    <string name="octrm_model_param_reset_to_global">Reset to global settings</string>
+</resources>
