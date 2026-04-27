@@ -39,6 +39,9 @@
     <string name="settings_start_on_boot">开机启动</string>
     <string name="settings_persistent_notification">常驻通知</string>
     <string name="settings_persistent_notification_summary">显示一个常驻通知以快速触发后台挂机</string>
+    <string name="settings_background_launcher">挂机快捷入口</string>
+    <string name="settings_background_launcher_summary">在桌面添加一个图标，点击即可将当前应用移至后台挂机（不能在桌面点击，需要和其他应用（手势启动）或某些系统的侧边栏配合使用）</string>
+    <string name="background_launcher_alias">立即挂机</string>
     <string name="persistent_notification_summary">点击触发后台挂机</string>
     <string name="action_about">关于</string>
     <string name="about_view_source_code"><![CDATA[在 %s 查看源代码]]></string>

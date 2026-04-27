@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tool display names -->
+    <string name="octrm_tool_open_app">Open App</string>
+    <string name="octrm_tool_click">Click</string>
+    <string name="octrm_tool_long_press">Long Press</string>
+    <string name="octrm_tool_type">Type Text</string>
+    <string name="octrm_tool_wait">Wait</string>
+    <string name="octrm_tool_swipe">Swipe</string>
+    <string name="octrm_tool_pinch_zoom">Pinch Zoom</string>
+    <string name="octrm_tool_go_back">Go Back</string>
+    <string name="octrm_tool_get_app_list">List Apps</string>
+    <string name="octrm_tool_take_notes">Take Notes</string>
+    <string name="octrm_tool_stop">Stop</string>
+    <string name="octrm_tool_question">Question</string>
+
+    <!-- Tool call UI -->
+    <string name="octrm_tool_call_action">Execute Action</string>
+    <string name="octrm_tool_call_request_title">Request Details</string>
+    <string name="octrm_tool_call_response_title">Response</string>
+    <string name="octrm_tool_call_arguments">Arguments</string>
+    <string name="octrm_tool_call_result">Result</string>
+
+    <!-- Question tool UI -->
+    <string name="octrm_question_hint">Type your answer…</string>
+    <string name="octrm_question_custom">Custom answer</string>
+</resources>
