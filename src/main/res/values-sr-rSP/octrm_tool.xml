@@ -13,6 +13,7 @@
     <string name="octrm_tool_take_notes">Take Notes</string>
     <string name="octrm_tool_stop">Stop</string>
     <string name="octrm_tool_question">Question</string>
+    <string name="octrm_tool_start_phone_operation">Start Phone Operation</string>
     <!-- Tool call UI -->
     <string name="octrm_tool_call_action">Execute Action</string>
     <string name="octrm_tool_call_request_title">Request Details</string>
@@ -22,4 +23,15 @@
     <!-- Question tool UI -->
     <string name="octrm_question_hint">Type your answer…</string>
     <string name="octrm_question_custom">Custom answer</string>
+    <string name="octrm_question_label">AI is asking</string>
+    <string name="octrm_question_input_hint">You can type a custom answer below</string>
+    <string name="octrm_question_submit">Send</string>
+    <string name="octrm_question_timeout">Timed out — AI will decide</string>
+    <string name="octrm_question_timeout_countdown">Auto-timeout in %d:%02d</string>
+    <string name="octrm_question_no_options_hint">Please type your answer below</string>
+    <!-- Stop tool UI -->
+    <string name="octrm_stop_label_notify">Task Complete</string>
+    <string name="octrm_stop_label_takeover">Manual Intervention Required</string>
+    <string name="octrm_stop_confirm_notify">Got it</string>
+    <string name="octrm_stop_confirm_takeover">Understood</string>
 </resources>
