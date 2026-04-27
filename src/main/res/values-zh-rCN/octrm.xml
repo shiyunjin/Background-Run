@@ -102,6 +102,9 @@
     <string name="octrm_history_empty">暂无对话</string>
     <string name="octrm_history_delete">删除</string>
     <string name="octrm_history_delete_confirm">删除此对话？</string>
+    <string name="octrm_history_batch_delete_confirm">删除选中的 %d 个对话？</string>
+    <string name="octrm_history_select_all">全选</string>
+    <string name="octrm_history_selected">已选择 %d 个</string>
 
     <!-- Notification -->
     <string name="octrm_notification_channel_name">自动操作</string>
@@ -197,6 +200,7 @@
     <string name="octrm_notification_live_auto_running">自动操作运行中</string>
     <string name="octrm_notification_live_auto_paused">自动操作已暂停</string>
     <string name="octrm_notification_live_stop">停止</string>
+    <string name="octrm_notification_live_dismiss">关闭</string>
     <string name="octrm_notification_live_progress_summary">%1$d / %2$d 步</string>
 
     <!-- Token 使用统计 -->
@@ -257,4 +261,9 @@
 
     <string name="octrm_model_param_saved">模型参数已保存</string>
     <string name="octrm_model_param_reset_to_global">重置为全局设置</string>
+    <string name="octrm_model_param_provider_override">为此供应商使用单独设置</string>
+    <string name="octrm_model_param_provider_override_summary">使用供应商专属参数覆盖全局设置</string>
+    <string name="octrm_model_param_unsaved_title">未保存的更改</string>
+    <string name="octrm_model_param_unsaved_message">您有未保存的更改，是否放弃？</string>
+    <string name="octrm_model_param_discard">放弃</string>
 </resources>

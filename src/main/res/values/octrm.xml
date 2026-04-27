@@ -126,6 +126,9 @@
     <string name="octrm_history_empty">No conversations yet</string>
     <string name="octrm_history_delete">Delete</string>
     <string name="octrm_history_delete_confirm">Delete this conversation?</string>
+    <string name="octrm_history_batch_delete_confirm">Delete %d selected conversations?</string>
+    <string name="octrm_history_select_all">Select all</string>
+    <string name="octrm_history_selected">%d selected</string>
 
     <!-- Notification -->
     <string name="octrm_notification_channel_name">Auto Operation</string>
@@ -199,6 +202,7 @@
     <string name="octrm_notification_live_auto_running">Auto operation running</string>
     <string name="octrm_notification_live_auto_paused">Auto operation paused</string>
     <string name="octrm_notification_live_stop">Stop</string>
+    <string name="octrm_notification_live_dismiss">Dismiss</string>
     <string name="octrm_notification_live_progress_summary">%1$d / %2$d steps</string>
 
     <!-- Token Usage Statistics -->
@@ -259,4 +263,9 @@
 
     <string name="octrm_model_param_saved">Model parameters saved</string>
     <string name="octrm_model_param_reset_to_global">Reset to global settings</string>
+    <string name="octrm_model_param_provider_override">Use custom settings for this provider</string>
+    <string name="octrm_model_param_provider_override_summary">Override global settings with provider-specific parameters</string>
+    <string name="octrm_model_param_unsaved_title">Unsaved Changes</string>
+    <string name="octrm_model_param_unsaved_message">You have unsaved changes. Do you want to discard them?</string>
+    <string name="octrm_model_param_discard">Discard</string>
 </resources>
