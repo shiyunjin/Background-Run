@@ -266,4 +266,9 @@
     <string name="octrm_model_param_unsaved_title">未保存的更改</string>
     <string name="octrm_model_param_unsaved_message">您有未保存的更改，是否放弃？</string>
     <string name="octrm_model_param_discard">放弃</string>
+    <string name="octrm_summary_label">对话摘要</string>
+
+    <!-- 讨论与反馈 -->
+    <string name="octrm_settings_feedback">讨论与反馈</string>
+    <string name="octrm_settings_feedback_summary">建议、功能反馈和 Bug 报告</string>
 </resources>
