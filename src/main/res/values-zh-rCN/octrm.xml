@@ -188,6 +188,16 @@
     <string name="octrm_thought_chain_round_running">第%1$d轮</string>
     <string name="octrm_thought_chain_round_done">第%1$d轮 · %2$d个工具</string>
 
+    <!-- 思维链 - 任务层级 -->
+    <string name="octrm_thought_chain_running_task">思维链 · %1$s</string>
+    <string name="octrm_thought_chain_running_task_step">思维链 · %1$s · %2$s</string>
+    <string name="octrm_thought_chain_done_tasks">完成 · %1$d个任务 · %2$d步</string>
+    <string name="octrm_thought_chain_task_pending">等待中</string>
+    <string name="octrm_thought_chain_task_running">运行中</string>
+    <string name="octrm_thought_chain_task_completed">已完成</string>
+    <string name="octrm_thought_chain_task_error">出错</string>
+    <string name="octrm_thought_chain_task_stopped">已停止</string>
+
     <!-- AI 执行实时通知 -->
     <string name="octrm_notification_live_channel_name">AI 执行</string>
     <string name="octrm_notification_live_channel_description">在后台运行时显示 AI 执行进度</string>

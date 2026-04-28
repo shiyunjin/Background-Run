@@ -37,4 +37,11 @@
     <string name="octrm_stop_label_takeover">需要手动操作</string>
     <string name="octrm_stop_confirm_notify">知道了</string>
     <string name="octrm_stop_confirm_takeover">知道了</string>
+
+    <!-- 任务管理工具 -->
+    <string name="octrm_tool_task_create">创建任务</string>
+    <string name="octrm_tool_task_get">获取任务</string>
+    <string name="octrm_tool_task_list">列出任务</string>
+    <string name="octrm_tool_task_update">更新任务</string>
+    <string name="octrm_tool_task_stop">停止任务</string>
 </resources>
