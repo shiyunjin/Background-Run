@@ -44,4 +44,7 @@
     <string name="octrm_tool_task_list">List Tasks</string>
     <string name="octrm_tool_task_update">Update Task</string>
     <string name="octrm_tool_task_stop">Stop Task</string>
+
+    <!-- Agent Dispatch Tool -->
+    <string name="octrm_tool_dispatch_agent">Dispatch Agent</string>
 </resources>

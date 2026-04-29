@@ -44,4 +44,7 @@
     <string name="octrm_tool_task_list">列出任务</string>
     <string name="octrm_tool_task_update">更新任务</string>
     <string name="octrm_tool_task_stop">停止任务</string>
+
+    <!-- 子代理调度工具 -->
+    <string name="octrm_tool_dispatch_agent">调度子代理</string>
 </resources>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Agent type names -->
+    <string name="octrm_agent_type_phone">Phone Operation</string>
+    <string name="octrm_agent_type_image">Image Generation</string>
+    <string name="octrm_agent_type_video">Video Generation</string>
+    <string name="octrm_agent_type_music">Music Generation</string>
+    <string name="octrm_agent_type_voice">Voice Synthesis</string>
+
+    <!-- Agent type built-in prompts -->
+    <string name="octrm_agent_prompt_phone">You are a phone operation agent. You can see the device screen via attached screenshots and control it using available tools. Execute the user\'s request step by step. After each action, observe the result and decide the next step. When you have completed the task, call the stop tool with notify mode to inform the user.</string>
+    <string name="octrm_agent_prompt_image">You are an image generation agent. Create images based on the user\'s detailed prompt. Use available tools or APIs to generate images. When complete, call the stop tool with notify mode.</string>
+    <string name="octrm_agent_prompt_video">You are a video generation agent. Create videos based on the user\'s detailed prompt. Use available tools or APIs to generate videos. When complete, call the stop tool with notify mode.</string>
+    <string name="octrm_agent_prompt_music">You are a music generation agent. Create music based on the user\'s detailed prompt. Use available tools or APIs to generate music. When complete, call the stop tool with notify mode.</string>
+    <string name="octrm_agent_prompt_voice">You are a voice synthesis agent. Synthesize speech based on the user\'s detailed prompt. Use available tools or APIs to generate voice audio. When complete, call the stop tool with notify mode.</string>
+
+    <!-- Agent status -->
+    <string name="octrm_agent_status_pending">Pending</string>
+    <string name="octrm_agent_status_running">Running</string>
+    <string name="octrm_agent_status_completed">Completed</string>
+    <string name="octrm_agent_status_error">Error</string>
+
+    <!-- Agent detail dialog -->
+    <string name="octrm_agent_detail_title">Sub-Agent Details</string>
+    <string name="octrm_agent_detail_type">Type</string>
+    <string name="octrm_agent_detail_description">Description</string>
+    <string name="octrm_agent_detail_status">Status</string>
+    <string name="octrm_agent_detail_steps">Execution Steps</string>
+    <string name="octrm_agent_detail_result">Result</string>
+
+    <!-- Agent settings -->
+    <string name="octrm_agent_settings_title">Sub-Agent Settings</string>
+    <string name="octrm_settings_agent_settings">Sub-Agent Settings</string>
+    <string name="octrm_settings_agent_summary">Configure sub-agent providers</string>
+
+    <!-- Agent provider management -->
+    <string name="octrm_agent_config_saved">Saved</string>
+    <string name="octrm_agent_provider_empty">No providers configured. Tap + to add one.</string>
+    <string name="octrm_agent_provider_add">Add Provider</string>
+    <string name="octrm_agent_provider_edit">Edit Provider</string>
+    <string name="octrm_agent_provider_delete">Delete</string>
+    <string name="octrm_agent_provider_delete_confirm">Delete this provider configuration?</string>
+    <string name="octrm_agent_provider_activated">Provider activated</string>
+
+    <!-- Provider categories -->
+    <string name="octrm_agent_category_llm">LLM Provider</string>
+    <string name="octrm_agent_category_api">API Provider</string>
+    <string name="octrm_agent_category_choose">Choose Provider Category</string>
+    <string name="octrm_agent_provider_api_empty">No API providers available for this agent type</string>
+
+    <!-- API provider type display names -->
+    <string name="octrm_agent_api_image_dalle">DALL-E</string>
+    <string name="octrm_agent_api_image_stability">Stability AI</string>
+    <string name="octrm_agent_api_video_runway">Runway</string>
+    <string name="octrm_agent_api_music_suno">Suno</string>
+    <string name="octrm_agent_api_voice_elevenlabs">ElevenLabs</string>
+
+    <!-- API provider edit dialog -->
+    <string name="octrm_agent_api_provider_type">API Type</string>
+</resources>

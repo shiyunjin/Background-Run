@@ -9,8 +9,48 @@
     <string name="home_working_mode_title">工作模式</string>
     <string name="home_working_mode_shizuku">Shizuku</string>
     <string name="home_working_mode_root">Root</string>
+    <string name="home_working_mode_adb">ADB</string>
     <string name="home_shizuku_permission_description"><![CDATA[为什么需要 Shizuku?<br>后台进程需要 ADB 权限才能运行。Shizuku 提供了这个接口。您需要先安装并运行 Shizuku，并对其进行授权才能使用。<br>%s]]></string>
     <string name="home_shizuku_permission_button">授权</string>
+
+    <!-- Home - ADB Permission -->
+    <string name="home_adb_permission_title">ADB 无线调试</string>
+    <string name="home_adb_permission_description"><![CDATA[为什么需要 ADB 模式？<br>后台进程需要 ADB 权限才能运行。此模式直接连接设备的无线调试服务，无需 Shizuku 或 Root。<br><br>前提条件：<br>1. 在开发者选项中启用<b>无线调试</b><br>2. 将本应用与设备<b>配对</b><br>3. <b>连接</b>到 ADB 服务]]></string>
+    <string name="home_adb_permission_button_pair">配对</string>
+    <string name="home_adb_permission_button_connect">连接</string>
+    <string name="home_adb_pairing_title">ADB 配对</string>
+    <string name="home_adb_pairing_address">配对地址 (IP:端口)</string>
+    <string name="home_adb_pairing_code">配对码</string>
+    <string name="home_adb_pairing_hint">前往 设置 > 开发者选项 > 无线调试 > 使用配对码配对设备，然后在此输入配对地址和配对码。</string>
+    <string name="home_adb_pairing_open_settings">打开无线调试设置</string>
+    <string name="home_adb_pairing_address_invalid">地址格式无效（例如 192.168.1.100:37891）</string>
+    <string name="home_adb_pairing_code_invalid">配对码必须为6位数字</string>
+
+    <!-- ADB Pairing Tutorial -->
+    <string name="adb_pairing_tutorial_title">配对设备</string>
+    <string name="adb_pairing_tutorial_notification">通知将帮助您完成配对。</string>
+    <string name="adb_pairing_tutorial_notification_blocked">配对过程需要您与通知交互。请允许本应用发送通知。</string>
+    <string name="adb_pairing_tutorial_step1">进入「开发者选项」-「无线调试」，点击「使用配对码配对设备」，您将看到一个六位配对码。</string>
+    <string name="adb_pairing_tutorial_step1_hint">请注意，「无线调试」选项的左侧是可点击的，点击后会打开新页面。仅打开右侧开关是不正确的。</string>
+    <string name="adb_pairing_tutorial_step2">在通知中输入配对码以完成配对。</string>
+    <string name="adb_pairing_tutorial_step3">返回本应用并连接。</string>
+    <string name="development_settings">开发者选项</string>
+    <string name="notification_settings">通知设置</string>
+
+    <!-- ADB Pairing Notification -->
+    <string name="notification_channel_adb_pairing">ADB 配对</string>
+    <string name="notification_adb_pairing_searching_title">正在搜索配对服务</string>
+    <string name="notification_adb_pairing_service_found_title">已发现配对服务</string>
+    <string name="notification_adb_pairing_input_pairing_code">输入配对码</string>
+    <string name="notification_adb_pairing_stop_searching">停止搜索</string>
+    <string name="notification_adb_pairing_working_title">正在配对</string>
+    <string name="notification_adb_pairing_succeed_title">配对成功</string>
+    <string name="notification_adb_pairing_succeed_text">您现在可以连接 ADB 了。</string>
+    <string name="notification_adb_pairing_failed_title">配对失败</string>
+    <string name="dialog_adb_pairing_pairing_code">配对码</string>
+    <string name="cannot_connect_port">无法连接到无线调试服务。</string>
+    <string name="pairing_code_wrong">配对码错误。</string>
+    <string name="adb_error_key_store">无法生成无线调试密钥。\n可能是因为此设备的 KeyStore 机制存在问题。</string>
     <string name="home_learn_more_title">了解后台挂机</string>
     <string name="home_learn_more_description">了解如何使用后台挂机</string>
     <string name="settings_title">设置</string>
@@ -63,7 +103,8 @@
     <string name="action_restart">重启服务</string>
     <string name="home_server_need_update_description"><![CDATA[服务版本与内置版本不匹配，需要更新。]]></string>
     <string name="home_server_need_update_button">升级服务</string>
-    <string name="home_service_start_root_description">服务未运行。启动服务需要5-10秒。如果设备没有Root权限，请使用Shizuku模式。</string>
+    <string name="home_service_start_root_description">服务未运行。启动服务需要5-10秒。如果设备没有Root权限，请使用ADB模式。</string>
+    <string name="home_service_start_adb_description">服务未运行。启动服务需要5-10秒。请确保已启用并连接 ADB 无线调试。</string>
     <string name="home_service_start_button">启动</string>
     <string name="version_mode_unknow">未知</string>
     <string name="home_server_need_update_title">服务需要升级</string>
@@ -88,6 +129,11 @@
     <string name="toast_network_error">网络错误</string>
     <string name="toast_start_server_failed">启动服务失败:</string>
     <string name="toast_root_required">未获取到Root权限，请重试...</string>
+    <string name="toast_adb_not_connected">ADB 未连接，请先配对并连接</string>
+    <string name="toast_adb_pairing_success">ADB 配对成功</string>
+    <string name="toast_adb_pairing_failed">ADB 配对失败</string>
+    <string name="toast_adb_connect_success">ADB 连接成功</string>
+    <string name="toast_adb_connect_failed">ADB 连接失败</string>
     <string name="purchase_pro">购买高级版</string>
     <string name="purchase_resume">恢复购买</string>
     <string name="toast_upgrade_pro">升级到高级版成功</string>
@@ -116,6 +162,8 @@
     <string name="diagnostic_checking_slibpath">检查 LibPath 可读...</string>
     <string name="diagnostic_progress_format">%d%%</string>
     <string name="diagnostic_item_root">Root 权限</string>
+    <string name="diagnostic_item_adb">ADB 无线调试</string>
+    <string name="diagnostic_checking_adb">正在检查 ADB 连接...</string>
     <string name="diagnostic_item_shizuku_install">Shizuku 已安装</string>
     <string name="dialog_pro_need_view">可以查看后台运行应用的当前状态并控制</string>
     <string name="switch_move">切换移动方法</string>
