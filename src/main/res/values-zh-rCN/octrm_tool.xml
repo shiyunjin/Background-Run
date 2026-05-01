@@ -29,7 +29,7 @@
     <string name="octrm_question_input_hint">你可以在下方输入自定义回答</string>
     <string name="octrm_question_submit">发送</string>
     <string name="octrm_question_timeout">已超时 — AI 将自行决定</string>
-    <string name="octrm_question_timeout_countdown">%d:%02d 后自动超时</string>
+    <string name="octrm_question_timeout_countdown">%1$d:%2$02d 后自动超时</string>
     <string name="octrm_question_no_options_hint">请在下方输入你的回答</string>
 
     <!-- 停止工具 UI -->

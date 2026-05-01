@@ -29,7 +29,7 @@
     <string name="octrm_question_input_hint">You can type a custom answer below</string>
     <string name="octrm_question_submit">Send</string>
     <string name="octrm_question_timeout">Timed out — AI will decide</string>
-    <string name="octrm_question_timeout_countdown">Auto-timeout in %d:%02d</string>
+    <string name="octrm_question_timeout_countdown">Auto-timeout in %1$d:%2$02d</string>
     <string name="octrm_question_no_options_hint">Please type your answer below</string>
 
     <!-- Stop tool UI -->
