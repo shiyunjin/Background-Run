@@ -169,6 +169,15 @@
     <string name="octrm_thought_chain_done">Done · %1$d rounds · %2$d steps</string>
     <string name="octrm_thought_chain_round_running">Round %1$d</string>
     <string name="octrm_thought_chain_round_done">Round %1$d · %2$d tools</string>
+    <!-- Thought Chain - Task level -->
+    <string name="octrm_thought_chain_running_task">Thinking · %1$s</string>
+    <string name="octrm_thought_chain_running_task_step">Thinking · %1$s · %2$s</string>
+    <string name="octrm_thought_chain_done_tasks">Done · %1$d tasks · %2$d steps</string>
+    <string name="octrm_thought_chain_task_pending">Pending</string>
+    <string name="octrm_thought_chain_task_running">Running</string>
+    <string name="octrm_thought_chain_task_completed">Completed</string>
+    <string name="octrm_thought_chain_task_error">Error</string>
+    <string name="octrm_thought_chain_task_stopped">Stopped</string>
     <!-- AI Execution Live Notification -->
     <string name="octrm_notification_live_channel_name">AI Execution</string>
     <string name="octrm_notification_live_channel_description">Shows AI execution progress while running in the background</string>
