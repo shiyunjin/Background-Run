@@ -20,10 +20,17 @@
     <string name="octrm_agent_status_completed">已完成</string>
     <string name="octrm_agent_status_error">出错</string>
 
+    <!-- Phone operation banner -->
+    <string name="octrm_phone_operation_banner">正在操作手机…</string>
+
+    <!-- Agent message header in chat -->
+    <string name="octrm_agent_chat_header">%1$s · %2$s</string>
+
     <!-- Agent detail dialog -->
     <string name="octrm_agent_detail_title">子代理详情</string>
     <string name="octrm_agent_detail_type">类型</string>
     <string name="octrm_agent_detail_description">描述</string>
+    <string name="octrm_agent_detail_prompt">提示词</string>
     <string name="octrm_agent_detail_status">状态</string>
     <string name="octrm_agent_detail_steps">执行步骤</string>
     <string name="octrm_agent_detail_result">结果</string>
@@ -57,4 +64,5 @@
 
     <!-- API provider edit dialog -->
     <string name="octrm_agent_api_provider_type">API 类型</string>
+
 </resources>

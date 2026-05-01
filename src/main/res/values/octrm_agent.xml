@@ -20,10 +20,17 @@
     <string name="octrm_agent_status_completed">Completed</string>
     <string name="octrm_agent_status_error">Error</string>
 
+    <!-- Phone operation banner -->
+    <string name="octrm_phone_operation_banner">Operating phone…</string>
+
+    <!-- Agent message header in chat -->
+    <string name="octrm_agent_chat_header">%1$s · %2$s</string>
+
     <!-- Agent detail dialog -->
     <string name="octrm_agent_detail_title">Sub-Agent Details</string>
     <string name="octrm_agent_detail_type">Type</string>
     <string name="octrm_agent_detail_description">Description</string>
+    <string name="octrm_agent_detail_prompt">Prompt</string>
     <string name="octrm_agent_detail_status">Status</string>
     <string name="octrm_agent_detail_steps">Execution Steps</string>
     <string name="octrm_agent_detail_result">Result</string>
@@ -57,4 +64,5 @@
 
     <!-- API provider edit dialog -->
     <string name="octrm_agent_api_provider_type">API Type</string>
+
 </resources>
