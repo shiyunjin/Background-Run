@@ -13,8 +13,45 @@
     <string name="home_working_mode_title">Working Mode</string>
     <string name="home_working_mode_shizuku">Shizuku</string>
     <string name="home_working_mode_root">Root</string>
+    <string name="home_working_mode_adb">ADB</string>
     <string name="home_shizuku_permission_description"><![CDATA[为什么需要 Shizuku?<br>后台进程需要 ADB 权限才能运行。Shizuku 提供了这个接口。您需要先安装并运行 Shizuku，并对其进行授权才能使用。<br>%s]]></string>
     <string name="home_shizuku_permission_button">授权</string>
+    <!-- Home - ADB Permission -->
+    <string name="home_adb_permission_title">ADB Wireless Debugging</string>
+    <string name="home_adb_permission_description"><![CDATA[Why ADB mode?<br>Background processes require ADB privileges. This mode connects directly to the device\'s wireless debugging service without requiring Shizuku or Root.<br><br>Prerequisites:<br>1. Enable <b>Wireless Debugging</b> in Developer Options<br>2. <b>Pair</b> this app with the device<br>3. <b>Connect</b> to the ADB service]]></string>
+    <string name="home_adb_permission_button_pair">Pair</string>
+    <string name="home_adb_permission_button_connect">Connect</string>
+    <string name="home_adb_pairing_title">ADB Pairing</string>
+    <string name="home_adb_pairing_address">Pairing Address (IP:Port)</string>
+    <string name="home_adb_pairing_code">Pairing Code</string>
+    <string name="home_adb_pairing_hint">Go to Settings &gt; Developer Options &gt; Wireless Debugging &gt; Pair device with pairing code, then enter the pairing address and code here.</string>
+    <string name="home_adb_pairing_open_settings">Open Wireless Debugging Settings</string>
+    <string name="home_adb_pairing_address_invalid">Invalid address format (e.g. 192.168.1.100:37891)</string>
+    <string name="home_adb_pairing_code_invalid">Pairing code must be 6 digits</string>
+    <!-- ADB Pairing Tutorial -->
+    <string name="adb_pairing_tutorial_title">Pair with your device</string>
+    <string name="adb_pairing_tutorial_notification">A notification will help you complete the pairing.</string>
+    <string name="adb_pairing_tutorial_notification_blocked">The pairing process needs you to interact with a notification. Please allow this app to post notifications.</string>
+    <string name="adb_pairing_tutorial_step1">Enter \"Developer options\" - \"Wireless debugging\". Tap \"Pair device with pairing code\", you will see a six-digit code.</string>
+    <string name="adb_pairing_tutorial_step1_hint">Please note, left part of the \"Wireless debugging\" option is clickable, tapping it will open a new page. Only turning on the switch on the right is incorrect.</string>
+    <string name="adb_pairing_tutorial_step2">Enter the pairing code in the notification to complete pairing.</string>
+    <string name="adb_pairing_tutorial_step3">Return to this app and connect.</string>
+    <string name="development_settings">Developer options</string>
+    <string name="notification_settings">Notification options</string>
+    <!-- ADB Pairing Notification -->
+    <string name="notification_channel_adb_pairing">ADB Pairing</string>
+    <string name="notification_adb_pairing_searching_title">Searching for pairing service</string>
+    <string name="notification_adb_pairing_service_found_title">Pairing service found</string>
+    <string name="notification_adb_pairing_input_pairing_code">Enter pairing code</string>
+    <string name="notification_adb_pairing_stop_searching">Stop searching</string>
+    <string name="notification_adb_pairing_working_title">Pairing in progress</string>
+    <string name="notification_adb_pairing_succeed_title">Pairing successful</string>
+    <string name="notification_adb_pairing_succeed_text">You can now connect to ADB.</string>
+    <string name="notification_adb_pairing_failed_title">Pairing failed</string>
+    <string name="dialog_adb_pairing_pairing_code">Pairing code</string>
+    <string name="cannot_connect_port">Can\'t connect to wireless debugging service.</string>
+    <string name="pairing_code_wrong">Pairing code is wrong.</string>
+    <string name="adb_error_key_store">Unable to generate key for wireless debugging.\nThis may be because KeyStore mechanism of this device is broken.</string>
     <!-- Home - Learn more -->
     <string name="home_learn_more_title">了解后台挂机</string>
     <string name="home_learn_more_description">了解如何使用后台挂机</string>
@@ -51,6 +88,8 @@
     <string name="diagnostic_item_slibpath">LibPath 可读</string>
     <string name="diagnostic_item_shizuku">Shizuku 已连接</string>
     <string name="diagnostic_item_root">Root permission</string>
+    <string name="diagnostic_item_adb">ADB wireless debugging</string>
+    <string name="diagnostic_checking_adb">Checking ADB connection...</string>
     <string name="diagnostic_item_shizuku_install">Shizuku 已安装</string>
     <string name="diagnostic_checking_shizuku_install">检查 Shizuku 安装状态...</string>
     <string name="diagnostic_share_log">分享日志</string>
@@ -106,7 +145,8 @@
     <!-- Home - Service Start -->
     <string name="home_service_start_title">启动服务</string>
     <string name="home_service_start_description"><![CDATA[服务未运行。启动服务需要5-10秒。]]></string>
-    <string name="home_service_start_root_description"><![CDATA[The service is not running. It will take 5-10 seconds to start the service. If your device does not have Root access, please use Shizuku mode.]]></string>
+    <string name="home_service_start_root_description"><![CDATA[The service is not running. It will take 5-10 seconds to start the service. If your device does not have Root access, please use ADB mode.]]></string>
+    <string name="home_service_start_adb_description"><![CDATA[The service is not running. It will take 5-10 seconds to start the service. ADB Wireless Debugging must be enabled and connected.]]></string>
     <string name="home_service_start_button">启动</string>
     <!-- Version -->
     <string name="version_mode_unknow">未知</string>
@@ -135,6 +175,11 @@
     <string name="toast_network_error">网络错误</string>
     <string name="toast_start_server_failed">Service failed to start:</string>
     <string name="toast_root_required">Can\'t open root shell, try again…</string>
+    <string name="toast_adb_not_connected">ADB not connected, please pair and connect first</string>
+    <string name="toast_adb_pairing_success">ADB pairing successful</string>
+    <string name="toast_adb_pairing_failed">ADB pairing failed</string>
+    <string name="toast_adb_connect_success">ADB connected successfully</string>
+    <string name="toast_adb_connect_failed">ADB connection failed</string>
     <!-- Purchase -->
     <string name="purchase_pro">购买高级版</string>
     <string name="purchase_resume">恢复购买</string>
