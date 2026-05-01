@@ -34,4 +34,12 @@
     <string name="octrm_stop_label_takeover">Manual Intervention Required</string>
     <string name="octrm_stop_confirm_notify">Got it</string>
     <string name="octrm_stop_confirm_takeover">Understood</string>
+    <!-- Task Management Tools -->
+    <string name="octrm_tool_task_create">Create Task</string>
+    <string name="octrm_tool_task_get">Get Task</string>
+    <string name="octrm_tool_task_list">List Tasks</string>
+    <string name="octrm_tool_task_update">Update Task</string>
+    <string name="octrm_tool_task_stop">Stop Task</string>
+    <!-- Agent Dispatch Tool -->
+    <string name="octrm_tool_dispatch_agent">Dispatch Agent</string>
 </resources>
