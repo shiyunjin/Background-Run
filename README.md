@@ -1,6 +1,6 @@
 # Background Run
 
-***Required: [Shizuku Manager](https://shizuku.rikka.app/)(no root)  Or Root Access***
+***Optional: ADB or [Shizuku Manager](https://shizuku.rikka.app/)  or Root Access***
 
 <a href="https://play.google.com/store/apps/details?id=com.shiyunjin.backgroundrun" target="_blank">
   <img alt="Get on Google Play" vspace="20"
