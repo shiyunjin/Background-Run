@@ -203,6 +203,8 @@
     <string name="octrm_token_usage_io_breakdown">Input / Output</string>
     <string name="octrm_token_usage_input">Input</string>
     <string name="octrm_token_usage_output">Output</string>
+    <string name="octrm_token_usage_input_cache_hit">Input Cache Hit</string>
+    <string name="octrm_token_usage_input_cache_miss">Input Cache Miss</string>
     <string name="octrm_token_usage_per_model">Per-Model Statistics</string>
     <string name="octrm_token_usage_no_data">No usage data yet</string>
     <string name="octrm_token_usage_requests_format">%d requests</string>
@@ -249,6 +251,7 @@
     <string name="octrm_model_param_unsaved_title">Unsaved Changes</string>
     <string name="octrm_model_param_unsaved_message">You have unsaved changes. Do you want to discard them?</string>
     <string name="octrm_model_param_discard">Discard</string>
+    <string name="octrm_model_param_reset_defaults">Reset to Defaults</string>
     <string name="octrm_summary_label">Conversation Summary</string>
     <!-- Feedback & Discussion -->
     <string name="octrm_settings_feedback">Discussion &amp; Feedback</string>
