@@ -224,6 +224,8 @@
     <string name="octrm_token_usage_io_breakdown">输入/输出</string>
     <string name="octrm_token_usage_input">输入</string>
     <string name="octrm_token_usage_output">输出</string>
+    <string name="octrm_token_usage_input_cache_hit">输入缓存命中</string>
+    <string name="octrm_token_usage_input_cache_miss">输入缓存未命中</string>
     <string name="octrm_token_usage_per_model">各模型统计</string>
     <string name="octrm_token_usage_no_data">暂无使用数据</string>
     <string name="octrm_token_usage_requests_format">%d 次请求</string>
@@ -276,6 +278,7 @@
     <string name="octrm_model_param_unsaved_title">未保存的更改</string>
     <string name="octrm_model_param_unsaved_message">您有未保存的更改，是否放弃？</string>
     <string name="octrm_model_param_discard">放弃</string>
+    <string name="octrm_model_param_reset_defaults">恢复初始值</string>
     <string name="octrm_summary_label">对话摘要</string>
 
     <!-- 讨论与反馈 -->

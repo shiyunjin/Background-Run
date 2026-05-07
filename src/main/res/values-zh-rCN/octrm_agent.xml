@@ -41,6 +41,7 @@
     <string name="octrm_settings_agent_summary">配置子代理的 AI 供应商</string>
 
     <!-- Agent provider management -->
+    <string name="octrm_agent_provider_enabled">自定义AI供应商</string>
     <string name="octrm_agent_config_saved">已保存</string>
     <string name="octrm_agent_provider_empty">暂无供应商配置，点击 + 添加</string>
     <string name="octrm_agent_provider_add">添加供应商</string>

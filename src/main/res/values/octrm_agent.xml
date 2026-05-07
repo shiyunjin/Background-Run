@@ -41,6 +41,7 @@
     <string name="octrm_settings_agent_summary">Configure sub-agent providers</string>
 
     <!-- Agent provider management -->
+    <string name="octrm_agent_provider_enabled">Custom AI Provider</string>
     <string name="octrm_agent_config_saved">Saved</string>
     <string name="octrm_agent_provider_empty">No providers configured. Tap + to add one.</string>
     <string name="octrm_agent_provider_add">Add Provider</string>
