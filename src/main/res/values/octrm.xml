@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="keep_alive_title">Keep Screen Alive</string>
     <string name="octrm_app_name">Octrm Assistant</string>
 
     <!-- Octrm Settings -->
     <string name="octrm_settings_title">Octrm Settings</string>
+    <string name="octrm_settings_general">General Settings</string>
+    <string name="octrm_settings_general_summary">Configure new conversation defaults</string>
+    <string name="octrm_settings_new_session_title">New Session Settings</string>
+    <string name="octrm_settings_phone_operation">Enable Phone Operation</string>
+    <string name="octrm_settings_phone_operation_summary">Default enable phone operation for new conversations</string>
+    <string name="octrm_settings_deep_thinking">Enable Deep Thinking</string>
+    <string name="octrm_settings_deep_thinking_summary">Default enable deep thinking for new conversations</string>
     <string name="octrm_settings_category_ai_provider">AI Provider</string>
     <string name="octrm_settings_enabled">Enable Octrm</string>
     <string name="octrm_settings_enabled_summary">Enable AI assistant features</string>

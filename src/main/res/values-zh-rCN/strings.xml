@@ -16,7 +16,7 @@
     <!-- Home - ADB Permission -->
     <string name="home_adb_permission_title">ADB 无线调试</string>
     <string name="home_adb_permission_description"><![CDATA[为什么需要 ADB 模式？<br>后台进程需要 ADB 权限才能运行。此模式直接连接设备的无线调试服务，无需 Shizuku 或 Root。<br><br>前提条件：<br>1. 在开发者选项中启用<b>无线调试</b><br>2. 将本应用与设备<b>配对</b><br>3. <b>连接</b>到 ADB 服务]]></string>
-    <string name="home_adb_permission_button_pair">配对</string>
+    <string name="home_adb_permission_button_pair">ADB 配对</string>
     <string name="home_adb_permission_button_connect">连接</string>
     <string name="home_adb_pairing_title">ADB 配对</string>
     <string name="home_adb_pairing_address">配对地址 (IP:端口)</string>

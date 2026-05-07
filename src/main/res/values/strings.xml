@@ -23,7 +23,7 @@
     <!-- Home - ADB Permission -->
     <string name="home_adb_permission_title">ADB Wireless Debugging</string>
     <string name="home_adb_permission_description"><![CDATA[Why ADB mode?<br>Background processes require ADB privileges. This mode connects directly to the device\'s wireless debugging service without requiring Shizuku or Root.<br><br>Prerequisites:<br>1. Enable <b>Wireless Debugging</b> in Developer Options<br>2. <b>Pair</b> this app with the device<br>3. <b>Connect</b> to the ADB service]]></string>
-    <string name="home_adb_permission_button_pair">Pair</string>
+    <string name="home_adb_permission_button_pair">ADB Pair</string>
     <string name="home_adb_permission_button_connect">Connect</string>
     <string name="home_adb_pairing_title">ADB Pairing</string>
     <string name="home_adb_pairing_address">Pairing Address (IP:Port)</string>

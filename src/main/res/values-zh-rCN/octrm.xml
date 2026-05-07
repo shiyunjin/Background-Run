@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="keep_alive_title">保持屏幕唤醒</string>
     <string name="octrm_app_name">Octrm 助手</string>
 
     <!-- Octrm Settings -->
     <string name="octrm_settings_title">Octrm 设置</string>
+    <string name="octrm_settings_general">通用设置</string>
+    <string name="octrm_settings_general_summary">配置新对话的默认选项</string>
+    <string name="octrm_settings_new_session_title">新会话设置</string>
+    <string name="octrm_settings_phone_operation">默认开启操作手机</string>
+    <string name="octrm_settings_phone_operation_summary">新会话默认启用手机操作权限</string>
+    <string name="octrm_settings_deep_thinking">默认开启深度思考</string>
+    <string name="octrm_settings_deep_thinking_summary">新会话默认启用深度思考模式</string>
     <string name="octrm_settings_category_ai_provider">AI 提供商</string>
     <string name="octrm_settings_enabled">启用 Octrm</string>
     <string name="octrm_settings_enabled_summary">启用 AI 助手功能</string>
