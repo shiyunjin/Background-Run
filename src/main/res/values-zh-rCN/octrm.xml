@@ -167,6 +167,8 @@
     <string name="octrm_voice_engine_sherpa_ncnn">Sherpa-NCNN（默认）</string>
     <string name="octrm_voice_engine_whisper">OpenAI Whisper</string>
     <string name="octrm_voice_engine_vosk">Vosk</string>
+    <string name="octrm_voice_engine_desc_sherpa_ncnn">仅支持英文和中文或法语模型，速度快，流式显示</string>
+    <string name="octrm_voice_engine_desc_whisper">支持多种语言识别，速度慢，不支持流式</string>
 
     <!-- Sherpa-NCNN 语音识别 -->
     <string name="octrm_sherpa_ncnn_download_completed">Sherpa-NCNN 模型下载完成</string>

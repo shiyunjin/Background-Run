@@ -169,6 +169,8 @@
     <string name="octrm_voice_engine_sherpa_ncnn">Sherpa-NCNN (Default)</string>
     <string name="octrm_voice_engine_whisper">OpenAI Whisper</string>
     <string name="octrm_voice_engine_vosk">Vosk</string>
+    <string name="octrm_voice_engine_desc_sherpa_ncnn">Supports English, Chinese, and French models. Fast, with streaming display.</string>
+    <string name="octrm_voice_engine_desc_whisper">Supports multiple languages. Slow, no streaming.</string>
 
     <!-- Sherpa-NCNN 语音识别 -->
     <string name="octrm_sherpa_ncnn_download_completed">Sherpa-NCNN model downloaded</string>
