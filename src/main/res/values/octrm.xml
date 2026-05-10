@@ -291,7 +291,12 @@
     <string name="octrm_model_param_unsaved_message">You have unsaved changes. Do you want to discard them?</string>
     <string name="octrm_model_param_discard">Discard</string>
     <string name="octrm_model_param_reset_defaults">Reset to Defaults</string>
+    <string name="octrm_model_param_scope_agent_prefix">Agent: </string>
+    <string name="octrm_model_param_agent_override">Use custom settings for this agent</string>
+    <string name="octrm_model_param_agent_override_summary">Override global settings with agent-specific parameters</string>
     <string name="octrm_summary_label">Conversation Summary</string>
+    <string name="octrm_summary_badge_tap">tap to view</string>
+    <string name="octrm_summary_in_progress">Summarizing…</string>
 
     <!-- Feedback & Discussion -->
     <string name="octrm_settings_feedback">Discussion &amp; Feedback</string>
