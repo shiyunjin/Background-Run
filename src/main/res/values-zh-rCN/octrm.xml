@@ -8,10 +8,13 @@
     <string name="octrm_settings_general">通用设置</string>
     <string name="octrm_settings_general_summary">配置新对话的默认选项</string>
     <string name="octrm_settings_new_session_title">新会话设置</string>
+    <string name="octrm_settings_habits_title">操作习惯</string>
     <string name="octrm_settings_phone_operation">默认开启操作手机</string>
     <string name="octrm_settings_phone_operation_summary">新会话默认启用手机操作权限</string>
     <string name="octrm_settings_deep_thinking">默认开启深度思考</string>
     <string name="octrm_settings_deep_thinking_summary">新会话默认启用深度思考模式</string>
+    <string name="octrm_settings_prefer_text_input">优先使用文本输入</string>
+    <string name="octrm_settings_prefer_text_input_summary">通用聊天框默认显示文本输入框而不是语音输入</string>
     <string name="octrm_settings_category_ai_provider">AI 提供商</string>
     <string name="octrm_settings_enabled">启用 Octrm</string>
     <string name="octrm_settings_enabled_summary">启用 AI 助手功能</string>
@@ -93,7 +96,39 @@
     <string name="octrm_auto_operation_status_completed">已完成</string>
     <string name="octrm_auto_operation_status_failed">失败</string>
 
-    <!-- System Prompt -->
+    <!-- 智能体 -->
+    <string name="octrm_settings_persona">智能体</string>
+    <string name="octrm_settings_persona_summary">选择和自定义 AI 人格</string>
+    <string name="octrm_persona_title">智能体</string>
+    <string name="octrm_persona_tab_builtin">内置</string>
+    <string name="octrm_persona_tab_custom">自定义</string>
+    <string name="octrm_persona_builtin_badge">内置</string>
+    <string name="octrm_persona_active_badge">默认</string>
+    <string name="octrm_persona_activate">设为默认</string>
+    <string name="octrm_persona_in_use">使用中</string>
+    <string name="octrm_persona_add">添加智能体</string>
+    <string name="octrm_persona_edit">编辑智能体</string>
+    <string name="octrm_persona_view">查看智能体</string>
+    <string name="octrm_persona_clone">克隆</string>
+    <string name="octrm_persona_clone_suffix">副本</string>
+    <string name="octrm_persona_change">更换</string>
+    <string name="octrm_persona_delete">删除</string>
+    <string name="octrm_persona_delete_confirm">删除此智能体？</string>
+    <string name="octrm_persona_cannot_delete">内置智能体无法删除</string>
+    <string name="octrm_persona_activated">智能体已启用</string>
+    <string name="octrm_persona_saved">智能体已保存</string>
+    <string name="octrm_persona_name_hint">智能体名称</string>
+    <string name="octrm_persona_name_required">请输入智能体名称</string>
+    <string name="octrm_persona_description_hint">简短描述</string>
+    <string name="octrm_persona_prompt_hint">输入定义个性和风格的智能体提示词…</string>
+    <string name="octrm_persona_prompt_helper">定义 AI 助手的说话方式、行为风格和侧重点</string>
+    <string name="octrm_persona_view_core">查看共享核心提示词</string>
+    <string name="octrm_persona_core_title">共享核心提示词</string>
+    <string name="octrm_persona_reset_default">恢复默认</string>
+    <string name="octrm_persona_reset_default_confirm">将此智能体恢复为内置默认？</string>
+    <string name="octrm_persona_select">选择智能体</string>
+
+    <!-- System Prompt (legacy) -->
     <string name="octrm_system_prompt_title">系统提示词设置</string>
     <string name="octrm_system_prompt_builtin">内置提示词</string>
     <string name="octrm_system_prompt_custom">自定义提示词</string>

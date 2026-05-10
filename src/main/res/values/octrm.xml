@@ -8,10 +8,13 @@
     <string name="octrm_settings_general">General Settings</string>
     <string name="octrm_settings_general_summary">Configure new conversation defaults</string>
     <string name="octrm_settings_new_session_title">New Session Settings</string>
+    <string name="octrm_settings_habits_title">Operation Habits</string>
     <string name="octrm_settings_phone_operation">Enable Phone Operation</string>
     <string name="octrm_settings_phone_operation_summary">Default enable phone operation for new conversations</string>
     <string name="octrm_settings_deep_thinking">Enable Deep Thinking</string>
     <string name="octrm_settings_deep_thinking_summary">Default enable deep thinking for new conversations</string>
+    <string name="octrm_settings_prefer_text_input">Prefer Text Input</string>
+    <string name="octrm_settings_prefer_text_input_summary">Show text input by default instead of voice input</string>
     <string name="octrm_settings_category_ai_provider">AI Provider</string>
     <string name="octrm_settings_enabled">Enable Octrm</string>
     <string name="octrm_settings_enabled_summary">Enable AI assistant features</string>
@@ -117,7 +120,39 @@
     <string name="octrm_auto_operation_status_failed">Failed</string>
     <string name="octrm_auto_operation_input_hint">Describe what you want to do…</string>
 
-    <!-- System Prompt -->
+    <!-- Persona -->
+    <string name="octrm_settings_persona">Persona</string>
+    <string name="octrm_settings_persona_summary">Choose and customize AI personality</string>
+    <string name="octrm_persona_title">Persona</string>
+    <string name="octrm_persona_tab_builtin">Built-in</string>
+    <string name="octrm_persona_tab_custom">Custom</string>
+    <string name="octrm_persona_builtin_badge">Built-in</string>
+    <string name="octrm_persona_active_badge">Default</string>
+    <string name="octrm_persona_activate">Set as Default</string>
+    <string name="octrm_persona_in_use">In Use</string>
+    <string name="octrm_persona_add">Add Persona</string>
+    <string name="octrm_persona_edit">Edit</string>
+    <string name="octrm_persona_view">View</string>
+    <string name="octrm_persona_clone">Clone</string>
+    <string name="octrm_persona_clone_suffix">Copy</string>
+    <string name="octrm_persona_change">Change</string>
+    <string name="octrm_persona_delete">Delete</string>
+    <string name="octrm_persona_delete_confirm">Delete this persona?</string>
+    <string name="octrm_persona_cannot_delete">Built-in personas cannot be deleted</string>
+    <string name="octrm_persona_activated">Persona activated</string>
+    <string name="octrm_persona_saved">Persona saved</string>
+    <string name="octrm_persona_name_hint">Persona Name</string>
+    <string name="octrm_persona_name_required">Please enter a persona name</string>
+    <string name="octrm_persona_description_hint">Short Description</string>
+    <string name="octrm_persona_prompt_hint">Enter the persona prompt that defines personality and style…</string>
+    <string name="octrm_persona_prompt_helper">This defines how the AI assistant speaks, behaves, and what it emphasizes</string>
+    <string name="octrm_persona_view_core">View Shared Core Prompt</string>
+    <string name="octrm_persona_core_title">Shared Core Prompt</string>
+    <string name="octrm_persona_reset_default">Reset to Default</string>
+    <string name="octrm_persona_reset_default_confirm">Reset this persona to its built-in default?</string>
+    <string name="octrm_persona_select">Select Persona</string>
+
+    <!-- System Prompt (legacy, kept for reference) -->
     <string name="octrm_system_prompt_title">System Prompt Settings</string>
     <string name="octrm_system_prompt_builtin">Built-in Prompt</string>
     <string name="octrm_system_prompt_custom">Custom Prompt</string>
