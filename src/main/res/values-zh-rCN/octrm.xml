@@ -220,6 +220,8 @@
 
     <!-- Chat Toggles -->
     <string name="octrm_toggle_operate_phone">操作手机</string>
+    <string name="octrm_toggle_operate_phone_unavailable">操作手机不可用</string>
+    <string name="octrm_toggle_operate_phone_tooltip">后台挂机服务未启动时无法启动操作手机子代理</string>
     <string name="octrm_toggle_deep_thinking">深度思考</string>
 
     <!-- Thinking -->

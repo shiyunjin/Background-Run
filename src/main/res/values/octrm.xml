@@ -222,6 +222,8 @@
 
     <!-- Chat Toggles -->
     <string name="octrm_toggle_operate_phone">Operate Phone</string>
+    <string name="octrm_toggle_operate_phone_unavailable">Operate Phone unavailable</string>
+    <string name="octrm_toggle_operate_phone_tooltip">Background service is not running. Operate Phone sub-agent cannot be started.</string>
     <string name="octrm_toggle_deep_thinking">Deep Thinking</string>
 
     <!-- Thinking -->
