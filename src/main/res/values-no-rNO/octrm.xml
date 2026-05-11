@@ -203,6 +203,8 @@
     <string name="octrm_input_permission_launcher_required">Please set permission launcher first</string>
     <!-- Chat Toggles -->
     <string name="octrm_toggle_operate_phone">Operate Phone</string>
+    <string name="octrm_toggle_operate_phone_unavailable">Operate Phone unavailable</string>
+    <string name="octrm_toggle_operate_phone_tooltip">Background service is not running. Operate Phone sub-agent cannot be started.</string>
     <string name="octrm_toggle_deep_thinking">Deep Thinking</string>
     <!-- Thinking -->
     <string name="octrm_thinking_label">Thinking…</string>
