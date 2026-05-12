@@ -22,6 +22,7 @@
 
     <!-- Phone operation banner -->
     <string name="octrm_phone_operation_banner">Operating phone…</string>
+    <string name="octrm_phone_operation_view_screen">View Screen</string>
     <string name="octrm_overlay_minimize_hint">Tap the thinking indicator to restore</string>
     <string name="octrm_overlay_thinking_done">Thought Complete</string>
 
