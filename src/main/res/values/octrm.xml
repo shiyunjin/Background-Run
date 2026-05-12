@@ -183,7 +183,7 @@
     <!-- General -->
     <string name="octrm_retry">Retry</string>
     <string name="octrm_copy">Copy</string>
-    <string name="octrm_delete_message">Delete</string>
+    <string name="octrm_delete_message">Delete Message</string>
     <string name="octrm_copied">Copied</string>
     <string name="octrm_cancel">Cancel</string>
     <string name="octrm_confirm">Confirm</string>
