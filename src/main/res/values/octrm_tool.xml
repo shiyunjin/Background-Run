@@ -47,4 +47,8 @@
 
     <!-- Agent Dispatch Tool -->
     <string name="octrm_tool_dispatch_agent">Dispatch Agent</string>
+
+    <!-- Web Tools -->
+    <string name="octrm_tool_web_search">Web Search</string>
+    <string name="octrm_tool_web_fetch">Web Fetch</string>
 </resources>
