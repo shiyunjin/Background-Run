@@ -36,6 +36,11 @@
     <string name="octrm_agent_settings_title">Sub-Agent Settings</string>
     <string name="octrm_settings_agent_settings">Sub-Agent Settings</string>
     <string name="octrm_settings_agent_summary">Configure sub-agent providers</string>
+    <string name="octrm_agent_provider_settings">AI Provider Settings</string>
+    <string name="octrm_agent_app_blacklist">Application Blacklist</string>
+    <string name="octrm_agent_app_blacklist_title">App Blacklist</string>
+    <string name="octrm_agent_app_blacklist_desc">AI will stop and request takeover when these apps are on screen.</string>
+    <string name="octrm_agent_app_blacklist_takeover_msg">Blacklisted app detected on screen. For your security, manual takeover is required to continue.</string>
     <!-- Agent provider management -->
     <string name="octrm_agent_provider_enabled">Custom AI Provider</string>
     <string name="octrm_agent_config_saved">Saved</string>
