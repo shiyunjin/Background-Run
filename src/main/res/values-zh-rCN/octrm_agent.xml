@@ -42,6 +42,11 @@
     <string name="octrm_agent_settings_title">子代理设置</string>
     <string name="octrm_settings_agent_settings">子代理设置</string>
     <string name="octrm_settings_agent_summary">配置子代理的 AI 供应商</string>
+    <string name="octrm_agent_provider_settings">AI 供应商设置</string>
+    <string name="octrm_agent_app_blacklist">操作应用黑名单</string>
+    <string name="octrm_agent_app_blacklist_title">应用黑名单</string>
+    <string name="octrm_agent_app_blacklist_desc">当屏幕出现这些应用时，AI 将停止并请求用户接管。</string>
+    <string name="octrm_agent_app_blacklist_takeover_msg">检测到黑名单应用。为了您的资产安全，AI 已停止操作，请手动接管。</string>
 
     <!-- Agent provider management -->
     <string name="octrm_agent_provider_enabled">自定义AI供应商</string>
