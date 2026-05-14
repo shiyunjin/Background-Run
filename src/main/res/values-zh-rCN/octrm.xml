@@ -202,9 +202,11 @@
     <!-- 语音引擎设置 -->
     <string name="octrm_settings_voice_engine">语音引擎</string>
     <string name="octrm_settings_voice_engine_summary">选择语音识别引擎</string>
-    <string name="octrm_voice_engine_sherpa_ncnn">Sherpa-NCNN（默认）</string>
+    <string name="octrm_voice_engine_sherpa_onnx">Sherpa-ONNX（默认）</string>
+    <string name="octrm_voice_engine_sherpa_ncnn">Sherpa-NCNN</string>
     <string name="octrm_voice_engine_whisper">OpenAI Whisper</string>
     <string name="octrm_voice_engine_vosk">Vosk</string>
+    <string name="octrm_voice_engine_desc_sherpa_onnx">支持 SenseVoice 和 Omnilingual 模型，多语言，快速流式显示</string>
     <string name="octrm_voice_engine_desc_sherpa_ncnn">仅支持英文和中文或法语模型，速度快，流式显示</string>
     <string name="octrm_voice_engine_desc_whisper">支持多种语言识别，速度慢，不支持流式</string>
 
@@ -213,6 +215,12 @@
     <string name="octrm_sherpa_ncnn_download_failed">Sherpa-NCNN 下载失败：%s</string>
     <string name="octrm_sherpa_ncnn_no_model">Sherpa-NCNN 模型未下载，请到设置中下载。</string>
     <string name="octrm_sherpa_ncnn_extracting">正在解压模型…</string>
+
+    <!-- Sherpa-ONNX 语音识别 -->
+    <string name="octrm_sherpa_onnx_download_completed">Sherpa-ONNX 模型下载完成</string>
+    <string name="octrm_sherpa_onnx_download_failed">Sherpa-ONNX 下载失败：%s</string>
+    <string name="octrm_sherpa_onnx_no_model">Sherpa-ONNX 模型未下载，请到设置中下载。</string>
+    <string name="octrm_sherpa_onnx_extracting">正在解压模型…</string>
 
     <!-- 对话历史 -->
     <string name="octrm_history_new_chat">新对话</string>
