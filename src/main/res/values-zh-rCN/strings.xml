@@ -134,6 +134,7 @@
     <string name="toast_adb_pairing_failed">ADB 配对失败</string>
     <string name="toast_adb_connect_success">ADB 连接成功</string>
     <string name="toast_adb_connect_failed">ADB 连接失败</string>
+    <string name="toast_background_service_disallowed">无法开启配对服务，请允许应用在后台运行</string>
     <string name="purchase_pro">购买高级版</string>
     <string name="purchase_resume">恢复购买</string>
     <string name="toast_upgrade_pro">升级到高级版成功</string>
