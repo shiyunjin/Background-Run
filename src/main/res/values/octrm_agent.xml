@@ -26,6 +26,9 @@
     <string name="octrm_overlay_minimize_hint">Tap the thinking indicator to restore</string>
     <string name="octrm_overlay_thinking_done">Thought Complete</string>
 
+    <!-- Loading screen -->
+    <string name="octrm_screen_loading">Screen Loading</string>
+
     <!-- Agent message header in chat -->
     <string name="octrm_agent_chat_header">%1$s · %2$s</string>
 
