@@ -180,6 +180,7 @@
     <string name="toast_adb_pairing_failed">ADB pairing failed</string>
     <string name="toast_adb_connect_success">ADB connected successfully</string>
     <string name="toast_adb_connect_failed">ADB connection failed</string>
+    <string name="toast_background_service_disallowed">Unable to start pairing service.\nPlease allow this app to run in the background.</string>
     <!-- Purchase -->
     <string name="purchase_pro">Purchase Pro Version</string>
     <string name="purchase_resume">Resume purchase</string>
