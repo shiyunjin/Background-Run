@@ -33,6 +33,8 @@
     <string name="octrm_provider_title">AI Provider Settings</string>
     <string name="octrm_provider_api_base_url">API Base URL</string>
     <string name="octrm_provider_api_base_url_hint">https://api.openai.com/v1</string>
+    <string name="octrm_provider_api_base_url_dropdown">API Endpoint</string>
+    <string name="octrm_provider_api_base_url_custom">Custom</string>
     <string name="octrm_provider_api_key">API Key</string>
     <string name="octrm_provider_api_key_hint">Enter your API key</string>
     <string name="octrm_provider_model">Model</string>

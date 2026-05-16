@@ -33,6 +33,8 @@
     <string name="octrm_provider_title">AI 提供商设置</string>
     <string name="octrm_provider_api_base_url">API 基础地址</string>
     <string name="octrm_provider_api_base_url_hint">https://api.openai.com/v1</string>
+    <string name="octrm_provider_api_base_url_dropdown">API 端点</string>
+    <string name="octrm_provider_api_base_url_custom">自定义</string>
     <string name="octrm_provider_api_key">API 密钥</string>
     <string name="octrm_provider_api_key_hint">输入您的 API 密钥</string>
     <string name="octrm_provider_model">模型</string>
