@@ -349,4 +349,19 @@
     <!-- 讨论与反馈 -->
     <string name="octrm_settings_feedback">讨论与反馈</string>
     <string name="octrm_settings_feedback_summary">建议、功能反馈和 Bug 报告</string>
+
+    <!-- 回放 -->
+    <string name="octrm_replay_title">回放</string>
+    <string name="octrm_replay_view">查看回放</string>
+    <string name="octrm_replay_step">步骤 %1$d / %2$d</string>
+    <string name="octrm_replay_before">操作前</string>
+    <string name="octrm_replay_after">操作后</string>
+    <string name="octrm_replay_action_list">操作列表</string>
+    <string name="octrm_replay_share">分享</string>
+    <string name="octrm_replay_no_data">无回放数据</string>
+    <string name="octrm_replay_export_success">报告已导出</string>
+    <string name="octrm_replay_no_screenshot">无截图</string>
+    <string name="octrm_replay_log_thought">思考</string>
+    <string name="octrm_replay_log_action">操作</string>
+    <string name="octrm_replay_log_result">结果</string>
 </resources>
