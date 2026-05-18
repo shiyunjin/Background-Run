@@ -269,7 +269,7 @@
     <string name="octrm_notification_live_failed">失败：%s</string>
     <string name="octrm_notification_live_auto_running">自动操作运行中</string>
     <string name="octrm_notification_live_auto_paused">自动操作已暂停</string>
-    <string name="octrm_notification_live_stop">停止</string>
+    <string name="octrm_notification_live_open">打开</string>
     <string name="octrm_notification_live_dismiss">关闭</string>
     <string name="octrm_notification_live_progress_summary">%1$d / %2$d 步</string>
 
