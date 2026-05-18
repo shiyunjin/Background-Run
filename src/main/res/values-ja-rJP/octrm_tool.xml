@@ -45,4 +45,14 @@
     <!-- Web Tools -->
     <string name="octrm_tool_web_search">Web Search</string>
     <string name="octrm_tool_web_fetch">Web Fetch</string>
+    <!-- AI-powered Tools (Plan Mode) -->
+    <string name="octrm_tool_ai_tap">AI Tap</string>
+    <string name="octrm_tool_ai_input">AI Input</string>
+    <string name="octrm_tool_ai_scroll">AI Scroll</string>
+    <string name="octrm_tool_ai_long_press">AI Long Press</string>
+    <string name="octrm_tool_ai_ask">AI Ask</string>
+    <string name="octrm_tool_ai_boolean">AI Check</string>
+    <string name="octrm_tool_ai_assert">AI Assert</string>
+    <string name="octrm_tool_ai_locate">AI Locate</string>
+    <string name="octrm_tool_ai_wait_for">AI Wait</string>
 </resources>
