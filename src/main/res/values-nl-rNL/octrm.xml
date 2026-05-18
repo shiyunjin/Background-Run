@@ -31,6 +31,8 @@
     <string name="octrm_provider_title">AI Provider Settings</string>
     <string name="octrm_provider_api_base_url">API Base URL</string>
     <string name="octrm_provider_api_base_url_hint">https://api.openai.com/v1</string>
+    <string name="octrm_provider_api_base_url_dropdown">API Endpoint</string>
+    <string name="octrm_provider_api_base_url_custom">Custom</string>
     <string name="octrm_provider_api_key">API Key</string>
     <string name="octrm_provider_api_key_hint">Enter your API key</string>
     <string name="octrm_provider_model">Model</string>
@@ -317,4 +319,18 @@
     <!-- Feedback & Discussion -->
     <string name="octrm_settings_feedback">Discussion &amp; Feedback</string>
     <string name="octrm_settings_feedback_summary">Suggestions, feature requests, and bug reports</string>
+    <!-- Replay -->
+    <string name="octrm_replay_title">Replay</string>
+    <string name="octrm_replay_view">View Replay</string>
+    <string name="octrm_replay_step">Step %1$d / %2$d</string>
+    <string name="octrm_replay_before">Before</string>
+    <string name="octrm_replay_after">After</string>
+    <string name="octrm_replay_action_list">Actions</string>
+    <string name="octrm_replay_share">Share</string>
+    <string name="octrm_replay_no_data">No replay data</string>
+    <string name="octrm_replay_export_success">Report exported</string>
+    <string name="octrm_replay_no_screenshot">No screenshot</string>
+    <string name="octrm_replay_log_thought">Thought</string>
+    <string name="octrm_replay_log_action">Action</string>
+    <string name="octrm_replay_log_result">Result</string>
 </resources>
