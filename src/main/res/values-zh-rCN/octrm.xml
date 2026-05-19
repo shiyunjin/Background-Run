@@ -364,4 +364,29 @@
     <string name="octrm_replay_log_thought">思考</string>
     <string name="octrm_replay_log_action">操作</string>
     <string name="octrm_replay_log_result">结果</string>
+
+    <!-- 回放分享 -->
+    <string name="octrm_replay_share_title">分享回放</string>
+    <string name="octrm_replay_share_save_file">保存回放文件</string>
+    <string name="octrm_replay_share_save_file_desc">保存 .octrm-report 文件到本地存储</string>
+    <string name="octrm_replay_share_send_file">分享回放文件</string>
+    <string name="octrm_replay_share_send_file_desc">发送 .octrm-report 文件到其他应用</string>
+    <string name="octrm_replay_share_get_url">获取电脑访问地址</string>
+    <string name="octrm_replay_share_get_url_desc">上传到云端并获取浏览器查看链接</string>
+    <string name="octrm_replay_save_success">文件已保存</string>
+    <string name="octrm_replay_save_path">已保存到：%1$s</string>
+    <string name="octrm_replay_online_url">在线回放地址</string>
+    <string name="octrm_replay_copy">复制</string>
+    <string name="octrm_replay_copied">已复制</string>
+    <string name="octrm_replay_share_extra">电脑浏览器访问·%1$s·观看回放</string>
+    <string name="octrm_replay_upload_privacy_title">隐私说明</string>
+    <string name="octrm_replay_upload_privacy_message">回放文件将被上传到第三方服务器，并且临时存储7天，只有知道URL的人可以访问。</string>
+    <string name="octrm_replay_upload_privacy_agree">同意并上传</string>
+    <string name="octrm_replay_upload_cancel">取消</string>
+    <string name="octrm_replay_uploading">正在上传…</string>
+    <string name="octrm_replay_upload_progress">%1$s / %2$s</string>
+    <string name="octrm_replay_upload_success">上传完成</string>
+    <string name="octrm_replay_upload_failed">上传失败：%1$s</string>
+    <string name="octrm_replay_upload_result_title">回放链接</string>
+    <string name="octrm_replay_upload_result_desc">你可以通过以下链接在任何浏览器中查看回放，文件将保留7天。</string>
 </resources>

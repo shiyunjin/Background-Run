@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Settings -->
+    <string name="octrm_sandbox_settings_title">沙盒与插件</string>
+    <string name="octrm_sandbox_settings_card">Skills 与 MCP</string>
+    <string name="octrm_sandbox_settings_card_desc">管理 Skills、MCP 插件和沙盒环境</string>
+
+    <!-- Tabs -->
+    <string name="octrm_sandbox_tab_skills">Skills</string>
+    <string name="octrm_sandbox_tab_mcp">MCP</string>
+    <string name="octrm_sandbox_tab_environment">环境</string>
+
+    <!-- Container -->
+    <string name="octrm_sandbox_container_user">用户沙盒</string>
+    <string name="octrm_sandbox_container_skill">Skill 沙盒</string>
+    <string name="octrm_sandbox_container_mcp">MCP 沙盒</string>
+    <string name="octrm_sandbox_status_not_installed">未安装</string>
+    <string name="octrm_sandbox_status_installed">已安装</string>
+    <string name="octrm_sandbox_status_running">运行中</string>
+    <string name="octrm_sandbox_status_stopped">已停止</string>
+    <string name="octrm_sandbox_status_error">错误</string>
+
+    <!-- Skills -->
+    <string name="octrm_sandbox_skill_add">添加 Skill</string>
+    <string name="octrm_sandbox_skill_install_git">从 Git 安装</string>
+    <string name="octrm_sandbox_skill_install_zip">从 ZIP 安装</string>
+    <string name="octrm_sandbox_skill_uninstall">卸载</string>
+    <string name="octrm_sandbox_skill_enable">启用</string>
+    <string name="octrm_sandbox_skill_disable">禁用</string>
+
+    <!-- MCP -->
+    <string name="octrm_sandbox_mcp_add">添加 MCP</string>
+    <string name="octrm_sandbox_mcp_install_git">从 Git 安装</string>
+    <string name="octrm_sandbox_mcp_install_zip">从 ZIP 安装</string>
+    <string name="octrm_sandbox_mcp_install_http">HTTP Stream</string>
+    <string name="octrm_sandbox_mcp_install_sse">SSE</string>
+    <string name="octrm_sandbox_mcp_install_json">JSON 配置</string>
+    <string name="octrm_sandbox_mcp_uninstall">卸载</string>
+    <string name="octrm_sandbox_mcp_connection_stdio">本地 (stdio)</string>
+    <string name="octrm_sandbox_mcp_connection_http_stream">HTTP Stream</string>
+    <string name="octrm_sandbox_mcp_connection_sse">SSE</string>
+    <string name="octrm_sandbox_mcp_remote_badge">远程</string>
+
+    <!-- Environment -->
+    <string name="octrm_sandbox_env_python">Python</string>
+    <string name="octrm_sandbox_env_nodejs">Node.js</string>
+    <string name="octrm_sandbox_env_install">安装</string>
+    <string name="octrm_sandbox_env_update">更新</string>
+    <string name="octrm_sandbox_env_check_update">检查更新</string>
+    <string name="octrm_sandbox_env_reset">重置</string>
+    <string name="octrm_sandbox_env_version">版本：%s</string>
+    <string name="octrm_sandbox_env_not_installed">未安装</string>
+    <string name="octrm_sandbox_env_updating">更新中…</string>
+    <string name="octrm_sandbox_env_installed">已安装</string>
+    <string name="octrm_sandbox_env_error">错误</string>
+    <string name="octrm_sandbox_env_terminal">终端</string>
+    <string name="octrm_sandbox_env_environments">运行环境</string>
+    <string name="octrm_sandbox_env_storage">存储</string>
+    <string name="octrm_sandbox_env_mirror_sources">镜像源</string>
+    <string name="octrm_sandbox_env_open_terminal">打开终端</string>
+    <string name="octrm_sandbox_env_open_terminal_desc">进入 user 沙盒，已挂载 Python/Node.js</string>
+    <string name="octrm_sandbox_env_install_python">安装 Python</string>
+    <string name="octrm_sandbox_env_install_python_desc">下载并配置 Python 运行时</string>
+    <string name="octrm_sandbox_env_install_nodejs">安装 Node.js</string>
+    <string name="octrm_sandbox_env_install_nodejs_desc">下载并配置 Node.js 运行时</string>
+    <string name="octrm_sandbox_env_view_storage">查看存储使用</string>
+    <string name="octrm_sandbox_env_view_storage_desc">查看各容器磁盘占用</string>
+    <string name="octrm_sandbox_env_reset_all">重置所有环境</string>
+    <string name="octrm_sandbox_env_reset_all_desc">删除所有容器和共享环境</string>
+    <string name="octrm_sandbox_env_path">路径</string>
+    <string name="octrm_sandbox_env_source">源</string>
+    <string name="octrm_sandbox_env_tap_change_source">点击切换镜像源</string>
+    <string name="octrm_sandbox_env_select">选择</string>
+    <string name="octrm_sandbox_env_mirror">镜像</string>
+    <string name="octrm_sandbox_env_add_custom">添加自定义…</string>
+    <string name="octrm_sandbox_env_custom">自定义</string>
+    <string name="octrm_sandbox_env_add">添加</string>
+    <string name="octrm_sandbox_env_cancel">取消</string>
+    <string name="octrm_sandbox_env_custom_added">已添加自定义源</string>
+    <string name="octrm_sandbox_env_source_set">已更新源</string>
+    <string name="octrm_sandbox_env_check_updates">检查更新</string>
+    <string name="octrm_sandbox_env_environment">环境</string>
+    <string name="octrm_sandbox_env_reset_done">重置完成</string>
+    <string name="octrm_sandbox_env_cdn_not_set">未配置 CDN 基础地址</string>
+    <string name="octrm_sandbox_env_up_to_date">已是最新版本</string>
+    <string name="octrm_sandbox_env_installing">正在安装</string>
+    <string name="octrm_sandbox_env_preparing">准备中</string>
+    <string name="octrm_sandbox_env_done">完成</string>
+    <string name="octrm_sandbox_env_failed">失败</string>
+    <string name="octrm_sandbox_env_no_data">暂无存储数据</string>
+    <string name="octrm_sandbox_env_storage_usage">存储使用</string>
+    <string name="octrm_sandbox_env_reset_all_confirm">将删除所有容器和共享环境，确定继续？</string>
+
+    <!-- Source -->
+    <string name="octrm_sandbox_source_title">镜像源</string>
+    <string name="octrm_sandbox_source_apt">APT 源</string>
+    <string name="octrm_sandbox_source_pip">Pip 源</string>
+    <string name="octrm_sandbox_source_npm">NPM 源</string>
+    <string name="octrm_sandbox_source_custom">自定义</string>
+    <string name="octrm_sandbox_source_add_custom">添加自定义源</string>
+
+    <!-- Install -->
+    <string name="octrm_sandbox_install_title">安装中…</string>
+    <string name="octrm_sandbox_install_downloading">下载中</string>
+    <string name="octrm_sandbox_install_extracting">解压中</string>
+    <string name="octrm_sandbox_install_configuring">配置中</string>
+    <string name="octrm_sandbox_install_complete">安装完成</string>
+    <string name="octrm_sandbox_install_base_required">需要先安装基础环境</string>
+    <string name="octrm_sandbox_install_progress_overall">总体进度</string>
+    <string name="octrm_sandbox_install_progress_current">当前任务</string>
+
+    <!-- Terminal -->
+    <string name="octrm_sandbox_terminal_title">终端 - %s</string>
+    <string name="octrm_sandbox_terminal_open">打开终端</string>
+    <string name="octrm_sandbox_terminal_desc">进入 user 沙盒，已挂载 Python/Node.js 环境</string>
+
+    <!-- Storage -->
+    <string name="octrm_sandbox_storage_title">存储</string>
+    <string name="octrm_sandbox_storage_usage">存储占用</string>
+    <string name="octrm_sandbox_storage_reset">重置</string>
+    <string name="octrm_sandbox_storage_reset_all">重置所有环境</string>
+    <string name="octrm_sandbox_storage_reset_confirm">将删除所有容器和共享环境，确定继续吗？</string>
+</resources>
