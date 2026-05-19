@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Settings -->
+    <string name="octrm_sandbox_settings_title">Sandbox &amp; Plugins</string>
+    <string name="octrm_sandbox_settings_card">Skills &amp; MCP</string>
+    <string name="octrm_sandbox_settings_card_desc">Manage Skills, MCP plugins, and sandbox environments</string>
+    <!-- Tabs -->
+    <string name="octrm_sandbox_tab_skills">Skills</string>
+    <string name="octrm_sandbox_tab_mcp">MCP</string>
+    <string name="octrm_sandbox_tab_environment">Environment</string>
+    <!-- Container -->
+    <string name="octrm_sandbox_container_user">User Sandbox</string>
+    <string name="octrm_sandbox_container_skill">Skill Sandbox</string>
+    <string name="octrm_sandbox_container_mcp">MCP Sandbox</string>
+    <string name="octrm_sandbox_status_not_installed">Not Installed</string>
+    <string name="octrm_sandbox_status_installed">Installed</string>
+    <string name="octrm_sandbox_status_running">Running</string>
+    <string name="octrm_sandbox_status_stopped">Stopped</string>
+    <string name="octrm_sandbox_status_error">Error</string>
+    <!-- Skills -->
+    <string name="octrm_sandbox_skill_add">Add Skill</string>
+    <string name="octrm_sandbox_skill_install_git">Install from Git</string>
+    <string name="octrm_sandbox_skill_install_zip">Install from ZIP</string>
+    <string name="octrm_sandbox_skill_uninstall">Uninstall</string>
+    <string name="octrm_sandbox_skill_enable">Enable</string>
+    <string name="octrm_sandbox_skill_disable">Disable</string>
+    <!-- MCP -->
+    <string name="octrm_sandbox_mcp_add">Add MCP</string>
+    <string name="octrm_sandbox_mcp_install_git">Install from Git</string>
+    <string name="octrm_sandbox_mcp_install_zip">Install from ZIP</string>
+    <string name="octrm_sandbox_mcp_install_http">HTTP Stream</string>
+    <string name="octrm_sandbox_mcp_install_sse">SSE</string>
+    <string name="octrm_sandbox_mcp_install_json">JSON Config</string>
+    <string name="octrm_sandbox_mcp_uninstall">Uninstall</string>
+    <string name="octrm_sandbox_mcp_connection_stdio">Local (stdio)</string>
+    <string name="octrm_sandbox_mcp_connection_http_stream">HTTP Stream</string>
+    <string name="octrm_sandbox_mcp_connection_sse">SSE</string>
+    <string name="octrm_sandbox_mcp_remote_badge">Remote</string>
+    <!-- Environment -->
+    <string name="octrm_sandbox_env_python">Python</string>
+    <string name="octrm_sandbox_env_nodejs">Node.js</string>
+    <string name="octrm_sandbox_env_install">Install</string>
+    <string name="octrm_sandbox_env_update">Update</string>
+    <string name="octrm_sandbox_env_check_update">Check for Updates</string>
+    <string name="octrm_sandbox_env_reset">Reset</string>
+    <string name="octrm_sandbox_env_version">Version: %s</string>
+    <string name="octrm_sandbox_env_not_installed">Not installed</string>
+    <string name="octrm_sandbox_env_updating">Updating…</string>
+    <string name="octrm_sandbox_env_installed">Installed</string>
+    <string name="octrm_sandbox_env_error">Error</string>
+    <string name="octrm_sandbox_env_terminal">Terminal</string>
+    <string name="octrm_sandbox_env_environments">Environments</string>
+    <string name="octrm_sandbox_env_storage">Storage</string>
+    <string name="octrm_sandbox_env_mirror_sources">Mirror Sources</string>
+    <string name="octrm_sandbox_env_open_terminal">Open Terminal</string>
+    <string name="octrm_sandbox_env_open_terminal_desc">Enter the \'user\' sandbox with Python/Node.js mounted</string>
+    <string name="octrm_sandbox_env_install_python">Install Python</string>
+    <string name="octrm_sandbox_env_install_python_desc">Download and set up Python runtime</string>
+    <string name="octrm_sandbox_env_install_nodejs">Install Node.js</string>
+    <string name="octrm_sandbox_env_install_nodejs_desc">Download and set up Node.js runtime</string>
+    <string name="octrm_sandbox_env_view_storage">View Storage Usage</string>
+    <string name="octrm_sandbox_env_view_storage_desc">Check per-container disk usage</string>
+    <string name="octrm_sandbox_env_reset_all">Reset All Environments</string>
+    <string name="octrm_sandbox_env_reset_all_desc">Delete all containers and shared environments</string>
+    <string name="octrm_sandbox_env_path">Path</string>
+    <string name="octrm_sandbox_env_source">Source</string>
+    <string name="octrm_sandbox_env_tap_change_source">Tap to change mirror source</string>
+    <string name="octrm_sandbox_env_select">Select</string>
+    <string name="octrm_sandbox_env_mirror">Mirror</string>
+    <string name="octrm_sandbox_env_add_custom">Add custom…</string>
+    <string name="octrm_sandbox_env_custom">Custom</string>
+    <string name="octrm_sandbox_env_add">Add</string>
+    <string name="octrm_sandbox_env_cancel">Cancel</string>
+    <string name="octrm_sandbox_env_custom_added">Custom source added</string>
+    <string name="octrm_sandbox_env_source_set">Source updated</string>
+    <string name="octrm_sandbox_env_check_updates">Check for Updates</string>
+    <string name="octrm_sandbox_env_environment">Environment</string>
+    <string name="octrm_sandbox_env_reset_done">Reset complete</string>
+    <string name="octrm_sandbox_env_cdn_not_set">CDN base URL not configured</string>
+    <string name="octrm_sandbox_env_up_to_date">Already up to date</string>
+    <string name="octrm_sandbox_env_installing">Installing</string>
+    <string name="octrm_sandbox_env_preparing">Preparing</string>
+    <string name="octrm_sandbox_env_done">Done</string>
+    <string name="octrm_sandbox_env_failed">Failed</string>
+    <string name="octrm_sandbox_env_no_data">No storage data available</string>
+    <string name="octrm_sandbox_env_storage_usage">Storage Usage</string>
+    <string name="octrm_sandbox_env_reset_all_confirm">This will delete all containers and shared environments. Are you sure?</string>
+    <!-- Source -->
+    <string name="octrm_sandbox_source_title">Mirror Sources</string>
+    <string name="octrm_sandbox_source_apt">APT Source</string>
+    <string name="octrm_sandbox_source_pip">Pip Source</string>
+    <string name="octrm_sandbox_source_npm">NPM Source</string>
+    <string name="octrm_sandbox_source_custom">Custom</string>
+    <string name="octrm_sandbox_source_add_custom">Add Custom Source</string>
+    <!-- Install -->
+    <string name="octrm_sandbox_install_title">Installing…</string>
+    <string name="octrm_sandbox_install_downloading">Downloading</string>
+    <string name="octrm_sandbox_install_extracting">Extracting</string>
+    <string name="octrm_sandbox_install_configuring">Configuring</string>
+    <string name="octrm_sandbox_install_complete">Installation Complete</string>
+    <string name="octrm_sandbox_install_base_required">Base environment must be installed first</string>
+    <string name="octrm_sandbox_install_progress_overall">Overall Progress</string>
+    <string name="octrm_sandbox_install_progress_current">Current Task</string>
+    <!-- Terminal -->
+    <string name="octrm_sandbox_terminal_title">Terminal - %s</string>
+    <string name="octrm_sandbox_terminal_open">Open Terminal</string>
+    <string name="octrm_sandbox_terminal_desc">Enter the \'user\' sandbox with Python/Node.js mounted</string>
+    <!-- Storage -->
+    <string name="octrm_sandbox_storage_title">Storage</string>
+    <string name="octrm_sandbox_storage_usage">Storage Usage</string>
+    <string name="octrm_sandbox_storage_reset">Reset</string>
+    <string name="octrm_sandbox_storage_reset_all">Reset All Environments</string>
+    <string name="octrm_sandbox_storage_reset_confirm">This will delete all containers and shared environments. Are you sure?</string>
+</resources>
