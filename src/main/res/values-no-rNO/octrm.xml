@@ -333,4 +333,28 @@
     <string name="octrm_replay_log_thought">Thought</string>
     <string name="octrm_replay_log_action">Action</string>
     <string name="octrm_replay_log_result">Result</string>
+    <!-- Replay Share -->
+    <string name="octrm_replay_share_title">Share Replay</string>
+    <string name="octrm_replay_share_save_file">Save Replay File</string>
+    <string name="octrm_replay_share_save_file_desc">Save .octrm-report file to local storage</string>
+    <string name="octrm_replay_share_send_file">Share Replay File</string>
+    <string name="octrm_replay_share_send_file_desc">Send .octrm-report file to other apps</string>
+    <string name="octrm_replay_share_get_url">Get Link for Desktop</string>
+    <string name="octrm_replay_share_get_url_desc">Upload to cloud and get a link to view in browser</string>
+    <string name="octrm_replay_save_success">File saved</string>
+    <string name="octrm_replay_save_path">Saved to: %1$s</string>
+    <string name="octrm_replay_online_url">Online replay URL</string>
+    <string name="octrm_replay_copy">Copy</string>
+    <string name="octrm_replay_copied">Copied</string>
+    <string name="octrm_replay_share_extra">View replay in desktop browser: %1$s</string>
+    <string name="octrm_replay_upload_privacy_title">Privacy Notice</string>
+    <string name="octrm_replay_upload_privacy_message">The replay file will be uploaded to a third-party server and stored temporarily for 7 days. Only people who know the URL can access it.</string>
+    <string name="octrm_replay_upload_privacy_agree">Agree &amp; Upload</string>
+    <string name="octrm_replay_upload_cancel">Cancel</string>
+    <string name="octrm_replay_uploading">Uploading…</string>
+    <string name="octrm_replay_upload_progress">%1$s / %2$s</string>
+    <string name="octrm_replay_upload_success">Upload complete</string>
+    <string name="octrm_replay_upload_failed">Upload failed: %1$s</string>
+    <string name="octrm_replay_upload_result_title">Replay Link</string>
+    <string name="octrm_replay_upload_result_desc">You can view the replay in any browser using the link below. The file will be kept for 7 days.</string>
 </resources>
