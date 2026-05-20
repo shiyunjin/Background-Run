@@ -18,13 +18,16 @@
     <string name="octrm_sandbox_status_stopped">Stopped</string>
     <string name="octrm_sandbox_status_error">Error</string>
     <!-- Skills -->
+    <string name="octrm_sandbox_skill_empty">No skills installed</string>
     <string name="octrm_sandbox_skill_add">Add Skill</string>
     <string name="octrm_sandbox_skill_install_git">Install from Git</string>
     <string name="octrm_sandbox_skill_install_zip">Install from ZIP</string>
     <string name="octrm_sandbox_skill_uninstall">Uninstall</string>
+    <string name="octrm_sandbox_skill_uninstall_confirm">This will remove the skill and its data.</string>
     <string name="octrm_sandbox_skill_enable">Enable</string>
     <string name="octrm_sandbox_skill_disable">Disable</string>
     <!-- MCP -->
+    <string name="octrm_sandbox_mcp_empty">No MCP servers installed</string>
     <string name="octrm_sandbox_mcp_add">Add MCP</string>
     <string name="octrm_sandbox_mcp_install_git">Install from Git</string>
     <string name="octrm_sandbox_mcp_install_zip">Install from ZIP</string>
@@ -32,6 +35,7 @@
     <string name="octrm_sandbox_mcp_install_sse">SSE</string>
     <string name="octrm_sandbox_mcp_install_json">JSON Config</string>
     <string name="octrm_sandbox_mcp_uninstall">Uninstall</string>
+    <string name="octrm_sandbox_mcp_uninstall_confirm">This will remove the MCP server and its data.</string>
     <string name="octrm_sandbox_mcp_connection_stdio">Local (stdio)</string>
     <string name="octrm_sandbox_mcp_connection_http_stream">HTTP Stream</string>
     <string name="octrm_sandbox_mcp_connection_sse">SSE</string>
@@ -44,6 +48,8 @@
     <string name="octrm_sandbox_env_check_update">Check for Updates</string>
     <string name="octrm_sandbox_env_reset">Reset</string>
     <string name="octrm_sandbox_env_version">Version: %s</string>
+    <string name="octrm_sandbox_env_install_info">Install Python or Node.js to run MCP servers and skills.</string>
+    <string name="octrm_sandbox_env_install_terminal_info">Environments can be installed from the terminal inside the sandbox.</string>
     <string name="octrm_sandbox_env_not_installed">Not installed</string>
     <string name="octrm_sandbox_env_updating">Updating…</string>
     <string name="octrm_sandbox_env_installed">Installed</string>
@@ -105,6 +111,20 @@
     <string name="octrm_sandbox_terminal_title">Terminal - %s</string>
     <string name="octrm_sandbox_terminal_open">Open Terminal</string>
     <string name="octrm_sandbox_terminal_desc">Enter the \'user\' sandbox with Python/Node.js mounted</string>
+    <!-- Setup -->
+    <string name="octrm_sandbox_setup_title">Environment Setup</string>
+    <string name="octrm_sandbox_setup_subtitle">Select development environments and tools to install</string>
+    <string name="octrm_sandbox_setup_skip">Skip</string>
+    <string name="octrm_sandbox_setup_start">Start Setup</string>
+    <string name="octrm_sandbox_setup_select_all">Select All</string>
+    <string name="octrm_sandbox_setup_required">Required</string>
+    <string name="octrm_sandbox_setup_installed">Installed</string>
+    <string name="octrm_sandbox_setup_ssh_warning_title">SSH Mode Warning</string>
+    <string name="octrm_sandbox_setup_ssh_warning_message">Detection may be inaccurate in SSH mode. Please manually configure pnpm and python.</string>
+    <string name="octrm_sandbox_setup_dialog_title">Friendly Reminder</string>
+    <string name="octrm_sandbox_setup_dialog_message">Environment setup is about to begin, which may take some time. Please keep the app in the foreground or running in a small window to ensure the setup proceeds smoothly.\n\nIf the setup is interrupted, don\'t worry. When you return to this page and start setup again, it will automatically continue from the previous progress.</string>
+    <string name="octrm_sandbox_setup_dialog_confirm">I understand</string>
+    <string name="octrm_sandbox_setup_dialog_cancel">Cancel</string>
     <!-- Storage -->
     <string name="octrm_sandbox_storage_title">Storage</string>
     <string name="octrm_sandbox_storage_usage">Storage Usage</string>
