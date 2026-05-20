@@ -116,7 +116,7 @@
     <string name="octrm_sandbox_install_progress_current">当前任务</string>
 
     <!-- Terminal -->
-    <string name="octrm_sandbox_terminal_title">终端 - %s</string>
+    <string name="octrm_sandbox_terminal_title">终端</string>
     <string name="octrm_sandbox_terminal_open">打开终端</string>
     <string name="octrm_sandbox_terminal_desc">进入 user 沙盒，已挂载 Python/Node.js 环境</string>
 

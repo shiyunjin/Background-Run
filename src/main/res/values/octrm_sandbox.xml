@@ -116,7 +116,7 @@
     <string name="octrm_sandbox_install_progress_current">Current Task</string>
 
     <!-- Terminal -->
-    <string name="octrm_sandbox_terminal_title">Terminal - %s</string>
+    <string name="octrm_sandbox_terminal_title">Terminal</string>
     <string name="octrm_sandbox_terminal_open">Open Terminal</string>
     <string name="octrm_sandbox_terminal_desc">Enter the \'user\' sandbox with Python/Node.js mounted</string>
 
