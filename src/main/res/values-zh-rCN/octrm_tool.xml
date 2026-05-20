@@ -52,6 +52,9 @@
     <string name="octrm_tool_web_search">搜索网页</string>
     <string name="octrm_tool_web_fetch">获取网页</string>
 
+    <!-- 技能工具 -->
+    <string name="octrm_tool_use_skill">使用技能</string>
+
     <!-- 智能工具 (Plan模式) -->
     <string name="octrm_tool_ai_tap">智能点击</string>
     <string name="octrm_tool_ai_input">智能输入</string>

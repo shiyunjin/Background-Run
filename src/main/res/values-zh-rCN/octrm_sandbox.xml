@@ -21,14 +21,17 @@
     <string name="octrm_sandbox_status_error">错误</string>
 
     <!-- Skills -->
+    <string name="octrm_sandbox_skill_empty">未安装 Skill</string>
     <string name="octrm_sandbox_skill_add">添加 Skill</string>
     <string name="octrm_sandbox_skill_install_git">从 Git 安装</string>
     <string name="octrm_sandbox_skill_install_zip">从 ZIP 安装</string>
     <string name="octrm_sandbox_skill_uninstall">卸载</string>
+    <string name="octrm_sandbox_skill_uninstall_confirm">将移除 Skill 及其数据。</string>
     <string name="octrm_sandbox_skill_enable">启用</string>
     <string name="octrm_sandbox_skill_disable">禁用</string>
 
     <!-- MCP -->
+    <string name="octrm_sandbox_mcp_empty">未安装 MCP 服务器</string>
     <string name="octrm_sandbox_mcp_add">添加 MCP</string>
     <string name="octrm_sandbox_mcp_install_git">从 Git 安装</string>
     <string name="octrm_sandbox_mcp_install_zip">从 ZIP 安装</string>
@@ -36,6 +39,7 @@
     <string name="octrm_sandbox_mcp_install_sse">SSE</string>
     <string name="octrm_sandbox_mcp_install_json">JSON 配置</string>
     <string name="octrm_sandbox_mcp_uninstall">卸载</string>
+    <string name="octrm_sandbox_mcp_uninstall_confirm">将移除 MCP 服务器及其数据。</string>
     <string name="octrm_sandbox_mcp_connection_stdio">本地 (stdio)</string>
     <string name="octrm_sandbox_mcp_connection_http_stream">HTTP Stream</string>
     <string name="octrm_sandbox_mcp_connection_sse">SSE</string>
@@ -49,6 +53,8 @@
     <string name="octrm_sandbox_env_check_update">检查更新</string>
     <string name="octrm_sandbox_env_reset">重置</string>
     <string name="octrm_sandbox_env_version">版本：%s</string>
+    <string name="octrm_sandbox_env_install_info">安装 Python 或 Node.js 以运行 MCP 服务器和 Skill。</string>
+    <string name="octrm_sandbox_env_install_terminal_info">可以在沙盒内的终端中安装运行环境。</string>
     <string name="octrm_sandbox_env_not_installed">未安装</string>
     <string name="octrm_sandbox_env_updating">更新中…</string>
     <string name="octrm_sandbox_env_installed">已安装</string>
@@ -113,6 +119,21 @@
     <string name="octrm_sandbox_terminal_title">终端 - %s</string>
     <string name="octrm_sandbox_terminal_open">打开终端</string>
     <string name="octrm_sandbox_terminal_desc">进入 user 沙盒，已挂载 Python/Node.js 环境</string>
+
+    <!-- Setup -->
+    <string name="octrm_sandbox_setup_title">环境配置</string>
+    <string name="octrm_sandbox_setup_subtitle">选择需要安装的开发环境和工具</string>
+    <string name="octrm_sandbox_setup_skip">跳过</string>
+    <string name="octrm_sandbox_setup_start">开始配置</string>
+    <string name="octrm_sandbox_setup_select_all">全选</string>
+    <string name="octrm_sandbox_setup_required">必需</string>
+    <string name="octrm_sandbox_setup_installed">已安装</string>
+    <string name="octrm_sandbox_setup_ssh_warning_title">SSH 模式提醒</string>
+    <string name="octrm_sandbox_setup_ssh_warning_message">SSH 模式下检测可能不准确，请手动配置 pnpm 和 python。</string>
+    <string name="octrm_sandbox_setup_dialog_title">温馨提示</string>
+    <string name="octrm_sandbox_setup_dialog_message">即将开始环境配置，这可能需要一些时间。请保持应用在前台或小窗运行，以确保配置顺利进行。\n\n如果配置中断，不用担心。返回此页面再次开始配置时，会自动从上次的进度继续。</string>
+    <string name="octrm_sandbox_setup_dialog_confirm">我知道了</string>
+    <string name="octrm_sandbox_setup_dialog_cancel">取消</string>
 
     <!-- Storage -->
     <string name="octrm_sandbox_storage_title">存储</string>

@@ -52,6 +52,9 @@
     <string name="octrm_tool_web_search">Web Search</string>
     <string name="octrm_tool_web_fetch">Web Fetch</string>
 
+    <!-- Skill Tool -->
+    <string name="octrm_tool_use_skill">Use Skill</string>
+
     <!-- AI-powered Tools (Plan Mode) -->
     <string name="octrm_tool_ai_tap">AI Tap</string>
     <string name="octrm_tool_ai_input">AI Input</string>
