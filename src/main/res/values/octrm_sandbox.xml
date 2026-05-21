@@ -138,15 +138,16 @@
     <!-- Ubuntu download -->
     <string name="octrm_sandbox_setup_ubuntu_title">Ubuntu Environment</string>
     <string name="octrm_sandbox_setup_ubuntu_size">~60 MB</string>
-    <string name="octrm_sandbox_setup_ubuntu_downloading">Downloading Ubuntu environment…</string>
-    <string name="octrm_sandbox_setup_ubuntu_download_pause">Pause</string>
-    <string name="octrm_sandbox_setup_ubuntu_download_resume">Resume</string>
-    <string name="octrm_sandbox_setup_ubuntu_download_progress">%1$s / %2$s</string>
+    <string name="octrm_sandbox_setup_ubuntu_install">Install</string>
+    <string name="octrm_sandbox_setup_ubuntu_downloading">Downloading…</string>
+    <string name="octrm_sandbox_setup_ubuntu_downloading_percent">Downloading… %1$d%%</string>
     <string name="octrm_sandbox_setup_ubuntu_already_downloaded">Already downloaded</string>
     <string name="octrm_sandbox_setup_ubuntu_download_failed">Download failed</string>
     <string name="octrm_sandbox_setup_ubuntu_download_retry">Retry</string>
     <string name="octrm_sandbox_setup_ubuntu_extracting">Extracting…</string>
+    <string name="octrm_sandbox_setup_ubuntu_extracting_progress">Extracting… %1$d%%</string>
     <string name="octrm_sandbox_setup_ubuntu_not_initialized">Sandbox not initialized</string>
+    <string name="octrm_sandbox_setup_ubuntu_waiting_wifi">Waiting for Wi-Fi…</string>
 
     <!-- Storage -->
     <string name="octrm_sandbox_storage_title">Storage</string>

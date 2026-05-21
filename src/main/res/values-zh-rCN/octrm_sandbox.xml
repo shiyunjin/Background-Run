@@ -138,15 +138,16 @@
     <!-- Ubuntu download -->
     <string name="octrm_sandbox_setup_ubuntu_title">Ubuntu 环境</string>
     <string name="octrm_sandbox_setup_ubuntu_size">约 60 MB</string>
-    <string name="octrm_sandbox_setup_ubuntu_downloading">正在下载 Ubuntu 环境…</string>
-    <string name="octrm_sandbox_setup_ubuntu_download_pause">暂停</string>
-    <string name="octrm_sandbox_setup_ubuntu_download_resume">继续</string>
-    <string name="octrm_sandbox_setup_ubuntu_download_progress">%1$s / %2$s</string>
+    <string name="octrm_sandbox_setup_ubuntu_install">安装</string>
+    <string name="octrm_sandbox_setup_ubuntu_downloading">下载中…</string>
+    <string name="octrm_sandbox_setup_ubuntu_downloading_percent">下载中… %1$d%%</string>
     <string name="octrm_sandbox_setup_ubuntu_already_downloaded">已下载</string>
     <string name="octrm_sandbox_setup_ubuntu_download_failed">下载失败</string>
     <string name="octrm_sandbox_setup_ubuntu_download_retry">重试</string>
-    <string name="octrm_sandbox_setup_ubuntu_extracting">正在解压…</string>
+    <string name="octrm_sandbox_setup_ubuntu_extracting">解压中…</string>
+    <string name="octrm_sandbox_setup_ubuntu_extracting_progress">解压中… %1$d%%</string>
     <string name="octrm_sandbox_setup_ubuntu_not_initialized">沙盒未初始化</string>
+    <string name="octrm_sandbox_setup_ubuntu_waiting_wifi">等待 Wi-Fi…</string>
 
     <!-- Storage -->
     <string name="octrm_sandbox_storage_title">存储</string>
