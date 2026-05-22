@@ -47,6 +47,8 @@
     <string name="octrm_tool_web_fetch">Web Fetch</string>
     <!-- Skill Tool -->
     <string name="octrm_tool_use_skill">Use Skill</string>
+    <!-- MCP Plugin Tool -->
+    <string name="octrm_tool_mcp_plugin">MCP Plugin</string>
     <!-- AI-powered Tools (Plan Mode) -->
     <string name="octrm_tool_ai_tap">AI Tap</string>
     <string name="octrm_tool_ai_input">AI Input</string>
