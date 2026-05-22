@@ -38,12 +38,139 @@
     <string name="octrm_sandbox_mcp_install_http">HTTP Stream</string>
     <string name="octrm_sandbox_mcp_install_sse">SSE</string>
     <string name="octrm_sandbox_mcp_install_json">JSON 配置</string>
+
+    <!-- MCP Add Dialog Tabs -->
+    <string name="octrm_sandbox_mcp_tab_repo">仓库</string>
+    <string name="octrm_sandbox_mcp_tab_zip">ZIP</string>
+    <string name="octrm_sandbox_mcp_tab_remote">远程</string>
+    <string name="octrm_sandbox_mcp_tab_config">配置导入</string>
+    <string name="octrm_sandbox_mcp_name_optional">名称（可选）</string>
+    <string name="octrm_sandbox_mcp_git_url">Git URL</string>
+    <string name="octrm_sandbox_mcp_json_config_hint">粘贴 mcpServers JSON 配置</string>
+    <string name="octrm_sandbox_mcp_bearer_token_optional">Bearer Token（可选）</string>
+    <string name="octrm_sandbox_mcp_custom_headers_optional">自定义请求头（JSON，可选）</string>
+    <string name="octrm_sandbox_mcp_connection_type">连接类型</string>
+    <string name="octrm_sandbox_zip_path">ZIP 文件路径</string>
+    <string name="octrm_sandbox_select_zip_file">选择 ZIP 文件</string>
+
+    <!-- Skill Add Dialog Tabs -->
+    <string name="octrm_sandbox_skill_tab_repo">仓库</string>
+    <string name="octrm_sandbox_skill_tab_zip">ZIP</string>
+    <string name="octrm_sandbox_skill_tab_manual">手动</string>
+    <string name="octrm_sandbox_skill_name_optional">名称（可选）</string>
+
     <string name="octrm_sandbox_mcp_uninstall">卸载</string>
     <string name="octrm_sandbox_mcp_uninstall_confirm">将移除 MCP 服务器及其数据。</string>
     <string name="octrm_sandbox_mcp_connection_stdio">本地 (stdio)</string>
     <string name="octrm_sandbox_mcp_connection_http_stream">HTTP Stream</string>
     <string name="octrm_sandbox_mcp_connection_sse">SSE</string>
     <string name="octrm_sandbox_mcp_remote_badge">远程</string>
+
+    <!-- MCP 状态 -->
+    <string name="octrm_sandbox_mcp_status_running">运行中</string>
+    <string name="octrm_sandbox_mcp_status_stopped">已停止</string>
+    <string name="octrm_sandbox_mcp_status_error">错误</string>
+    <string name="octrm_sandbox_mcp_status_starting">启动中…</string>
+    <string name="octrm_sandbox_mcp_status_deploying">部署中…</string>
+    <string name="octrm_sandbox_mcp_start_all">启动全部</string>
+    <string name="octrm_sandbox_mcp_stop">停止</string>
+    <string name="octrm_sandbox_mcp_start">启动</string>
+    <string name="octrm_sandbox_mcp_deploy">部署</string>
+    <string name="octrm_sandbox_mcp_deploying">部署中…</string>
+    <string name="octrm_sandbox_mcp_deploy_success">部署成功</string>
+    <string name="octrm_sandbox_mcp_deploy_failed">部署失败</string>
+    <string name="octrm_sandbox_mcp_tools">工具</string>
+    <string name="octrm_sandbox_mcp_tools_count">%d 个工具</string>
+    <string name="octrm_sandbox_mcp_no_tools">未发现工具</string>
+    <string name="octrm_sandbox_mcp_tools_more">+%d 个</string>
+
+    <!-- MCP 远程编辑 -->
+    <string name="octrm_sandbox_mcp_remote_edit">编辑远程服务</string>
+    <string name="octrm_sandbox_mcp_endpoint">端点 URL</string>
+    <string name="octrm_sandbox_mcp_bearer_token">Bearer Token</string>
+    <string name="octrm_sandbox_mcp_custom_headers">自定义请求头</string>
+    <string name="octrm_sandbox_mcp_add_header">添加请求头</string>
+    <string name="octrm_sandbox_mcp_header_key">请求头名称</string>
+    <string name="octrm_sandbox_mcp_header_value">请求头值</string>
+    <string name="octrm_sandbox_mcp_remove_header">移除</string>
+
+    <!-- MCP JSON 导入 -->
+    <string name="octrm_sandbox_mcp_json_import">导入 JSON 配置</string>
+    <string name="octrm_sandbox_mcp_json_hint">粘贴标准 mcpServers JSON 配置</string>
+    <string name="octrm_sandbox_mcp_json_imported">已导入 %d 个服务器</string>
+    <string name="octrm_sandbox_mcp_json_format_error">JSON 格式无效</string>
+    <string name="octrm_sandbox_mcp_json_no_servers">JSON 中未找到 mcpServers</string>
+
+    <!-- MCP 详情 -->
+    <string name="octrm_sandbox_mcp_detail">服务器详情</string>
+    <string name="octrm_sandbox_mcp_detail_tab_info">信息</string>
+    <string name="octrm_sandbox_mcp_detail_tab_tools">工具</string>
+    <string name="octrm_sandbox_mcp_detail_tab_log">日志</string>
+    <string name="octrm_sandbox_mcp_detail_config">配置</string>
+    <string name="octrm_sandbox_mcp_detail_tools">工具</string>
+    <string name="octrm_sandbox_mcp_detail_status">状态</string>
+    <string name="octrm_sandbox_mcp_detail_connection_type">连接类型</string>
+    <string name="octrm_sandbox_mcp_detail_install_type">安装类型</string>
+    <string name="octrm_sandbox_mcp_detail_no_desc">暂无描述</string>
+    <string name="octrm_sandbox_mcp_detail_description">描述</string>
+    <string name="octrm_sandbox_mcp_detail_no_tools">未发现工具</string>
+    <string name="octrm_sandbox_mcp_detail_no_log">暂无服务器日志</string>
+    <string name="octrm_sandbox_mcp_detail_close">关闭</string>
+    <string name="octrm_sandbox_mcp_edit">编辑</string>
+    <string name="octrm_sandbox_mcp_save">保存</string>
+    <string name="octrm_sandbox_mcp_name">名称</string>
+
+    <!-- MCP 安装进度 -->
+    <string name="octrm_sandbox_mcp_install_progress">安装进度</string>
+    <string name="octrm_sandbox_mcp_install_title">正在安装 %s</string>
+    <string name="octrm_sandbox_mcp_install_downloading">下载中…</string>
+    <string name="octrm_sandbox_mcp_install_extracting">解压 %s…</string>
+    <string name="octrm_sandbox_mcp_install_configuring">配置 %s…</string>
+    <string name="octrm_sandbox_mcp_install_deploying">部署 %s…</string>
+    <string name="octrm_sandbox_mcp_install_discovering">发现 %s 的工具…</string>
+    <string name="octrm_sandbox_mcp_install_complete">安装完成：%s</string>
+    <string name="octrm_sandbox_mcp_install_error">安装失败：%s</string>
+    <string name="octrm_sandbox_mcp_install_ok">确定</string>
+    <string name="octrm_sandbox_mcp_remote_added">远程服务已添加：%s</string>
+
+    <!-- MCP 部署进度 -->
+    <string name="octrm_sandbox_mcp_deploy_title">正在部署 %s</string>
+    <string name="octrm_sandbox_mcp_deploy_status_preparing">准备部署…</string>
+    <string name="octrm_sandbox_mcp_deploy_status_success">部署成功</string>
+    <string name="octrm_sandbox_mcp_deploy_status_failed">部署失败</string>
+    <string name="octrm_sandbox_mcp_deploy_discovering">发现 %s 的工具…</string>
+    <string name="octrm_sandbox_mcp_retry">重试</string>
+
+    <!-- Skill 可见性 -->
+    <string name="octrm_sandbox_skill_visible_ai">AI 可见</string>
+    <string name="octrm_sandbox_skill_hidden_ai">AI 不可见</string>
+
+    <!-- Skill 详情 -->
+    <string name="octrm_sandbox_skill_detail">Skill 详情</string>
+    <string name="octrm_sandbox_skill_detail_loading">正在读取 Skill 详情…</string>
+    <string name="octrm_sandbox_skill_detail_description">描述</string>
+    <string name="octrm_sandbox_skill_detail_directory">目录</string>
+    <string name="octrm_sandbox_skill_detail_entry_file">入口文件</string>
+    <string name="octrm_sandbox_skill_detail_imported_contents">导入内容</string>
+    <string name="octrm_sandbox_skill_detail_more_items">…还有 %d 个项目</string>
+    <string name="octrm_sandbox_skill_detail_tree">目录结构</string>
+    <string name="octrm_sandbox_skill_detail_content">SKILL.md 内容</string>
+    <string name="octrm_sandbox_skill_detail_skill_md">SKILL.md</string>
+    <string name="octrm_sandbox_skill_detail_show_content">显示 SKILL.md</string>
+    <string name="octrm_sandbox_skill_detail_hide_content">隐藏 SKILL.md</string>
+    <string name="octrm_sandbox_skill_detail_files">文件</string>
+    <string name="octrm_sandbox_skill_detail_folders">文件夹</string>
+    <string name="octrm_sandbox_skill_detail_close">关闭</string>
+    <string name="octrm_sandbox_skill_delete">删除</string>
+
+    <!-- Skill 直接输入 -->
+    <string name="octrm_sandbox_skill_direct_input">直接输入</string>
+    <string name="octrm_sandbox_skill_direct_id">Skill ID</string>
+    <string name="octrm_sandbox_skill_direct_id_hint">例如 my-custom-skill</string>
+    <string name="octrm_sandbox_skill_direct_desc">描述</string>
+    <string name="octrm_sandbox_skill_direct_content">内容 (SKILL.md)</string>
+    <string name="octrm_sandbox_skill_direct_content_hint">在此编写 Skill 指令</string>
+    <string name="octrm_sandbox_skill_direct_invalid_id">Skill ID 必须匹配：A-Za-z0-9._-，且不能是 "." 或 ".."</string>
 
     <!-- Environment -->
     <string name="octrm_sandbox_env_python">Python</string>
@@ -138,12 +265,37 @@
     <!-- Ubuntu download -->
     <string name="octrm_sandbox_setup_ubuntu_title">Ubuntu 环境</string>
     <string name="octrm_sandbox_setup_ubuntu_size">约 60 MB</string>
+    <string name="octrm_sandbox_setup_ubuntu_variant_title">选择 Ubuntu 版本</string>
+    <string name="octrm_sandbox_setup_ubuntu_variant_full">Ubuntu 扩展版</string>
+    <string name="octrm_sandbox_setup_ubuntu_variant_full_desc">内置 Node.js、Python 环境</string>
+    <string name="octrm_sandbox_setup_ubuntu_variant_base">Ubuntu 基础版</string>
+    <string name="octrm_sandbox_setup_ubuntu_variant_base_desc">纯净 Ubuntu，自行安装软件包</string>
+    <string name="octrm_sandbox_setup_ubuntu_full_size">约 236 MB</string>
+    <string name="octrm_sandbox_setup_ubuntu_base_size">约 60 MB</string>
+    <string name="octrm_sandbox_setup_ubuntu_manage">管理</string>
+    <string name="octrm_sandbox_setup_ubuntu_full_downloaded">Ubuntu 扩展版已下载</string>
+    <string name="octrm_sandbox_setup_ubuntu_base_downloaded">Ubuntu 基础版已下载</string>
+    <string name="octrm_sandbox_ubuntu_manage_title">Ubuntu 系统管理</string>
+    <string name="octrm_sandbox_ubuntu_manage_active">使用中</string>
+    <string name="octrm_sandbox_ubuntu_manage_downloaded">已下载</string>
+    <string name="octrm_sandbox_ubuntu_manage_not_downloaded">未下载</string>
+    <string name="octrm_sandbox_ubuntu_manage_switch">切换</string>
+    <string name="octrm_sandbox_ubuntu_manage_switch_confirm">切换 Ubuntu 版本将重置当前环境，是否继续？</string>
+    <string name="octrm_sandbox_ubuntu_manage_delete">删除</string>
+    <string name="octrm_sandbox_ubuntu_manage_delete_confirm">删除此 Ubuntu 版本？已下载的文件将被移除。</string>
+    <string name="octrm_sandbox_ubuntu_manage_cant_delete_active">无法删除当前使用的版本</string>
+    <string name="octrm_sandbox_ubuntu_manage_download">下载</string>
+    <string name="octrm_sandbox_ubuntu_manage_row_title">Ubuntu 系统管理</string>
+    <string name="octrm_sandbox_ubuntu_manage_row_summary">管理 Ubuntu 版本</string>
     <string name="octrm_sandbox_setup_ubuntu_install">安装</string>
     <string name="octrm_sandbox_setup_ubuntu_downloading">下载中…</string>
     <string name="octrm_sandbox_setup_ubuntu_downloading_percent">下载中… %1$d%%</string>
     <string name="octrm_sandbox_setup_ubuntu_already_downloaded">已下载</string>
     <string name="octrm_sandbox_setup_ubuntu_download_failed">下载失败</string>
     <string name="octrm_sandbox_setup_ubuntu_download_retry">重试</string>
+    <string name="octrm_sandbox_setup_ubuntu_download_paused">下载已暂停</string>
+    <string name="octrm_sandbox_setup_ubuntu_download_resume">继续</string>
+    <string name="octrm_sandbox_setup_ubuntu_download_pause">暂停</string>
     <string name="octrm_sandbox_setup_ubuntu_extracting">解压中…</string>
     <string name="octrm_sandbox_setup_ubuntu_extracting_progress">解压中… %1$d%%</string>
     <string name="octrm_sandbox_setup_ubuntu_not_initialized">沙盒未初始化</string>

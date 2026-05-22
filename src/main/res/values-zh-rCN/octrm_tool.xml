@@ -55,6 +55,9 @@
     <!-- 技能工具 -->
     <string name="octrm_tool_use_skill">使用技能</string>
 
+    <!-- MCP 插件工具 -->
+    <string name="octrm_tool_mcp_plugin">MCP 插件</string>
+
     <!-- 智能工具 (Plan模式) -->
     <string name="octrm_tool_ai_tap">智能点击</string>
     <string name="octrm_tool_ai_input">智能输入</string>

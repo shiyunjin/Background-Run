@@ -45,6 +45,132 @@
     <string name="octrm_sandbox_mcp_connection_sse">SSE</string>
     <string name="octrm_sandbox_mcp_remote_badge">Remote</string>
 
+    <!-- MCP Add Dialog Tabs -->
+    <string name="octrm_sandbox_mcp_tab_repo">Repo</string>
+    <string name="octrm_sandbox_mcp_tab_zip">ZIP</string>
+    <string name="octrm_sandbox_mcp_tab_remote">Remote</string>
+    <string name="octrm_sandbox_mcp_tab_config">Config Import</string>
+    <string name="octrm_sandbox_mcp_name_optional">Name (optional)</string>
+    <string name="octrm_sandbox_mcp_name">Name</string>
+    <string name="octrm_sandbox_mcp_git_url">Git URL</string>
+    <string name="octrm_sandbox_mcp_json_config_hint">Paste mcpServers JSON config</string>
+    <string name="octrm_sandbox_mcp_endpoint">Endpoint URL</string>
+    <string name="octrm_sandbox_mcp_bearer_token_optional">Bearer Token (optional)</string>
+    <string name="octrm_sandbox_mcp_custom_headers_optional">Custom Headers (JSON, optional)</string>
+    <string name="octrm_sandbox_mcp_connection_type">Connection Type</string>
+    <string name="octrm_sandbox_zip_path">ZIP file path</string>
+    <string name="octrm_sandbox_select_zip_file">Select ZIP file</string>
+
+    <!-- MCP Status -->
+    <string name="octrm_sandbox_mcp_status_running">Running</string>
+    <string name="octrm_sandbox_mcp_status_stopped">Stopped</string>
+    <string name="octrm_sandbox_mcp_status_error">Error</string>
+    <string name="octrm_sandbox_mcp_status_starting">Starting…</string>
+    <string name="octrm_sandbox_mcp_status_deploying">Deploying…</string>
+    <string name="octrm_sandbox_mcp_start_all">Start All</string>
+    <string name="octrm_sandbox_mcp_stop">Stop</string>
+    <string name="octrm_sandbox_mcp_start">Start</string>
+    <string name="octrm_sandbox_mcp_deploy">Deploy</string>
+    <string name="octrm_sandbox_mcp_deploying">Deploying…</string>
+    <string name="octrm_sandbox_mcp_deploy_success">Deployed successfully</string>
+    <string name="octrm_sandbox_mcp_deploy_failed">Deploy failed</string>
+    <string name="octrm_sandbox_mcp_tools">Tools</string>
+    <string name="octrm_sandbox_mcp_tools_count">%d tools</string>
+    <string name="octrm_sandbox_mcp_no_tools">No tools discovered</string>
+    <string name="octrm_sandbox_mcp_tools_more">+%d more</string>
+
+    <!-- MCP Remote Edit -->
+    <string name="octrm_sandbox_mcp_remote_edit">Edit Remote Service</string>
+    <string name="octrm_sandbox_mcp_bearer_token">Bearer Token</string>
+    <string name="octrm_sandbox_mcp_custom_headers">Custom Headers</string>
+    <string name="octrm_sandbox_mcp_add_header">Add Header</string>
+    <string name="octrm_sandbox_mcp_header_key">Header Key</string>
+    <string name="octrm_sandbox_mcp_header_value">Header Value</string>
+    <string name="octrm_sandbox_mcp_remove_header">Remove</string>
+
+    <!-- MCP JSON Import -->
+    <string name="octrm_sandbox_mcp_json_import">Import JSON Config</string>
+    <string name="octrm_sandbox_mcp_json_hint">Paste standard mcpServers JSON config</string>
+    <string name="octrm_sandbox_mcp_json_imported">Imported %d server(s)</string>
+    <string name="octrm_sandbox_mcp_json_format_error">Invalid JSON format</string>
+    <string name="octrm_sandbox_mcp_json_no_servers">No mcpServers found in JSON</string>
+
+    <!-- MCP Detail -->
+    <string name="octrm_sandbox_mcp_detail">Server Details</string>
+    <string name="octrm_sandbox_mcp_detail_tab_info">Info</string>
+    <string name="octrm_sandbox_mcp_detail_tab_tools">Tools</string>
+    <string name="octrm_sandbox_mcp_detail_tab_log">Log</string>
+    <string name="octrm_sandbox_mcp_detail_config">Configuration</string>
+    <string name="octrm_sandbox_mcp_detail_tools">Tools</string>
+    <string name="octrm_sandbox_mcp_detail_status">Status</string>
+    <string name="octrm_sandbox_mcp_detail_connection_type">Connection Type</string>
+    <string name="octrm_sandbox_mcp_detail_install_type">Install Type</string>
+    <string name="octrm_sandbox_mcp_detail_no_desc">No description</string>
+    <string name="octrm_sandbox_mcp_detail_description">Description</string>
+    <string name="octrm_sandbox_mcp_detail_no_tools">No tools discovered</string>
+    <string name="octrm_sandbox_mcp_detail_no_log">No server logs available</string>
+    <string name="octrm_sandbox_mcp_detail_close">Close</string>
+    <string name="octrm_sandbox_mcp_edit">Edit</string>
+    <string name="octrm_sandbox_mcp_save">Save</string>
+
+    <!-- MCP Install Progress -->
+    <string name="octrm_sandbox_mcp_install_progress">Install Progress</string>
+    <string name="octrm_sandbox_mcp_install_title">Installing %s</string>
+    <string name="octrm_sandbox_mcp_install_downloading">Downloading…</string>
+    <string name="octrm_sandbox_mcp_install_extracting">Extracting %s…</string>
+    <string name="octrm_sandbox_mcp_install_configuring">Configuring %s…</string>
+    <string name="octrm_sandbox_mcp_install_deploying">Deploying %s…</string>
+    <string name="octrm_sandbox_mcp_install_discovering">Discovering tools for %s…</string>
+    <string name="octrm_sandbox_mcp_install_complete">Installation complete: %s</string>
+    <string name="octrm_sandbox_mcp_install_error">Installation failed: %s</string>
+    <string name="octrm_sandbox_mcp_install_ok">OK</string>
+    <string name="octrm_sandbox_mcp_remote_added">Remote service added: %s</string>
+
+    <!-- MCP Deploy Progress -->
+    <string name="octrm_sandbox_mcp_deploy_title">Deploying %s</string>
+    <string name="octrm_sandbox_mcp_deploy_status_preparing">Preparing deployment…</string>
+    <string name="octrm_sandbox_mcp_deploy_status_success">Deployed successfully</string>
+    <string name="octrm_sandbox_mcp_deploy_status_failed">Deploy failed</string>
+    <string name="octrm_sandbox_mcp_deploy_discovering">Discovering tools for %s…</string>
+    <string name="octrm_sandbox_mcp_retry">Retry</string>
+
+    <!-- Skill Add Dialog Tabs -->
+    <string name="octrm_sandbox_skill_tab_repo">Repo</string>
+    <string name="octrm_sandbox_skill_tab_zip">ZIP</string>
+    <string name="octrm_sandbox_skill_tab_manual">Manual</string>
+    <string name="octrm_sandbox_skill_name_optional">Name (optional)</string>
+
+    <!-- Skill Visibility -->
+    <string name="octrm_sandbox_skill_visible_ai">Visible to AI</string>
+    <string name="octrm_sandbox_skill_hidden_ai">Hidden from AI</string>
+
+    <!-- Skill Detail -->
+    <string name="octrm_sandbox_skill_detail">Skill Details</string>
+    <string name="octrm_sandbox_skill_detail_loading">Loading Skill details…</string>
+    <string name="octrm_sandbox_skill_detail_description">Description</string>
+    <string name="octrm_sandbox_skill_detail_directory">Directory</string>
+    <string name="octrm_sandbox_skill_detail_entry_file">Entry File</string>
+    <string name="octrm_sandbox_skill_detail_imported_contents">Imported Contents</string>
+    <string name="octrm_sandbox_skill_detail_more_items">…and %d more items</string>
+    <string name="octrm_sandbox_skill_detail_tree">Directory Tree</string>
+    <string name="octrm_sandbox_skill_detail_content">SKILL.md Content</string>
+    <string name="octrm_sandbox_skill_detail_skill_md">SKILL.md</string>
+    <string name="octrm_sandbox_skill_detail_show_content">Show SKILL.md</string>
+    <string name="octrm_sandbox_skill_detail_hide_content">Hide SKILL.md</string>
+    <string name="octrm_sandbox_skill_detail_files">Files</string>
+    <string name="octrm_sandbox_skill_detail_folders">Folders</string>
+    <string name="octrm_sandbox_skill_detail_close">Close</string>
+    <string name="octrm_sandbox_skill_delete">Delete</string>
+
+    <!-- Skill Direct Input -->
+    <string name="octrm_sandbox_skill_direct_input">Direct Input</string>
+    <string name="octrm_sandbox_skill_direct_id">Skill ID</string>
+    <string name="octrm_sandbox_skill_direct_id_hint">e.g. my-custom-skill</string>
+    <string name="octrm_sandbox_skill_direct_desc">Description</string>
+    <string name="octrm_sandbox_skill_direct_content">Content (SKILL.md)</string>
+    <string name="octrm_sandbox_skill_direct_content_hint">Write your skill instructions here</string>
+    <string name="octrm_sandbox_skill_direct_invalid_id">Skill ID must match: A-Za-z0-9._- and cannot be "." or ".."</string>
+
     <!-- Environment -->
     <string name="octrm_sandbox_env_python">Python</string>
     <string name="octrm_sandbox_env_nodejs">Node.js</string>
@@ -138,12 +264,37 @@
     <!-- Ubuntu download -->
     <string name="octrm_sandbox_setup_ubuntu_title">Ubuntu Environment</string>
     <string name="octrm_sandbox_setup_ubuntu_size">~60 MB</string>
+    <string name="octrm_sandbox_setup_ubuntu_variant_title">Select Ubuntu Version</string>
+    <string name="octrm_sandbox_setup_ubuntu_variant_full">Ubuntu Extended</string>
+    <string name="octrm_sandbox_setup_ubuntu_variant_full_desc">Built-in Node.js, Python environments</string>
+    <string name="octrm_sandbox_setup_ubuntu_variant_base">Ubuntu Base</string>
+    <string name="octrm_sandbox_setup_ubuntu_variant_base_desc">Clean Ubuntu, install packages yourself</string>
+    <string name="octrm_sandbox_setup_ubuntu_full_size">~236 MB</string>
+    <string name="octrm_sandbox_setup_ubuntu_base_size">~60 MB</string>
+    <string name="octrm_sandbox_setup_ubuntu_manage">Manage</string>
+    <string name="octrm_sandbox_setup_ubuntu_full_downloaded">Ubuntu Extended downloaded</string>
+    <string name="octrm_sandbox_setup_ubuntu_base_downloaded">Ubuntu Base downloaded</string>
+    <string name="octrm_sandbox_ubuntu_manage_title">Ubuntu System Management</string>
+    <string name="octrm_sandbox_ubuntu_manage_active">Active</string>
+    <string name="octrm_sandbox_ubuntu_manage_downloaded">Downloaded</string>
+    <string name="octrm_sandbox_ubuntu_manage_not_downloaded">Not downloaded</string>
+    <string name="octrm_sandbox_ubuntu_manage_switch">Switch</string>
+    <string name="octrm_sandbox_ubuntu_manage_switch_confirm">Switching Ubuntu variant will reset the environment. Continue?</string>
+    <string name="octrm_sandbox_ubuntu_manage_delete">Delete</string>
+    <string name="octrm_sandbox_ubuntu_manage_delete_confirm">Delete this Ubuntu variant? Downloaded files will be removed.</string>
+    <string name="octrm_sandbox_ubuntu_manage_cant_delete_active">Cannot delete the active variant</string>
+    <string name="octrm_sandbox_ubuntu_manage_download">Download</string>
+    <string name="octrm_sandbox_ubuntu_manage_row_title">Ubuntu System Management</string>
+    <string name="octrm_sandbox_ubuntu_manage_row_summary">Manage Ubuntu variants</string>
     <string name="octrm_sandbox_setup_ubuntu_install">Install</string>
     <string name="octrm_sandbox_setup_ubuntu_downloading">Downloading…</string>
     <string name="octrm_sandbox_setup_ubuntu_downloading_percent">Downloading… %1$d%%</string>
     <string name="octrm_sandbox_setup_ubuntu_already_downloaded">Already downloaded</string>
     <string name="octrm_sandbox_setup_ubuntu_download_failed">Download failed</string>
     <string name="octrm_sandbox_setup_ubuntu_download_retry">Retry</string>
+    <string name="octrm_sandbox_setup_ubuntu_download_paused">Download paused</string>
+    <string name="octrm_sandbox_setup_ubuntu_download_resume">Resume</string>
+    <string name="octrm_sandbox_setup_ubuntu_download_pause">Pause</string>
     <string name="octrm_sandbox_setup_ubuntu_extracting">Extracting…</string>
     <string name="octrm_sandbox_setup_ubuntu_extracting_progress">Extracting… %1$d%%</string>
     <string name="octrm_sandbox_setup_ubuntu_not_initialized">Sandbox not initialized</string>
