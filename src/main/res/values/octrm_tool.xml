@@ -68,4 +68,17 @@
     <string name="octrm_tool_ai_assert">AI Assert</string>
     <string name="octrm_tool_ai_locate">AI Locate</string>
     <string name="octrm_tool_ai_wait_for">AI Wait</string>
+    <!-- Filesystem tools -->
+    <string name="octrm_tool_list_directory">List Directory</string>
+    <string name="octrm_tool_read_file">Read File</string>
+    <string name="octrm_tool_read_file_part">Read File Part</string>
+    <string name="octrm_tool_write_file">Write File</string>
+    <string name="octrm_tool_delete_file">Delete File</string>
+    <string name="octrm_tool_file_exists">File Exists</string>
+    <string name="octrm_tool_move_file">Move File</string>
+    <string name="octrm_tool_copy_file">Copy File</string>
+    <string name="octrm_tool_make_directory">Make Directory</string>
+    <string name="octrm_tool_find_files">Find Files</string>
+    <string name="octrm_tool_file_info">File Info</string>
+
 </resources>

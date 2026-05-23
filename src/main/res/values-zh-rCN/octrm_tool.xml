@@ -68,4 +68,17 @@
     <string name="octrm_tool_ai_assert">智能断言</string>
     <string name="octrm_tool_ai_locate">智能定位</string>
     <string name="octrm_tool_ai_wait_for">智能等待</string>
+<!-- 文件系统工具 -->
+    <string name="octrm_tool_list_directory">列出目录</string>
+    <string name="octrm_tool_read_file">读取文件</string>
+    <string name="octrm_tool_read_file_part">读取文件片段</string>
+    <string name="octrm_tool_write_file">写入文件</string>
+    <string name="octrm_tool_delete_file">删除文件</string>
+    <string name="octrm_tool_file_exists">文件是否存在</string>
+    <string name="octrm_tool_move_file">移动文件</string>
+    <string name="octrm_tool_copy_file">复制文件</string>
+    <string name="octrm_tool_make_directory">创建目录</string>
+    <string name="octrm_tool_find_files">查找文件</string>
+    <string name="octrm_tool_file_info">文件信息</string>
+
 </resources>
