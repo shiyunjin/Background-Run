@@ -118,6 +118,26 @@
     <string name="octrm_sandbox_mcp_detail_close">关闭</string>
     <string name="octrm_sandbox_mcp_edit">编辑</string>
     <string name="octrm_sandbox_mcp_save">保存</string>
+
+    <!-- MCP Command Edit -->
+    <string name="octrm_sandbox_mcp_edit_commands">编辑命令</string>
+    <string name="octrm_sandbox_mcp_edit_commands_title">编辑启动命令和参数</string>
+    <string name="octrm_sandbox_mcp_command_hint">命令（如 npx、uvx、python）</string>
+    <string name="octrm_sandbox_mcp_args_label">参数</string>
+    <string name="octrm_sandbox_mcp_add_arg">添加参数</string>
+    <string name="octrm_sandbox_mcp_arg_hint">参数值</string>
+
+    <!-- MCP Environment Variables -->
+    <string name="octrm_sandbox_mcp_edit_env">环境变量</string>
+    <string name="octrm_sandbox_mcp_edit_env_title">编辑此服务的环境变量</string>
+    <string name="octrm_sandbox_mcp_add_env">添加变量</string>
+    <string name="octrm_sandbox_mcp_env_key_hint">变量名</string>
+    <string name="octrm_sandbox_mcp_env_value_hint">变量值</string>
+
+    <!-- Skill Attachments -->
+    <string name="octrm_sandbox_skill_add_attachment">添加附件</string>
+    <string name="octrm_sandbox_skill_attachment_select_error">无法打开文件选择器</string>
+    <string name="octrm_sandbox_skill_load_errors_title">Skill 加载错误</string>
     <string name="octrm_sandbox_mcp_name">名称</string>
 
     <!-- MCP 安装进度 -->
@@ -270,7 +290,7 @@
     <string name="octrm_sandbox_setup_ubuntu_variant_full_desc">内置 Node.js、Python 环境</string>
     <string name="octrm_sandbox_setup_ubuntu_variant_base">Ubuntu 基础版</string>
     <string name="octrm_sandbox_setup_ubuntu_variant_base_desc">纯净 Ubuntu，自行安装软件包</string>
-    <string name="octrm_sandbox_setup_ubuntu_full_size">约 236 MB</string>
+    <string name="octrm_sandbox_setup_ubuntu_full_size">约 318 MB</string>
     <string name="octrm_sandbox_setup_ubuntu_base_size">约 60 MB</string>
     <string name="octrm_sandbox_setup_ubuntu_manage">管理</string>
     <string name="octrm_sandbox_setup_ubuntu_full_downloaded">Ubuntu 扩展版已下载</string>
