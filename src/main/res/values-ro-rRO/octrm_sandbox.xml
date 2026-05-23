@@ -19,7 +19,10 @@
     <string name="octrm_sandbox_status_error">Error</string>
     <!-- Skills -->
     <string name="octrm_sandbox_skill_empty">No skills installed</string>
+    <string name="octrm_sandbox_skill_no_skills">No skills found</string>
     <string name="octrm_sandbox_skill_add">Add Skill</string>
+    <string name="octrm_sandbox_skill_refresh">Refresh</string>
+    <string name="octrm_sandbox_skill_refreshed">Skills refreshed</string>
     <string name="octrm_sandbox_skill_install_git">Install from Git</string>
     <string name="octrm_sandbox_skill_install_zip">Install from ZIP</string>
     <string name="octrm_sandbox_skill_uninstall">Uninstall</string>
@@ -89,6 +92,7 @@
     <!-- MCP Detail -->
     <string name="octrm_sandbox_mcp_detail">Server Details</string>
     <string name="octrm_sandbox_mcp_detail_tab_info">Info</string>
+    <string name="octrm_sandbox_mcp_detail_tab_details">Details</string>
     <string name="octrm_sandbox_mcp_detail_tab_tools">Tools</string>
     <string name="octrm_sandbox_mcp_detail_tab_log">Log</string>
     <string name="octrm_sandbox_mcp_detail_config">Configuration</string>
@@ -116,6 +120,57 @@
     <string name="octrm_sandbox_mcp_add_env">Add Variable</string>
     <string name="octrm_sandbox_mcp_env_key_hint">Variable name</string>
     <string name="octrm_sandbox_mcp_env_value_hint">Variable value</string>
+    <!-- MCP Badges -->
+    <string name="octrm_sandbox_mcp_official_badge">Official</string>
+    <string name="octrm_sandbox_mcp_invalid_badge">Invalid</string>
+    <string name="octrm_sandbox_mcp_deployed_badge">Deployed</string>
+    <string name="octrm_sandbox_mcp_redeploy">Redeploy</string>
+    <!-- MCP Import Metadata -->
+    <string name="octrm_sandbox_mcp_service_metadata">Service Metadata</string>
+    <string name="octrm_sandbox_mcp_plugin_name">Plugin Name</string>
+    <string name="octrm_sandbox_mcp_plugin_name_hint">e.g. my_mcp_plugin</string>
+    <string name="octrm_sandbox_mcp_plugin_name_desc">Letters, digits, and underscores only</string>
+    <string name="octrm_sandbox_mcp_plugin_name_optional">Plugin Name (Optional)</string>
+    <string name="octrm_sandbox_mcp_plugin_name_optional_desc">Auto-generated if left blank. Letters, digits, and underscores only</string>
+    <string name="octrm_sandbox_mcp_plugin_exists">Plugin \"%s\" already exists</string>
+    <!-- MCP Config Import -->
+    <string name="octrm_sandbox_mcp_merge_config">Merge Config</string>
+    <string name="octrm_sandbox_mcp_merged_servers">Merged %d server(s)</string>
+    <string name="octrm_sandbox_mcp_merge_failed">Merge failed: %s</string>
+    <string name="octrm_sandbox_mcp_import_exception">Import error: %s</string>
+    <string name="octrm_sandbox_mcp_please_enter_config">Please enter config JSON</string>
+    <string name="octrm_sandbox_mcp_open_config_file">Open Config File</string>
+    <string name="octrm_sandbox_mcp_config_file_location">Config file: %s</string>
+    <string name="octrm_sandbox_mcp_repository">Repository</string>
+    <string name="octrm_sandbox_mcp_config_edit_hint">Edit the mcpServers JSON for this plugin, then save to merge it into the local MCP config.</string>
+    <string name="octrm_sandbox_mcp_config_saved">Configuration saved</string>
+    <string name="octrm_sandbox_mcp_config_save_failed">Save failed: %s</string>
+    <!-- MCP Remote Import -->
+    <string name="octrm_sandbox_mcp_connect">Connect</string>
+    <string name="octrm_sandbox_mcp_remote_bearer_token_hint">Optional authentication token</string>
+    <string name="octrm_sandbox_mcp_host_address">Host Address</string>
+    <!-- MCP Import Validation -->
+    <string name="octrm_sandbox_mcp_enter_repo_link_and_name">Enter repo URL and plugin name</string>
+    <string name="octrm_sandbox_mcp_select_zip_and_name">Select ZIP file and enter plugin name</string>
+    <string name="octrm_sandbox_mcp_enter_complete_remote_info">Enter endpoint and plugin name</string>
+    <!-- MCP Status Summary -->
+    <string name="octrm_sandbox_mcp_management">MCP Management</string>
+    <string name="octrm_sandbox_mcp_no_plugins">No Plugins</string>
+    <string name="octrm_sandbox_mcp_use_import_to_add">Use the import button to add MCP services</string>
+    <!-- MCP Deploy Confirm -->
+    <string name="octrm_sandbox_mcp_deploy_confirm_title">Deploy %s?</string>
+    <string name="octrm_sandbox_mcp_deploy_confirm_message">This will deploy the plugin to the sandbox environment.</string>
+    <string name="octrm_sandbox_mcp_deploy_with_custom">Customize Commands</string>
+    <!-- MCP Regenerate Description -->
+    <string name="octrm_sandbox_mcp_regenerate_desc">AI Generate</string>
+    <string name="octrm_sandbox_mcp_regenerating_desc">Generating…</string>
+    <string name="octrm_sandbox_mcp_regenerate_success">Description generated</string>
+    <string name="octrm_sandbox_mcp_regenerate_failed">Generation failed: %s</string>
+    <string name="octrm_sandbox_mcp_edit_plugin_info">Edit Plugin Info</string>
+    <string name="octrm_sandbox_mcp_edit_remote_service">Edit Remote Service</string>
+    <string name="octrm_sandbox_mcp_description">Description</string>
+    <!-- MCP Market -->
+    <string name="octrm_sandbox_mcp_market">Market</string>
     <!-- Skill Attachments -->
     <string name="octrm_sandbox_skill_add_attachment">Add Attachment</string>
     <string name="octrm_sandbox_skill_attachment_select_error">Cannot open file picker</string>
