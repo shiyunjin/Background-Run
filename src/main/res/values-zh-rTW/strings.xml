@@ -7,7 +7,6 @@
     <string name="home_status_service_is_running">服務運作中</string>
     <string name="home_status_service_not_running">服務尚未執行</string>
     <string name="home_status_service_version">Version %2$s, %1$s</string>
-    <string name="home_status_service_version_update"><![CDATA[Version %2$s, %1$s<br>Start again to update to version %3$s]]></string>
     <!-- Home - Shizuku Permission -->
     <string name="home_shizuku_permission_title">Shizuku Permission</string>
     <string name="home_working_mode_title">Working Mode</string>
@@ -20,14 +19,6 @@
     <string name="home_adb_permission_title">ADB Wireless Debugging</string>
     <string name="home_adb_permission_description"><![CDATA[Why ADB mode?<br>Background processes require ADB privileges. This mode connects directly to the device\'s wireless debugging service without requiring Shizuku or Root.<br><br>Prerequisites:<br>1. Enable <b>Wireless Debugging</b> in Developer Options<br>2. <b>Pair</b> this app with the device<br>3. <b>Connect</b> to the ADB service]]></string>
     <string name="home_adb_permission_button_pair">ADB Pair</string>
-    <string name="home_adb_permission_button_connect">Connect</string>
-    <string name="home_adb_pairing_title">ADB Pairing</string>
-    <string name="home_adb_pairing_address">Pairing Address (IP:Port)</string>
-    <string name="home_adb_pairing_code">Pairing Code</string>
-    <string name="home_adb_pairing_hint">Go to Settings &gt; Developer Options &gt; Wireless Debugging &gt; Pair device with pairing code, then enter the pairing address and code here.</string>
-    <string name="home_adb_pairing_open_settings">Open Wireless Debugging Settings</string>
-    <string name="home_adb_pairing_address_invalid">Invalid address format (e.g. 192.168.1.100:37891)</string>
-    <string name="home_adb_pairing_code_invalid">Pairing code must be 6 digits</string>
     <!-- ADB Pairing Tutorial -->
     <string name="adb_pairing_tutorial_title">Pair with your device</string>
     <string name="adb_pairing_tutorial_notification">A notification will help you complete the pairing.</string>
@@ -112,7 +103,6 @@
     <string name="persistent_notification_summary">click to background run</string>
     <!-- About -->
     <string name="action_about">About</string>
-    <string name="about_view_source_code"><![CDATA[View source code at %s]]></string>
     <!-- Stop -->
     <string name="action_stop">Stop Service</string>
     <string name="dialog_stop_message">Service will be stop.</string>
@@ -121,7 +111,6 @@
     <string name="dialog_restart_message">Service will restart, It will take about 10 seconds.</string>
     <!-- Misc -->
     <string name="dialog_cannot_open_browser_title">Can\'t start browser</string>
-    <string name="toast_copied_to_clipboard">%s has been copied to clipboard.</string>
     <string name="toast_copied_to_clipboard_with_text"><![CDATA[<b>%s</b> has been copied to clipboard.]]></string>
     <!-- Tile -->
     <string name="tile_title">Background Run</string>
@@ -131,9 +120,6 @@
     <string name="notification_task_resume_title">Background Running</string>
     <string name="notification_task_resume_text">App: %s is running</string>
     <string name="notification_task_resume_action">Exit Background</string>
-    <string name="notification_start_on_boot_channel_name">Start on boot</string>
-    <string name="notification_start_on_boot">Start on boot</string>
-    <string name="notification_start_on_boot_summary">Waiting for Shizuku init...</string>
     <!-- Home - Notification -->
     <string name="home_notification_title">Notification</string>
     <string name="home_notification_description"><![CDATA[Notification permissions are required to notify you which apps are running in the background and to provide a method to bring them back to the foreground in the notification.]]></string>
@@ -175,11 +161,6 @@
     <string name="toast_network_error">Network Error.</string>
     <string name="toast_start_server_failed">Service failed to start:</string>
     <string name="toast_root_required">Can\'t open root shell, try again…</string>
-    <string name="toast_adb_not_connected">ADB not connected, please pair and connect first</string>
-    <string name="toast_adb_pairing_success">ADB pairing successful</string>
-    <string name="toast_adb_pairing_failed">ADB pairing failed</string>
-    <string name="toast_adb_connect_success">ADB connected successfully</string>
-    <string name="toast_adb_connect_failed">ADB connection failed</string>
     <string name="toast_background_service_disallowed">Unable to start pairing service.\nPlease allow this app to run in the background.</string>
     <!-- Purchase -->
     <string name="purchase_pro">Purchase Pro Version</string>
@@ -190,7 +171,6 @@
     <string name="switch_move">Switch Move Method</string>
     <string name="switch_move_display">move app stack (default)</string>
     <string name="switch_move_recents">Wake up from recent tasks</string>
-    <string name="toast_switch_move_restart">Switching successful. The changes will take effect after restarting the service.</string>
     <!-- Floating Settings -->
     <string name="settings_floating">Floating Button Settings</string>
     <string name="settings_floating_summary">The floating button allows you to check the status of the background application at any time.</string>
@@ -227,7 +207,6 @@
     <string name="toast_floating_trial_started">7-day floating window trial has started</string>
     <string name="toast_floating_trial_expired">Floating window trial has ended</string>
     <string name="toast_ad_watched">Ad watched successfully, trial extended by 7 days!</string>
-    <string name="toast_ad_not_completed">Please watch %d more ads first</string>
     <string name="toast_ad_failed">Ad failed to load, please try again</string>
     <string name="toast_ad_loading">Loading ad, please wait…</string>
     <!-- Home - Floating Promo Trial Banner -->
@@ -251,9 +230,9 @@
     <string name="settings_xposed_not_connected">Not connected to service</string>
     <string name="settings_xposed_reboot_hint"> (if just activated, please reboot)</string>
     <string name="settings_xposed_activated">Service connected</string>
-    <string name="settings_xposed_module_status">Module Status</string>
     <string name="settings_xposed_module_activated">Module activated</string>
     <string name="settings_xposed_module_not_activated">Module not activated</string>
     <string name="settings_xposed_hook_activated">Hook mounted</string>
     <string name="settings_xposed_hook_not_activated">Hook not mounted</string>
+    <string name="keep_alive_title">Keep Screen Alive</string>
 </resources>
