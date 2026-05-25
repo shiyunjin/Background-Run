@@ -4,7 +4,6 @@
     <string name="home_status_service_is_running">服务运行中</string>
     <string name="home_status_service_not_running">服务未运行</string>
     <string name="home_status_service_version">版本 %2$s, %1$s</string>
-    <string name="home_status_service_version_update"><![CDATA[Version %2$s, %1$s<br>重启更新到最新版本 %3$s]]></string>
     <string name="home_shizuku_permission_title">Shizuku 权限</string>
     <string name="home_working_mode_title">工作模式</string>
     <string name="home_working_mode_shizuku">Shizuku</string>
@@ -17,14 +16,6 @@
     <string name="home_adb_permission_title">ADB 无线调试</string>
     <string name="home_adb_permission_description"><![CDATA[为什么需要 ADB 模式？<br>后台进程需要 ADB 权限才能运行。此模式直接连接设备的无线调试服务，无需 Shizuku 或 Root。<br><br>前提条件：<br>1. 在开发者选项中启用<b>无线调试</b><br>2. 将本应用与设备<b>配对</b><br>3. <b>连接</b>到 ADB 服务]]></string>
     <string name="home_adb_permission_button_pair">ADB 配对</string>
-    <string name="home_adb_permission_button_connect">连接</string>
-    <string name="home_adb_pairing_title">ADB 配对</string>
-    <string name="home_adb_pairing_address">配对地址 (IP:端口)</string>
-    <string name="home_adb_pairing_code">配对码</string>
-    <string name="home_adb_pairing_hint">前往 设置 > 开发者选项 > 无线调试 > 使用配对码配对设备，然后在此输入配对地址和配对码。</string>
-    <string name="home_adb_pairing_open_settings">打开无线调试设置</string>
-    <string name="home_adb_pairing_address_invalid">地址格式无效（例如 192.168.1.100:37891）</string>
-    <string name="home_adb_pairing_code_invalid">配对码必须为6位数字</string>
 
     <!-- ADB Pairing Tutorial -->
     <string name="adb_pairing_tutorial_title">配对设备</string>
@@ -84,10 +75,8 @@
     <string name="background_launcher_alias">立即挂机</string>
     <string name="persistent_notification_summary">点击触发后台挂机</string>
     <string name="action_about">关于</string>
-    <string name="about_view_source_code"><![CDATA[在 %s 查看源代码]]></string>
     <string name="dialog_restart_message">服务将被重启，大概需要10秒。</string>
     <string name="dialog_cannot_open_browser_title">不能启动浏览器</string>
-    <string name="toast_copied_to_clipboard">%s 已经复制到剪贴板.</string>
     <string name="toast_copied_to_clipboard_with_text"><![CDATA[<b>%s</b> 已经复制到剪贴板.]]></string>
     <string name="tile_title">后台挂机</string>
     <string name="notification_task_resume_channel_name">正在后台挂机</string>
@@ -95,7 +84,6 @@
     <string name="notification_task_resume_title">后台挂机中</string>
     <string name="notification_task_resume_text">应用: %s 正在运行</string>
     <string name="notification_task_resume_action">退出后台挂机</string>
-    <string name="notification_start_on_boot_summary">等待Shizuku初始化中...</string>
     <string name="home_notification_title">通知权限</string>
     <string name="home_notification_description"><![CDATA[需要通知权限来通知你哪些应用正在后台运行，并在通知中提供恢复前台的方法。]]></string>
     <string name="home_notification_button">授予权限</string>
@@ -129,11 +117,6 @@
     <string name="toast_network_error">网络错误</string>
     <string name="toast_start_server_failed">启动服务失败:</string>
     <string name="toast_root_required">未获取到Root权限，请重试...</string>
-    <string name="toast_adb_not_connected">ADB 未连接，请先配对并连接</string>
-    <string name="toast_adb_pairing_success">ADB 配对成功</string>
-    <string name="toast_adb_pairing_failed">ADB 配对失败</string>
-    <string name="toast_adb_connect_success">ADB 连接成功</string>
-    <string name="toast_adb_connect_failed">ADB 连接失败</string>
     <string name="toast_background_service_disallowed">无法开启配对服务，请允许应用在后台运行</string>
     <string name="purchase_pro">购买高级版</string>
     <string name="purchase_resume">恢复购买</string>
@@ -142,8 +125,6 @@
     <string name="toast_add_tile">相同的磁贴只能存在一个</string>
     <string name="home_service_start_title">启动服务</string>
     <string name="home_service_start_description">服务未运行。启动服务需要5-10秒。</string>
-    <string name="notification_start_on_boot_channel_name">开机启动</string>
-    <string name="notification_start_on_boot">开机启动</string>
     <string name="settings_diagnostic">诊断服务</string>
     <string name="settings_diagnostic_summary">如果服务启动失败或启动异常，可以在这里检测问题.</string>
     <string name="diagnostic_title">诊断</string>
@@ -170,7 +151,6 @@
     <string name="switch_move">切换移动方法</string>
     <string name="switch_move_display">移动应用栈 (默认)</string>
     <string name="switch_move_recents">从最近任务唤醒</string>
-    <string name="toast_switch_move_restart">切换成功，重启服务后生效</string>
 
     <!-- Floating Settings -->
     <string name="settings_floating">浮标设置</string>
@@ -213,7 +193,6 @@
     <string name="toast_floating_trial_started">已开启7天浮窗试用</string>
     <string name="toast_floating_trial_expired">浮窗试用期已结束</string>
     <string name="toast_ad_watched">广告观看成功，试用已续期7天</string>
-    <string name="toast_ad_not_completed">请先看完%d个广告</string>
     <string name="toast_ad_failed">广告加载失败，请重试</string>
     <string name="toast_ad_loading">正在加载广告，请稍候…</string>
 
@@ -241,9 +220,10 @@
     <string name="settings_xposed_not_connected">未连接到服务</string>
     <string name="settings_xposed_reboot_hint">（如果刚刚激活请重启）</string>
     <string name="settings_xposed_activated">服务已连接</string>
-    <string name="settings_xposed_module_status">模块状态</string>
     <string name="settings_xposed_module_activated">模块已激活</string>
     <string name="settings_xposed_module_not_activated">模块未激活</string>
     <string name="settings_xposed_hook_activated">注入成功</string>
     <string name="settings_xposed_hook_not_activated">注入失败</string>
+
+    <string name="keep_alive_title">保持屏幕唤醒</string>
 </resources>
