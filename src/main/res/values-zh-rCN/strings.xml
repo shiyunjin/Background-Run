@@ -7,7 +7,6 @@
     <string name="home_status_service_is_running">服务运行中</string>
     <string name="home_status_service_not_running">服务未运行</string>
     <string name="home_status_service_version">版本 %2$s, %1$s</string>
-    <string name="home_status_service_version_update"><![CDATA[Version %2$s, %1$s<br>重启更新到最新版本 %3$s]]></string>
     <!-- Home - Shizuku Permission -->
     <string name="home_shizuku_permission_title">Shizuku 权限</string>
     <string name="home_working_mode_title">Working Mode</string>
@@ -20,14 +19,6 @@
     <string name="home_adb_permission_title">ADB Wireless Debugging</string>
     <string name="home_adb_permission_description"><![CDATA[Why ADB mode?<br>Background processes require ADB privileges. This mode connects directly to the device\'s wireless debugging service without requiring Shizuku or Root.<br><br>Prerequisites:<br>1. Enable <b>Wireless Debugging</b> in Developer Options<br>2. <b>Pair</b> this app with the device<br>3. <b>Connect</b> to the ADB service]]></string>
     <string name="home_adb_permission_button_pair">ADB Pair</string>
-    <string name="home_adb_permission_button_connect">Connect</string>
-    <string name="home_adb_pairing_title">ADB Pairing</string>
-    <string name="home_adb_pairing_address">Pairing Address (IP:Port)</string>
-    <string name="home_adb_pairing_code">Pairing Code</string>
-    <string name="home_adb_pairing_hint">Go to Settings &gt; Developer Options &gt; Wireless Debugging &gt; Pair device with pairing code, then enter the pairing address and code here.</string>
-    <string name="home_adb_pairing_open_settings">Open Wireless Debugging Settings</string>
-    <string name="home_adb_pairing_address_invalid">Invalid address format (e.g. 192.168.1.100:37891)</string>
-    <string name="home_adb_pairing_code_invalid">Pairing code must be 6 digits</string>
     <!-- ADB Pairing Tutorial -->
     <string name="adb_pairing_tutorial_title">Pair with your device</string>
     <string name="adb_pairing_tutorial_notification">A notification will help you complete the pairing.</string>
@@ -112,7 +103,6 @@
     <string name="persistent_notification_summary">click to background run</string>
     <!-- About -->
     <string name="action_about">关于</string>
-    <string name="about_view_source_code"><![CDATA[在 %s 查看源代码]]></string>
     <!-- Stop -->
     <string name="action_stop">停止服务</string>
     <string name="dialog_stop_message">服务将被停止.</string>
@@ -121,7 +111,6 @@
     <string name="dialog_restart_message">Service will restart, It will take about 10 seconds.</string>
     <!-- Misc -->
     <string name="dialog_cannot_open_browser_title">不能启动浏览器</string>
-    <string name="toast_copied_to_clipboard">%s 已经复制到剪贴板.</string>
     <string name="toast_copied_to_clipboard_with_text"><![CDATA[<b>%s</b> 已经复制到剪贴板.]]></string>
     <!-- Tile -->
     <string name="tile_title">后台挂机</string>
@@ -131,9 +120,6 @@
     <string name="notification_task_resume_title">后台挂机中</string>
     <string name="notification_task_resume_text">应用: %s 正在运行</string>
     <string name="notification_task_resume_action">退出后台挂机</string>
-    <string name="notification_start_on_boot_channel_name">开机启动</string>
-    <string name="notification_start_on_boot">开机启动</string>
-    <string name="notification_start_on_boot_summary">等待Shizuku初始化中...</string>
     <!-- Home - Notification -->
     <string name="home_notification_title">通知权限</string>
     <string name="home_notification_description"><![CDATA[需要通知权限来通知你哪些应用正在后台运行，并在通知中提供恢复前台的方法。]]></string>
@@ -175,11 +161,6 @@
     <string name="toast_network_error">网络错误</string>
     <string name="toast_start_server_failed">Service failed to start:</string>
     <string name="toast_root_required">Can\'t open root shell, try again…</string>
-    <string name="toast_adb_not_connected">ADB not connected, please pair and connect first</string>
-    <string name="toast_adb_pairing_success">ADB pairing successful</string>
-    <string name="toast_adb_pairing_failed">ADB pairing failed</string>
-    <string name="toast_adb_connect_success">ADB connected successfully</string>
-    <string name="toast_adb_connect_failed">ADB connection failed</string>
     <string name="toast_background_service_disallowed">Unable to start pairing service.\nPlease allow this app to run in the background.</string>
     <!-- Purchase -->
     <string name="purchase_pro">购买高级版</string>
@@ -190,7 +171,6 @@
     <string name="switch_move">切换移动方法</string>
     <string name="switch_move_display">移动应用栈 (默认)</string>
     <string name="switch_move_recents">从最近任务唤醒</string>
-    <string name="toast_switch_move_restart">切换成功。更改将在重新启动服务后生效。</string>
     <!-- Floating Settings -->
     <string name="settings_floating">Floating Button Settings</string>
     <string name="settings_floating_summary">The floating button allows you to check the status of the background application at any time.</string>
@@ -227,7 +207,6 @@
     <string name="toast_floating_trial_started">7-day floating window trial has started</string>
     <string name="toast_floating_trial_expired">Floating window trial has ended</string>
     <string name="toast_ad_watched">Ad watched successfully, trial extended by 7 days!</string>
-    <string name="toast_ad_not_completed">Please watch %d more ads first</string>
     <string name="toast_ad_failed">Ad failed to load, please try again</string>
     <string name="toast_ad_loading">Loading ad, please wait…</string>
     <!-- Home - Floating Promo Trial Banner -->
@@ -251,9 +230,9 @@
     <string name="settings_xposed_not_connected">Not connected to service</string>
     <string name="settings_xposed_reboot_hint"> (if just activated, please reboot)</string>
     <string name="settings_xposed_activated">Service connected</string>
-    <string name="settings_xposed_module_status">Module Status</string>
     <string name="settings_xposed_module_activated">Module activated</string>
     <string name="settings_xposed_module_not_activated">Module not activated</string>
     <string name="settings_xposed_hook_activated">Hook mounted</string>
     <string name="settings_xposed_hook_not_activated">Hook not mounted</string>
+    <string name="keep_alive_title">Keep Screen Alive</string>
 </resources>
