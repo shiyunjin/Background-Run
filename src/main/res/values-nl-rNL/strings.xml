@@ -101,6 +101,19 @@
     <string name="settings_background_launcher_summary">Add a launcher icon to move the current app to background with one tap. Cannot be tapped from home screen directly; use with gesture apps or system sidebars to launch from within other apps.</string>
     <string name="background_launcher_alias">Move to Background</string>
     <string name="persistent_notification_summary">click to background run</string>
+    <!-- Trigger Settings -->
+    <string name="settings_trigger">Triggers</string>
+    <string name="settings_trigger_summary">Configure ways to trigger background run</string>
+    <string name="settings_trigger_floating">Floating Window Trigger</string>
+    <string name="settings_trigger_floating_summary">When launched in floating window mode, triggers the current application to the background, such as when the smart sidebar is launched.</string>
+    <string name="settings_trigger_persistent_notification">Persistent Notification</string>
+    <string name="settings_trigger_persistent_notification_summary">Show a persistent notification to quickly trigger background run</string>
+    <string name="settings_trigger_background_launcher">Background Shortcut</string>
+    <string name="settings_trigger_background_launcher_summary">Add a launcher icon to move the current app to background with one tap</string>
+    <string name="settings_trigger_shortcut_app">Shortcut App</string>
+    <string name="settings_trigger_shortcut_app_summary">Install a helper app that adds an icon in the app, tap to move the current app to background</string>
+    <string name="settings_trigger_shortcut_app_install">Install</string>
+    <string name="settings_trigger_shortcut_app_uninstall">Uninstall</string>
     <!-- About -->
     <string name="action_about">About</string>
     <!-- Stop -->
