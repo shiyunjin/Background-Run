@@ -236,5 +236,7 @@
     <string name="settings_xposed_hook_activated">注入成功</string>
     <string name="settings_xposed_hook_not_activated">注入失败</string>
 
+    <string name="toast_adb_port_searching">正在搜索adb端口中，启动无线调试后再试</string>
+
     <string name="keep_alive_title">保持屏幕唤醒</string>
 </resources>

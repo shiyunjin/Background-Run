@@ -279,5 +279,7 @@
     <string name="settings_xposed_hook_activated">Hook mounted</string>
     <string name="settings_xposed_hook_not_activated">Hook not mounted</string>
 
+    <string name="toast_adb_port_searching">Searching for ADB port, please enable wireless debugging and try again</string>
+
     <string name="keep_alive_title">Keep Screen Alive</string>
 </resources>
