@@ -162,6 +162,10 @@
     <string name="toast_start_server_failed">Service failed to start:</string>
     <string name="toast_root_required">Can\'t open root shell, try again…</string>
     <string name="toast_background_service_disallowed">Unable to start pairing service.\nPlease allow this app to run in the background.</string>
+    <string name="toast_adb_not_paired">ADB device not paired, please pair first</string>
+    <string name="toast_shizuku_not_authorized">Shizuku not authorized, please grant permission first</string>
+    <string name="toast_root_not_available">Root access not available, please check your device</string>
+    <string name="toast_server_starting">Starting server, please wait…</string>
     <!-- Purchase -->
     <string name="purchase_pro">Purchase Pro Version</string>
     <string name="purchase_resume">Resume purchase</string>
