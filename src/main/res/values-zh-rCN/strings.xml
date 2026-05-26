@@ -118,6 +118,10 @@
     <string name="toast_start_server_failed">启动服务失败:</string>
     <string name="toast_root_required">未获取到Root权限，请重试...</string>
     <string name="toast_background_service_disallowed">无法开启配对服务，请允许应用在后台运行</string>
+    <string name="toast_adb_not_paired">ADB 设备未配对，请先配对</string>
+    <string name="toast_shizuku_not_authorized">Shizuku 未授权，请先授予权限</string>
+    <string name="toast_root_not_available">Root 权限不可用，请检查设备</string>
+    <string name="toast_server_starting">正在启动服务，请稍候…</string>
     <string name="purchase_pro">购买高级版</string>
     <string name="purchase_resume">恢复购买</string>
     <string name="toast_upgrade_pro">升级到高级版成功</string>
