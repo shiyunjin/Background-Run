@@ -68,26 +68,19 @@
     <string name="settings_multi_window_mode">浮窗触发器</string>
     <string name="settings_start_on_boot_summary">开机后自动启动服务</string>
     <string name="settings_start_on_boot">开机启动</string>
-    <string name="settings_persistent_notification">常驻通知</string>
-    <string name="settings_persistent_notification_summary">显示一个常驻通知以快速触发后台挂机</string>
-    <string name="settings_background_launcher">挂机快捷入口</string>
-    <string name="settings_background_launcher_summary">在桌面添加一个图标，点击即可将当前应用移至后台挂机（不能在桌面点击，需要和其他应用（手势启动）或某些系统的侧边栏配合使用）</string>
     <string name="background_launcher_alias">立即挂机</string>
     <string name="persistent_notification_summary">点击触发后台挂机</string>
 
     <!-- 触发器设置 -->
     <string name="settings_trigger">触发器</string>
     <string name="settings_trigger_summary">配置多种触发后台挂机的方式</string>
-    <string name="settings_trigger_floating">浮窗触发器</string>
-    <string name="settings_trigger_floating_summary">当以浮动窗口启动时将会把当前应用程序切换到后台运行，例如通过智能侧边栏启动时。</string>
     <string name="settings_trigger_persistent_notification">常驻通知</string>
     <string name="settings_trigger_persistent_notification_summary">显示一个常驻通知以快速触发后台挂机</string>
     <string name="settings_trigger_background_launcher">挂机快捷入口</string>
-    <string name="settings_trigger_background_launcher_summary">在桌面添加一个图标，点击即可将当前应用移至后台挂机</string>
+    <string name="settings_trigger_background_launcher_summary">在桌面添加一个图标，点击即可将当前应用移至后台挂机（不能在桌面点击，需要和其他应用（手势启动）或某些系统的侧边栏配合使用）</string>
     <string name="settings_trigger_shortcut_app">挂机快捷应用</string>
-    <string name="settings_trigger_shortcut_app_summary">安装一个辅助程序，会在应用添加一个图标，点击即可将当前应用移至后台挂机</string>
-    <string name="settings_trigger_shortcut_app_install">安装</string>
-    <string name="settings_trigger_shortcut_app_uninstall">卸载</string>
+    <string name="settings_trigger_shortcut_app_summary">安装一个辅助程序，会在应用添加一个图标，点击即可将当前应用移至后台挂机（不能在桌面点击，需要和其他应用（手势启动）或某些系统的侧边栏配合使用）</string>
+
     <string name="action_about">关于</string>
     <string name="dialog_restart_message">服务将被重启，大概需要10秒。</string>
     <string name="dialog_cannot_open_browser_title">不能启动浏览器</string>
