@@ -106,6 +106,7 @@
     <string name="settings_trigger_background_launcher_summary">Add a launcher icon to move the current app to background with one tap. Cannot be tapped from home screen directly; use with gesture apps or system sidebars to launch from within other apps.</string>
     <string name="settings_trigger_shortcut_app">Shortcut App</string>
     <string name="settings_trigger_shortcut_app_summary">Install a helper app that adds an icon in the app, tap to move the current app to background. Cannot be tapped from home screen directly; use with gesture apps or system sidebars to launch from within other apps.</string>
+    <string name="shortcut_app_install_hint">APK saved to Download/BackgroundRun/, please install it manually.</string>
     <!-- About -->
     <string name="action_about">关于</string>
     <!-- Stop -->
