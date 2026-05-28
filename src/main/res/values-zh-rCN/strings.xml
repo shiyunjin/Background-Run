@@ -80,6 +80,7 @@
     <string name="settings_trigger_background_launcher_summary">在桌面添加一个图标，点击即可将当前应用移至后台挂机（不能在桌面点击，需要和其他应用（手势启动）或某些系统的侧边栏配合使用）</string>
     <string name="settings_trigger_shortcut_app">挂机快捷应用</string>
     <string name="settings_trigger_shortcut_app_summary">安装一个辅助程序，会在应用添加一个图标，点击即可将当前应用移至后台挂机（不能在桌面点击，需要和其他应用（手势启动）或某些系统的侧边栏配合使用）</string>
+    <string name="shortcut_app_install_hint">APK已保存到 Download/BackgroundRun/，请手动安装。</string>
 
     <string name="action_about">关于</string>
     <string name="dialog_restart_message">服务将被重启，大概需要10秒。</string>
