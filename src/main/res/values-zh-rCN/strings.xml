@@ -9,40 +9,43 @@
     <string name="home_status_service_version">版本 %2$s, %1$s</string>
     <!-- Home - Shizuku Permission -->
     <string name="home_shizuku_permission_title">Shizuku 权限</string>
-    <string name="home_working_mode_title">Working Mode</string>
+    <string name="home_working_mode_title">工作模式</string>
     <string name="home_working_mode_shizuku">Shizuku</string>
     <string name="home_working_mode_root">Root</string>
     <string name="home_working_mode_adb">ADB</string>
     <string name="home_shizuku_permission_description"><![CDATA[为什么需要 Shizuku?<br>后台进程需要 ADB 权限才能运行。Shizuku 提供了这个接口。您需要先安装并运行 Shizuku，并对其进行授权才能使用。<br>%s]]></string>
     <string name="home_shizuku_permission_button">授权</string>
     <!-- Home - ADB Permission -->
-    <string name="home_adb_permission_title">ADB Wireless Debugging</string>
-    <string name="home_adb_permission_description"><![CDATA[Why ADB mode?<br>Background processes require ADB privileges. This mode connects directly to the device\'s wireless debugging service without requiring Shizuku or Root.<br><br>Prerequisites:<br>1. Enable <b>Wireless Debugging</b> in Developer Options<br>2. <b>Pair</b> this app with the device<br>3. <b>Connect</b> to the ADB service]]></string>
-    <string name="home_adb_permission_button_pair">ADB Pair</string>
+    <string name="home_adb_permission_title">ADB 无线调试</string>
+    <string name="home_adb_permission_description"><![CDATA[为什么需要 ADB 模式？<br>后台进程需要 ADB 权限才能运行。此模式直接连接设备的无线调试服务，无需 Shizuku 或 Root。<br><br>前提条件：<br>1. 在开发者选项中启用<b>无线调试</b><br>2. 将本应用与设备<b>配对</b><br>3. <b>连接</b>到 ADB 服务]]></string>
+    <string name="home_adb_permission_button_pair">ADB 配对</string>
     <!-- ADB Pairing Tutorial -->
-    <string name="adb_pairing_tutorial_title">Pair with your device</string>
-    <string name="adb_pairing_tutorial_notification">A notification will help you complete the pairing.</string>
-    <string name="adb_pairing_tutorial_notification_blocked">The pairing process needs you to interact with a notification. Please allow this app to post notifications.</string>
-    <string name="adb_pairing_tutorial_step1">Enter \"Developer options\" - \"Wireless debugging\". Tap \"Pair device with pairing code\", you will see a six-digit code.</string>
-    <string name="adb_pairing_tutorial_step1_hint">Please note, left part of the \"Wireless debugging\" option is clickable, tapping it will open a new page. Only turning on the switch on the right is incorrect.</string>
-    <string name="adb_pairing_tutorial_step2">Enter the pairing code in the notification to complete pairing.</string>
-    <string name="adb_pairing_tutorial_step3">Return to this app and connect.</string>
-    <string name="development_settings">Developer options</string>
-    <string name="notification_settings">Notification options</string>
+    <string name="adb_pairing_tutorial_title">配对设备</string>
+    <string name="adb_pairing_tutorial_notification">通知将帮助您完成配对。</string>
+    <string name="adb_pairing_tutorial_notification_blocked">配对过程需要您与通知交互。请允许本应用发送通知。</string>
+    <string name="adb_pairing_tutorial_step1">Enable \"Developer options\". Go to \"About phone\" and tap \"Build number\" 7 times.</string>
+    <string name="adb_pairing_tutorial_step1_enabled">Developer options detected (you can skip this step)</string>
+    <string name="adb_pairing_tutorial_step2">Enter \"Developer options\" - \"Wireless debugging\". Tap \"Pair device with pairing code\", you will see a six-digit code.</string>
+    <string name="adb_pairing_tutorial_step2_hint">Please note, left part of the \"Wireless debugging\" option is clickable, tapping it will open a new page. Only turning on the switch on the right is incorrect.</string>
+    <string name="adb_pairing_tutorial_step3">Enter the pairing code in the notification to complete pairing.</string>
+    <string name="adb_pairing_tutorial_step4">Return to this app and connect.</string>
+    <string name="about_phone">About phone</string>
+    <string name="development_settings">开发者选项</string>
+    <string name="notification_settings">通知设置</string>
     <!-- ADB Pairing Notification -->
-    <string name="notification_channel_adb_pairing">ADB Pairing</string>
-    <string name="notification_adb_pairing_searching_title">Searching for pairing service</string>
-    <string name="notification_adb_pairing_service_found_title">Pairing service found</string>
-    <string name="notification_adb_pairing_input_pairing_code">Enter pairing code</string>
-    <string name="notification_adb_pairing_stop_searching">Stop searching</string>
-    <string name="notification_adb_pairing_working_title">Pairing in progress</string>
-    <string name="notification_adb_pairing_succeed_title">Pairing successful</string>
-    <string name="notification_adb_pairing_succeed_text">You can now connect to ADB.</string>
-    <string name="notification_adb_pairing_failed_title">Pairing failed</string>
-    <string name="dialog_adb_pairing_pairing_code">Pairing code</string>
-    <string name="cannot_connect_port">Can\'t connect to wireless debugging service.</string>
-    <string name="pairing_code_wrong">Pairing code is wrong.</string>
-    <string name="adb_error_key_store">Unable to generate key for wireless debugging.\nThis may be because KeyStore mechanism of this device is broken.</string>
+    <string name="notification_channel_adb_pairing">ADB 配对</string>
+    <string name="notification_adb_pairing_searching_title">正在搜索配对服务</string>
+    <string name="notification_adb_pairing_service_found_title">已发现配对服务</string>
+    <string name="notification_adb_pairing_input_pairing_code">输入配对码</string>
+    <string name="notification_adb_pairing_stop_searching">停止搜索</string>
+    <string name="notification_adb_pairing_working_title">正在配对</string>
+    <string name="notification_adb_pairing_succeed_title">配对成功</string>
+    <string name="notification_adb_pairing_succeed_text">您现在可以连接 ADB 了。</string>
+    <string name="notification_adb_pairing_failed_title">配对失败</string>
+    <string name="dialog_adb_pairing_pairing_code">配对码</string>
+    <string name="cannot_connect_port">无法连接到无线调试服务。</string>
+    <string name="pairing_code_wrong">配对码错误。</string>
+    <string name="adb_error_key_store">无法生成无线调试密钥。\n可能是因为此设备的 KeyStore 机制存在问题。</string>
     <!-- Home - Learn more -->
     <string name="home_learn_more_title">了解后台挂机</string>
     <string name="home_learn_more_description">了解如何使用后台挂机</string>
@@ -61,7 +64,7 @@
     <string name="settings_use_system_color">使用系统主题颜色</string>
     <string name="settings_action">功能设置</string>
     <string name="settings_diagnostic">诊断服务</string>
-    <string name="settings_diagnostic_summary">如果服务未能启动或遇到启动过程中的错误，您可以在这里检查问题。</string>
+    <string name="settings_diagnostic_summary">如果服务启动失败或启动异常，可以在这里检测问题.</string>
     <string name="diagnostic_title">诊断</string>
     <string name="diagnostic_start">开始检测</string>
     <string name="diagnostic_progress_format">%d%%</string>
@@ -70,7 +73,7 @@
     <string name="diagnostic_checking_port">检查 端口 8127...</string>
     <string name="diagnostic_checking_slibpath">检查 LibPath 可读...</string>
     <string name="diagnostic_checking_shizuku">检查 Shizuku 连接状态...</string>
-    <string name="diagnostic_checking_root">Checking Root permission...</string>
+    <string name="diagnostic_checking_root">检查 Root 权限...</string>
     <string name="diagnostic_result_success">成功</string>
     <string name="diagnostic_result_failed">失败</string>
     <string name="diagnostic_item_setsid">setsid 存在</string>
@@ -78,9 +81,9 @@
     <string name="diagnostic_item_port">端口8127未被占用</string>
     <string name="diagnostic_item_slibpath">LibPath 可读</string>
     <string name="diagnostic_item_shizuku">Shizuku 已连接</string>
-    <string name="diagnostic_item_root">Root permission</string>
-    <string name="diagnostic_item_adb">ADB wireless debugging</string>
-    <string name="diagnostic_checking_adb">Checking ADB connection...</string>
+    <string name="diagnostic_item_root">Root 权限</string>
+    <string name="diagnostic_item_adb">ADB 无线调试</string>
+    <string name="diagnostic_checking_adb">正在检查 ADB 连接...</string>
     <string name="diagnostic_item_shizuku_install">Shizuku 已安装</string>
     <string name="diagnostic_checking_shizuku_install">检查 Shizuku 安装状态...</string>
     <string name="diagnostic_share_log">分享日志</string>
@@ -95,18 +98,18 @@
     <string name="settings_multi_window_mode">浮窗触发器</string>
     <string name="settings_start_on_boot_summary">开机后自动启动服务</string>
     <string name="settings_start_on_boot">开机启动</string>
-    <string name="background_launcher_alias">Move to Background</string>
-    <string name="persistent_notification_summary">click to background run</string>
+    <string name="background_launcher_alias">立即挂机</string>
+    <string name="persistent_notification_summary">点击触发后台挂机</string>
     <!-- Trigger Settings -->
-    <string name="settings_trigger">Triggers</string>
-    <string name="settings_trigger_summary">Configure ways to trigger background run</string>
-    <string name="settings_trigger_persistent_notification">Persistent Notification</string>
-    <string name="settings_trigger_persistent_notification_summary">Show a persistent notification to quickly trigger background run</string>
-    <string name="settings_trigger_background_launcher">Move to Background Shortcut</string>
-    <string name="settings_trigger_background_launcher_summary">Add a launcher icon to move the current app to background with one tap. Cannot be tapped from home screen directly; use with gesture apps or system sidebars to launch from within other apps.</string>
-    <string name="settings_trigger_shortcut_app">Shortcut App</string>
-    <string name="settings_trigger_shortcut_app_summary">Install a helper app that adds an icon in the app, tap to move the current app to background. Cannot be tapped from home screen directly; use with gesture apps or system sidebars to launch from within other apps.</string>
-    <string name="shortcut_app_install_hint">APK saved to Download/BackgroundRun/, please install it manually.</string>
+    <string name="settings_trigger">触发器</string>
+    <string name="settings_trigger_summary">配置多种触发后台挂机的方式</string>
+    <string name="settings_trigger_persistent_notification">常驻通知</string>
+    <string name="settings_trigger_persistent_notification_summary">显示一个常驻通知以快速触发后台挂机</string>
+    <string name="settings_trigger_background_launcher">挂机快捷入口</string>
+    <string name="settings_trigger_background_launcher_summary">在桌面添加一个图标，点击即可将当前应用移至后台挂机（不能在桌面点击，需要和其他应用（手势启动）或某些系统的侧边栏配合使用）</string>
+    <string name="settings_trigger_shortcut_app">挂机快捷应用</string>
+    <string name="settings_trigger_shortcut_app_summary">安装一个辅助程序，会在应用添加一个图标，点击即可将当前应用移至后台挂机（不能在桌面点击，需要和其他应用（手势启动）或某些系统的侧边栏配合使用）</string>
+    <string name="shortcut_app_install_hint">APK已保存到 Download/BackgroundRun/，请手动安装。</string>
     <!-- About -->
     <string name="action_about">关于</string>
     <!-- Stop -->
@@ -114,7 +117,7 @@
     <string name="dialog_stop_message">服务将被停止.</string>
     <!-- Restart -->
     <string name="action_restart">重启服务</string>
-    <string name="dialog_restart_message">Service will restart, It will take about 10 seconds.</string>
+    <string name="dialog_restart_message">服务将被重启，大概需要10秒。</string>
     <!-- Misc -->
     <string name="dialog_cannot_open_browser_title">不能启动浏览器</string>
     <string name="toast_copied_to_clipboard_with_text"><![CDATA[<b>%s</b> 已经复制到剪贴板.]]></string>
@@ -137,8 +140,8 @@
     <!-- Home - Service Start -->
     <string name="home_service_start_title">启动服务</string>
     <string name="home_service_start_description"><![CDATA[服务未运行。启动服务需要5-10秒。]]></string>
-    <string name="home_service_start_root_description"><![CDATA[The service is not running. It will take 5-10 seconds to start the service. If your device does not have Root access, please use ADB mode.]]></string>
-    <string name="home_service_start_adb_description"><![CDATA[The service is not running. It will take 5-10 seconds to start the service. ADB Wireless Debugging must be enabled and connected.]]></string>
+    <string name="home_service_start_root_description"><![CDATA[服务未运行。启动服务需要5-10秒。如果设备没有Root权限，请使用ADB模式。]]></string>
+    <string name="home_service_start_adb_description"><![CDATA[服务未运行。启动服务需要5-10秒。请确保已启用并连接 ADB 无线调试。]]></string>
     <string name="home_service_start_button">启动</string>
     <!-- Version -->
     <string name="version_mode_unknow">未知</string>
@@ -148,12 +151,12 @@
     <string name="home_add_tile_title">使用提示：添加快速设置磁贴</string>
     <string name="home_add_tile_description"><![CDATA[添加磁贴后即可在下滑状态栏，点击磁贴后快速将应用切换到后台运行]]></string>
     <string name="home_add_tile_button">添加磁贴</string>
-    <string name="home_add_tile_video_tutorial">Video Tutorial</string>
+    <string name="home_add_tile_video_tutorial">视频教程</string>
     <string name="home_tips_smart_side_bar_title">使用提示：智能侧边栏</string>
     <string name="home_tips_smart_side_bar_description">在一加和小米等品牌的手机上存在智能侧边栏，您可以在此处点击后台挂机，将目前的应用切换到后台运行。</string>
     <string name="home_tips_smart_side_bar_button">开启触发器特性</string>
     <string name="home_tips_media_tek_title">联发科平台提示</string>
-    <string name="home_tips_media_tek_description">Shizuku 版本 v13.6.0 与 MediaTek 平台不兼容，将无法启动服务。请检查您的 Shizuku 版本并选择替代版本。</string>
+    <string name="home_tips_media_tek_description">Shizuku版本（v13.6.0）在联发科平台无法使用，将会无法启动服务，请检查Shizuku版本选用其他版本。</string>
     <!-- Home - App List -->
     <string name="dialog_app_list_stop_task_message">确定停止吗？</string>
     <!-- Toast -->
@@ -165,88 +168,88 @@
     <string name="toast_add_tile">相同的磁贴只能存在一个</string>
     <string name="toast_add_tile_error">不支持，请从状态栏编辑添加。</string>
     <string name="toast_network_error">网络错误</string>
-    <string name="toast_start_server_failed">Service failed to start:</string>
-    <string name="toast_root_required">Can\'t open root shell, try again…</string>
-    <string name="toast_background_service_disallowed">Unable to start pairing service.\nPlease allow this app to run in the background.</string>
-    <string name="toast_adb_not_paired">ADB device not paired, please pair first</string>
-    <string name="toast_shizuku_not_authorized">Shizuku not authorized, please grant permission first</string>
-    <string name="toast_root_not_available">Root access not available, please check your device</string>
-    <string name="toast_server_starting">Starting server, please wait…</string>
+    <string name="toast_start_server_failed">启动服务失败:</string>
+    <string name="toast_root_required">未获取到Root权限，请重试...</string>
+    <string name="toast_background_service_disallowed">无法开启配对服务，请允许应用在后台运行</string>
+    <string name="toast_adb_not_paired">ADB 设备未配对，请先配对</string>
+    <string name="toast_shizuku_not_authorized">Shizuku 未授权，请先授予权限</string>
+    <string name="toast_root_not_available">Root 权限不可用，请检查设备</string>
+    <string name="toast_server_starting">正在启动服务，请稍候…</string>
     <!-- Purchase -->
     <string name="purchase_pro">购买高级版</string>
     <string name="purchase_resume">恢复购买</string>
     <string name="dialog_pro_need">请购买高级版</string>
-    <string name="dialog_pro_need_view">您可以查看后台应用程序的当前状态并对其进行控制。</string>
+    <string name="dialog_pro_need_view">可以查看后台运行应用的当前状态并控制</string>
     <!-- Switch Move -->
     <string name="switch_move">切换移动方法</string>
     <string name="switch_move_display">移动应用栈 (默认)</string>
     <string name="switch_move_recents">从最近任务唤醒</string>
     <!-- Floating Settings -->
-    <string name="settings_floating">Floating Button Settings</string>
-    <string name="settings_floating_summary">The floating button allows you to check the status of the background application at any time.</string>
-    <string name="settings_floating_enabled">Enable Floating Button</string>
-    <string name="settings_floating_auto_hide">Auto Hide</string>
-    <string name="settings_floating_size">Size</string>
-    <string name="settings_floating_opacity">Opacity</string>
-    <string name="settings_floating_vertical_position">Vertical Position</string>
-    <string name="settings_floating_horizontal_position">Horizontal Position</string>
-    <string name="settings_floating_restore_defaults">Restore Default Settings</string>
-    <string name="settings_floating_restore_defaults_confirm_message">Are you sure you want to restore all floating button settings to their defaults?</string>
-    <string name="settings_floating_left">Left</string>
-    <string name="settings_floating_right">Right</string>
-    <string name="perm_title">Permission Detection</string>
-    <string name="perm_overlay_title">Floating Window Permission</string>
-    <string name="perm_battery_title">Battery Optimization</string>
-    <string name="perm_status_on">Enabled</string>
-    <string name="perm_status_off">Disabled, click to set</string>
-    <string name="perm_status_on_blocked">Notification blocked</string>
-    <string name="perm_battery_summary_on">Battery optimization disabled (Recommended)</string>
-    <string name="perm_battery_summary_off">Optimizing, may cause floating window to close, click to set</string>
-    <string name="perm_notification_listener_title">Turn off \"Display over other apps\" notification</string>
-    <string name="perm_notif_summary">Tap to grant Background Run permission to disable the notification</string>
+    <string name="settings_floating">浮标设置</string>
+    <string name="settings_floating_summary">浮标可以随时查看挂机应用状态</string>
+    <string name="settings_floating_enabled">启用浮标</string>
+    <string name="settings_floating_auto_hide">自动隐藏</string>
+    <string name="settings_floating_size">大小</string>
+    <string name="settings_floating_opacity">透明度</string>
+    <string name="settings_floating_vertical_position">上下位置</string>
+    <string name="settings_floating_horizontal_position">左右位置</string>
+    <string name="settings_floating_restore_defaults">恢复默认设置</string>
+    <string name="settings_floating_restore_defaults_confirm_message">确定要恢复所有悬浮窗设置到默认吗？</string>
+    <string name="settings_floating_left">左</string>
+    <string name="settings_floating_right">右</string>
+    <string name="perm_title">权限检测</string>
+    <string name="perm_overlay_title">悬浮窗权限</string>
+    <string name="perm_battery_title">电池优化</string>
+    <string name="perm_status_on">已开启</string>
+    <string name="perm_status_off">未开启，点击去设置</string>
+    <string name="perm_status_on_blocked">已屏蔽通知</string>
+    <string name="perm_battery_summary_on">已禁用优化（推荐）</string>
+    <string name="perm_battery_summary_off">优化中，可能导致浮窗关闭，点击去设置</string>
+    <string name="perm_notification_listener_title">关闭\"正在其他应用的上层显示内容\"通知</string>
+    <string name="perm_notif_summary">点击授予后台挂机权限，以关闭通知</string>
     <!-- Home - Floating Promo -->
-    <string name="home_floating_promo_title">Floating Quick Control</string>
-    <string name="home_floating_promo_description_pro">Swipe from the edge of the screen to quickly control background apps</string>
-    <string name="home_floating_promo_description_trial">Pro exclusive feature, start your 7-day free trial now</string>
-    <string name="home_floating_promo_description_expired">Trial has ended, upgrade to Pro to continue using</string>
-    <string name="home_floating_promo_description_extend">Trial expired, watch %d ads to extend 7 days</string>
-    <string name="home_floating_promo_button_watch_ad">Watch Ad to Extend</string>
-    <string name="home_floating_promo_button_enable">Enable Floating</string>
-    <string name="home_floating_promo_button_trial">Start 7-Day Trial</string>
-    <string name="home_floating_promo_button_upgrade">Upgrade to Pro</string>
-    <string name="toast_floating_trial_started">7-day floating window trial has started</string>
-    <string name="toast_floating_trial_expired">Floating window trial has ended</string>
-    <string name="toast_ad_watched">Ad watched successfully, trial extended by 7 days!</string>
-    <string name="toast_ad_failed">Ad failed to load, please try again</string>
-    <string name="toast_ad_loading">Loading ad, please wait…</string>
+    <string name="home_floating_promo_title">浮窗快捷控制</string>
+    <string name="home_floating_promo_description_pro">从屏幕边缘滑动即可快速控制后台应用</string>
+    <string name="home_floating_promo_description_trial">高级版专属功能，立即开启7天免费试用</string>
+    <string name="home_floating_promo_description_expired">试用已结束，升级高级版继续使用</string>
+    <string name="home_floating_promo_description_extend">试用已过期，观看%d个广告可续期7天</string>
+    <string name="home_floating_promo_button_watch_ad">观看广告续期</string>
+    <string name="home_floating_promo_button_enable">开启浮窗</string>
+    <string name="home_floating_promo_button_trial">开启7天试用</string>
+    <string name="home_floating_promo_button_upgrade">升级高级版</string>
+    <string name="toast_floating_trial_started">已开启7天浮窗试用</string>
+    <string name="toast_floating_trial_expired">浮窗试用期已结束</string>
+    <string name="toast_ad_watched">广告观看成功，试用已续期7天</string>
+    <string name="toast_ad_failed">广告加载失败，请重试</string>
+    <string name="toast_ad_loading">正在加载广告，请稍候…</string>
     <!-- Home - Floating Promo Trial Banner -->
-    <string name="home_floating_promo_trial_banner">⏰ Trial: %d days remaining - Upgrade to Pro for unlimited access</string>
-    <string name="home_floating_promo_ad_remaining">📺 Watch %d more ads to extend trial</string>
+    <string name="home_floating_promo_trial_banner">⏰ 试用期剩余 %d 天 - 升级高级版解锁完整功能</string>
+    <string name="home_floating_promo_ad_remaining">📺 还需观看%d个广告续期</string>
     <!-- Settings - Floating Trial Info -->
-    <string name="settings_floating_trial_remaining">⏰ Trial: %d days remaining</string>
-    <string name="settings_floating_trial_summary">Upgrade to Pro for unlimited access</string>
-    <string name="settings_floating_trial_expired_title">⚠️ Trial has ended</string>
-    <string name="settings_floating_trial_expired_summary">Tap here to upgrade to Pro and continue using floating window</string>
-    <string name="settings_floating_trial_available_title">🎁 7-day free trial available</string>
-    <string name="settings_floating_trial_available_summary">Enable floating window to start your trial</string>
+    <string name="settings_floating_trial_remaining">⏰ 试用期剩余 %d 天</string>
+    <string name="settings_floating_trial_summary">升级高级版解锁完整功能</string>
+    <string name="settings_floating_trial_expired_title">⚠️ 试用期已结束</string>
+    <string name="settings_floating_trial_expired_summary">点击此处升级高级版继续使用浮窗功能</string>
+    <string name="settings_floating_trial_available_title">🎁 可开启7天免费试用</string>
+    <string name="settings_floating_trial_available_summary">开启浮窗即可开始试用</string>
     <!-- Floating Window Empty State -->
-    <string name="floating_empty_text">No background apps yet</string>
-    <string name="xposed_description">Can launch services and prevent background applications from restarting.</string>
+    <string name="floating_empty_text">暂无后台应用</string>
+    <string name="xposed_description">可启动服务并且防止挂机应用重启</string>
     <!-- Settings - Xposed Enhanced Mode -->
-    <string name="settings_xposed_title">Enhanced Mode (Xposed)</string>
-    <string name="settings_xposed_summary">Prevent background apps from being restarted by system</string>
-    <string name="settings_xposed_service_status">Service Connection</string>
-    <string name="settings_xposed_hook_status">Hook Mount Status</string>
-    <string name="settings_xposed_not_connected">Not connected to service</string>
-    <string name="settings_xposed_reboot_hint"> (if just activated, please reboot)</string>
-    <string name="settings_xposed_activated">Service connected</string>
-    <string name="settings_xposed_module_activated">Module activated</string>
-    <string name="settings_xposed_module_not_activated">Module not activated</string>
-    <string name="settings_xposed_hook_activated">Hook mounted</string>
-    <string name="settings_xposed_hook_not_activated">Hook not mounted</string>
-    <string name="toast_adb_port_searching">Searching for ADB port, please enable wireless debugging and try again</string>
-    <string name="keep_alive_title">Keep Screen Alive</string>
+    <string name="settings_xposed_title">增强模式 (Xposed)</string>
+    <string name="settings_xposed_summary">防止后台应用被系统重新启动</string>
+    <string name="settings_xposed_service_status">服务连接</string>
+    <string name="settings_xposed_hook_status">注入点挂载状态</string>
+    <string name="settings_xposed_not_connected">未连接到服务</string>
+    <string name="settings_xposed_reboot_hint">（如果刚刚激活请重启）</string>
+    <string name="settings_xposed_activated">服务已连接</string>
+    <string name="settings_xposed_module_activated">模块已激活</string>
+    <string name="settings_xposed_module_not_activated">模块未激活</string>
+    <string name="settings_xposed_hook_activated">注入成功</string>
+    <string name="settings_xposed_hook_not_activated">注入失败</string>
+    <string name="toast_adb_port_searching">正在搜索adb端口中，启动无线调试后再试</string>
+    <string name="keep_alive_title">保持屏幕唤醒</string>
     <!-- Permission -->
-    <string name="permission_task_label">Task Control</string>
-    <string name="permission_task_description">Allows the app to send task control commands to Background Run</string>
+    <string name="permission_task_label">任务控制</string>
+    <string name="permission_task_description">允许应用向后台运行发送任务控制命令</string>
 </resources>
