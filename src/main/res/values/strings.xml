@@ -283,4 +283,8 @@
     <string name="toast_adb_port_searching">Searching for ADB port, please enable wireless debugging and try again</string>
 
     <string name="keep_alive_title">Keep Screen Alive</string>
+
+    <!-- Permission -->
+    <string name="permission_task_label">Task Control</string>
+    <string name="permission_task_description">Allows the app to send task control commands to Background Run</string>
 </resources>

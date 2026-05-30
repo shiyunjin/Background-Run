@@ -240,4 +240,8 @@
     <string name="toast_adb_port_searching">正在搜索adb端口中，启动无线调试后再试</string>
 
     <string name="keep_alive_title">保持屏幕唤醒</string>
+
+    <!-- Permission -->
+    <string name="permission_task_label">任务控制</string>
+    <string name="permission_task_description">允许应用向后台运行发送任务控制命令</string>
 </resources>
