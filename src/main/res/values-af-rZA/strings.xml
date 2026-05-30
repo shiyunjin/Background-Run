@@ -23,10 +23,13 @@
     <string name="adb_pairing_tutorial_title">Pair with your device</string>
     <string name="adb_pairing_tutorial_notification">A notification will help you complete the pairing.</string>
     <string name="adb_pairing_tutorial_notification_blocked">The pairing process needs you to interact with a notification. Please allow this app to post notifications.</string>
-    <string name="adb_pairing_tutorial_step1">Enter \"Developer options\" - \"Wireless debugging\". Tap \"Pair device with pairing code\", you will see a six-digit code.</string>
-    <string name="adb_pairing_tutorial_step1_hint">Please note, left part of the \"Wireless debugging\" option is clickable, tapping it will open a new page. Only turning on the switch on the right is incorrect.</string>
-    <string name="adb_pairing_tutorial_step2">Enter the pairing code in the notification to complete pairing.</string>
-    <string name="adb_pairing_tutorial_step3">Return to this app and connect.</string>
+    <string name="adb_pairing_tutorial_step1">Enable \"Developer options\". Go to \"About phone\" and tap \"Build number\" 7 times.</string>
+    <string name="adb_pairing_tutorial_step1_enabled">Developer options detected (you can skip this step)</string>
+    <string name="adb_pairing_tutorial_step2">Enter \"Developer options\" - \"Wireless debugging\". Tap \"Pair device with pairing code\", you will see a six-digit code.</string>
+    <string name="adb_pairing_tutorial_step2_hint">Please note, left part of the \"Wireless debugging\" option is clickable, tapping it will open a new page. Only turning on the switch on the right is incorrect.</string>
+    <string name="adb_pairing_tutorial_step3">Enter the pairing code in the notification to complete pairing.</string>
+    <string name="adb_pairing_tutorial_step4">Return to this app and connect.</string>
+    <string name="about_phone">About phone</string>
     <string name="development_settings">Developer options</string>
     <string name="notification_settings">Notification options</string>
     <!-- ADB Pairing Notification -->
