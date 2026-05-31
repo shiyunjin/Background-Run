@@ -29,6 +29,7 @@
     <string name="adb_pairing_tutorial_notification">A notification will help you complete the pairing.</string>
     <string name="adb_pairing_tutorial_notification_blocked">The pairing process needs you to interact with a notification. Please allow this app to post notifications.</string>
     <string name="adb_pairing_tutorial_step1">Enable \"Developer options\". Go to \"About phone\" and tap \"Build number\" 7 times.</string>
+    <string name="adb_pairing_tutorial_step1_hint">Developer options are not detected.</string>
     <string name="adb_pairing_tutorial_step1_enabled">Developer options detected (you can skip this step)</string>
     <string name="adb_pairing_tutorial_step2">Enter \"Developer options\" - \"Wireless debugging\". Tap \"Pair device with pairing code\", you will see a six-digit code.</string>
     <string name="adb_pairing_tutorial_step2_hint">Please note, left part of the \"Wireless debugging\" option is clickable, tapping it will open a new page. Only turning on the switch on the right is incorrect.</string>
