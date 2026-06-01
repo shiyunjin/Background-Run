@@ -21,6 +21,7 @@
     <string name="home_adb_permission_button_pair">ADB Pair</string>
     <!-- ADB Pairing Tutorial -->
     <string name="adb_pairing_tutorial_title">Pair with your device</string>
+    <string name="adb_pairing_tutorial_network_warning">Must connect to Wi-Fi or wired Ethernet to complete this setup.</string>
     <string name="adb_pairing_tutorial_notification">A notification will help you complete the pairing.</string>
     <string name="adb_pairing_tutorial_notification_blocked">The pairing process needs you to interact with a notification. Please allow this app to post notifications.</string>
     <string name="adb_pairing_tutorial_step1">Enable \"Developer options\". Go to \"About phone\" and tap \"Build number\" 7 times.</string>
