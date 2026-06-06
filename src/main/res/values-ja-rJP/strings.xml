@@ -6,17 +6,18 @@
     <!-- Home - Status -->
     <string name="home_status_service_is_running">サービス稼働中</string>
     <string name="home_status_service_not_running">サービスが稼働できませんでした</string>
-    <string name="home_status_service_version">Version %2$s, %1$s</string>
+    <string name="home_status_service_version">バージョン%2$s,%1$s</string>
     <!-- Home - Shizuku Permission -->
-    <string name="home_shizuku_permission_title">Shizuku Permission</string>
-    <string name="home_working_mode_title">Working Mode</string>
+    <string name="home_shizuku_permission_title">Shizukuを許可してください</string>
+    <string name="home_working_mode_title">作業モード</string>
     <string name="home_working_mode_shizuku">Shizuku</string>
     <string name="home_working_mode_root">Root</string>
     <string name="home_working_mode_adb">ADB</string>
-    <string name="home_shizuku_permission_description"><![CDATA[Why do you need Shizuku? <br>Background processes require ADB privileges to operate. Shizuku provides this interface. You need to install and run Shizuku and authorize it before you can use it.<br>%s]]></string>
-    <string name="home_shizuku_permission_button">Authorize</string>
+    <string name="home_shizuku_permission_description"><![CDATA[なぜしずくが必要なのですか？
+<br>バックグラウンドプロセスを動作するためADB権限を必要とします。しずくはこのサービスを提供します。しずくを使用するにはインストールし、使用する必要があります。<br>%s]]></string>
+    <string name="home_shizuku_permission_button">承認</string>
     <!-- Home - ADB Permission -->
-    <string name="home_adb_permission_title">ADB Wireless Debugging</string>
+    <string name="home_adb_permission_title">ADBワイヤレスデバッグ</string>
     <string name="home_adb_permission_description"><![CDATA[Why ADB mode?<br>Background processes require ADB privileges. This mode connects directly to the device\'s wireless debugging service without requiring Shizuku or Root.<br><br>Prerequisites:<br>1. Enable <b>Wireless Debugging</b> in Developer Options<br>2. <b>Pair</b> this app with the device<br>3. <b>Connect</b> to the ADB service]]></string>
     <string name="home_adb_permission_button_pair">ADB Pair</string>
     <!-- ADB Pairing Tutorial -->
