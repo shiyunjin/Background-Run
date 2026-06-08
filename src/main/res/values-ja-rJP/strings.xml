@@ -2,7 +2,7 @@
 <resources>
     <string name="app_name">バックグラウンド実行中</string>
     <!-- To translators: you can leave your here -->
-    <string name="translation_contributors"></string>
+    <string name="translation_contributors">arrows79 (90toyotanoah)</string>
     <!-- Home - Status -->
     <string name="home_status_service_is_running">サービス稼働中</string>
     <string name="home_status_service_not_running">サービスが稼働できませんでした</string>
