@@ -21,11 +21,11 @@
     <string name="home_adb_permission_button_pair">ADB 配对</string>
     <!-- ADB Pairing Tutorial -->
     <string name="adb_pairing_tutorial_title">配对设备</string>
-    <string name="adb_pairing_tutorial_network_warning">Must connect to Wi-Fi or wired Ethernet to complete this setup.</string>
+    <string name="adb_pairing_tutorial_network_warning">必须连接到 Wi-Fi 或有线以太网才能完成本页设置。</string>
     <string name="adb_pairing_tutorial_notification">通知将帮助您完成配对。</string>
     <string name="adb_pairing_tutorial_notification_blocked">配对过程需要您与通知交互。请允许本应用发送通知。</string>
     <string name="adb_pairing_tutorial_step1">开启「开发者选项」。进入「关于手机」，连续点击「版本号」7次即可开启。</string>
-    <string name="adb_pairing_tutorial_step1_hint">Developer options are not detected.</string>
+    <string name="adb_pairing_tutorial_step1_hint">未检测到开发者选项。</string>
     <string name="adb_pairing_tutorial_step1_enabled">检测到已开启开发者选项（可以跳过此步骤）</string>
     <string name="adb_pairing_tutorial_step2">进入「开发者选项」-「无线调试」，点击「使用配对码配对设备」，您将看到一个六位配对码。</string>
     <string name="adb_pairing_tutorial_step2_hint">请注意，「无线调试」选项的左侧是可点击的，点击后会打开新页面。仅打开右侧开关是不正确的。</string>
