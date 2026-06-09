@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Background Run</string>
+    <string name="app_name">Rodando em Segundo Plano</string>
     <!-- To translators: you can leave your here -->
     <string name="translation_contributors"></string>
     <!-- Home - Status -->
-    <string name="home_status_service_is_running">Service running</string>
-    <string name="home_status_service_not_running">Service not running</string>
-    <string name="home_status_service_version">Version %2$s, %1$s</string>
+    <string name="home_status_service_is_running">Serviço operando</string>
+    <string name="home_status_service_not_running">Serviço não operando</string>
+    <string name="home_status_service_version">Versão%2$s, %1$s</string>
     <!-- Home - Shizuku Permission -->
-    <string name="home_shizuku_permission_title">Shizuku Permission</string>
-    <string name="home_working_mode_title">Working Mode</string>
+    <string name="home_shizuku_permission_title">Permissão para Shizuku</string>
+    <string name="home_working_mode_title">Modo Operacional</string>
     <string name="home_working_mode_shizuku">Shizuku</string>
     <string name="home_working_mode_root">Root</string>
     <string name="home_working_mode_adb">ADB</string>
