@@ -4,20 +4,20 @@
     <!-- To translators: you can leave your here -->
     <string name="translation_contributors"></string>
     <!-- Home - Status -->
-    <string name="home_status_service_is_running">Service running</string>
-    <string name="home_status_service_not_running">Service not running</string>
-    <string name="home_status_service_version">Version %2$s, %1$s</string>
+    <string name="home_status_service_is_running">Сервис запущен</string>
+    <string name="home_status_service_not_running">Служба не работает</string>
+    <string name="home_status_service_version">Вер %2$s, %1$s</string>
     <!-- Home - Shizuku Permission -->
-    <string name="home_shizuku_permission_title">Shizuku Permission</string>
-    <string name="home_working_mode_title">Working Mode</string>
+    <string name="home_shizuku_permission_title">Разрешение Shizuku</string>
+    <string name="home_working_mode_title">Режим работы</string>
     <string name="home_working_mode_shizuku">Shizuku</string>
     <string name="home_working_mode_root">Root</string>
     <string name="home_working_mode_adb">ADB</string>
     <string name="home_shizuku_permission_description"><![CDATA[Why do you need Shizuku? <br>Background processes require ADB privileges to operate. Shizuku provides this interface. You need to install and run Shizuku and authorize it before you can use it.<br>%s]]></string>
-    <string name="home_shizuku_permission_button">Authorize</string>
+    <string name="home_shizuku_permission_button">Авторизоваться</string>
     <!-- Home - ADB Permission -->
-    <string name="home_adb_permission_title">ADB Wireless Debugging</string>
-    <string name="home_adb_permission_description"><![CDATA[Why ADB mode?<br>Background processes require ADB privileges. This mode connects directly to the device\'s wireless debugging service without requiring Shizuku or Root.<br><br>Prerequisites:<br>1. Enable <b>Wireless Debugging</b> in Developer Options<br>2. <b>Pair</b> this app with the device<br>3. <b>Connect</b> to the ADB service]]></string>
+    <string name="home_adb_permission_title">Беспроводная отладка через ADB</string>
+    <string name="home_adb_permission_description"><![CDATA[Почему ADB режим?<br>Фоновой процесс требует привилегии ADB. Этот режим подключается напрямую к службе беспроводной отладки устройства без необходимости использования Shizuku или Root.<br><br>Условия:<br>1. Включите <b>Отладка по Wi-Fi</b> в параметрах разработчика <br>2. <b>Соедините</b> это приложение с компьютером <br>3. <b>Подключите</b> к ADB отладке]]></string>
     <string name="home_adb_permission_button_pair">ADB Pair</string>
     <!-- ADB Pairing Tutorial -->
     <string name="adb_pairing_tutorial_title">Pair with your device</string>
