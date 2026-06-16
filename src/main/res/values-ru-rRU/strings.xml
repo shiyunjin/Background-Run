@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Background Run</string>
+    <!-- To translators: you can leave your here -->
+    <string name="translation_contributors"></string>
+    <!-- Home - Status -->
+    <string name="home_status_service_is_running">Служба работает</string>
+    <string name="home_status_service_not_running">Служба не работает</string>
+    <string name="home_status_service_version">Версия  %2$s, %1$s</string>
+    <!-- Home - Shizuku Permission -->
+    <string name="home_shizuku_permission_title">Разрешение Shizuku</string>
+    <string name="home_working_mode_title">Режим работы</string>
+    <string name="home_working_mode_shizuku">Shizuku</string>
+    <string name="home_working_mode_root">Root</string>
+    <string name="home_working_mode_adb">ADB</string>
+    <string name="home_shizuku_permission_description"><![CDATA[Зачем вам нужна Shizuku? <br>Для фоновых процессов требуется доступ к отладке ADB для повышения прав в системе. Shizuku предоставляет этот интерфейс. Вам необходимо установить и запустить Shizuku, а также авторизовать его, прежде чем вы сможете им пользоваться.<br>%s]]></string>
+    <string name="home_shizuku_permission_button">Авторизоваться</string>
+    <!-- Home - ADB Permission -->
+    <string name="home_adb_permission_title">ADB W-Fi отладка</string>
+    <string name="home_adb_permission_description"><![CDATA[Почему ADB режим?<br>Фоновой процесс требует привилегии ADB. Этот режим подключается напрямую к службе беспроводной отладки устройства без необходимости использования Shizuku или Root.<br><br>Условия:<br>1. Включите <b>Отладка по Wi-Fi</b> в параметрах разработчика <br>2. <b>Соедините</b> это приложение с компьютером <br>3. <b>Подключите</b> к ADB отладке]]></string>
+    <string name="home_adb_permission_button_pair">Требуется подключение по ADB</string>
+    <!-- ADB Pairing Tutorial -->
+    <string name="adb_pairing_tutorial_title">Подключение устройства</string>
+    <string name="adb_pairing_tutorial_network_warning">Требуется подключение к wi-fi или проводное подключение по кабелю, для завершения настройки.</string>
+    <string name="adb_pairing_tutorial_notification">Уведомление поможет вам закончить установку соединения.</string>
+    <string name="adb_pairing_tutorial_notification_blocked">Для процесса сопряжения вам необходимо взаимодействовать с уведомлением. Пожалуйста, разрешите этому приложению отправлять уведомления.</string>
+    <string name="adb_pairing_tutorial_step1">Включите \"параметры разработчика\". Перейдите в опцию \"О телефоне\" и нажмите семь 7 раз на кнопку \"Номер сборки\".</string>
+    <string name="adb_pairing_tutorial_step1_hint">Параметры разработчика не обнаружены.</string>
+    <string name="adb_pairing_tutorial_step1_enabled">Параметры разработчика обнаружены (вы можете пропустить этот шаг)</string>
+    <string name="adb_pairing_tutorial_step2">Зайдите в \"Параметры разработчика\" -> \"Отладка по WI-FI\". Нажмите \"Соединение устройства по коду\", используйте 6 цифр кода для подключения.</string>
+    <string name="adb_pairing_tutorial_step2_hint">Пожалуйста, учтите: левая часть строки \"Беспроводная отладка\" является активной, нажатие на неё открывает новую страницу. Простого включения переключателя справа недостаточно.</string>
+    <string name="adb_pairing_tutorial_step3">Введите код соединения в уведомлении для окончания соединения.</string>
+    <string name="adb_pairing_tutorial_step4">Вернитесь в это приложение и подключитесь.</string>
+    <string name="about_phone">Об телефоне</string>
+    <string name="development_settings">Параметры разработчика</string>
+    <string name="notification_settings">Параметры уведомлений</string>
+    <!-- ADB Pairing Notification -->
+    <string name="notification_channel_adb_pairing">ADB подключение</string>
+    <string name="notification_adb_pairing_searching_title">Поиск для подключения сервиса</string>
+    <string name="notification_adb_pairing_service_found_title">Сервис для подключения на один</string>
+    <string name="notification_adb_pairing_input_pairing_code">Введите код соединения</string>
+    <string name="notification_adb_pairing_stop_searching">Остановить поиск</string>
+    <string name="notification_adb_pairing_working_title">Осуществляется подключение</string>
+    <string name="notification_adb_pairing_succeed_title">Подключение успешно выполнено</string>
+    <string name="notification_adb_pairing_succeed_text">Вы можете сейчас подключиться к ADB.</string>
+    <string name="notification_adb_pairing_failed_title">Ошибка подключения</string>
+    <string name="dialog_adb_pairing_pairing_code">Код подключения</string>
+    <string name="cannot_connect_port">Невозможно подключиться к сервису отладки по Wi-Fi.</string>
+    <string name="pairing_code_wrong">Код подключения неправильный.</string>
+    <string name="adb_error_key_store">Включите для генерации ключа по отладки по Wi-Fi.\n Возможно это связано с тем что кейс тон механизм на устройстве не работает.</string>
+    <!-- Home - Learn more -->
+    <string name="home_learn_more_title">Изучите Background Run</string>
+    <string name="home_learn_more_description">Изучите, как использовать Background Run</string>
+    <!-- Settings -->
+    <string name="settings_title">Настройки</string>
+    <string name="settings_language">Язык</string>
+    <string name="settings_user_interface">Оформление</string>
+    <string name="settings_black_night_theme">DARK mode тема</string>
+    <string name="settings_black_night_theme_summary">Используйте DARK mode тему, если ночной режим включен</string>
+    <string name="settings_pro">Настройки Pro</string>
+    <string name="settings_multi_app">Мульти Фоновые приложения</string>
+    <string name="settings_multi_app_summary">В фоновом режиме может работать несколько приложений.</string>
+    <string name="settings_translation_contributors">Авторы перевода</string>
+    <string name="settings_translation">Участвовать в переводе</string>
+    <string name="settings_translation_summary">Помогите перевести %s на ваш язык</string>
+    <string name="settings_use_system_color">Использовать цветовую палитру системы</string>
+    <string name="settings_action">Настройки действий</string>
+    <string name="settings_diagnostic">Сервис диагностики</string>
+    <string name="settings_diagnostic_summary">Если служба не запускается или возникает ошибка во время запуска, вы можете проверить наличие проблем здесь.</string>
+    <string name="diagnostic_title">Диагностика</string>
+    <string name="diagnostic_start">Запуск обнаружения</string>
+    <string name="diagnostic_progress_format">%d%%</string>
+    <string name="diagnostic_checking_setsid">Проверка setsid...</string>
+    <string name="diagnostic_checking_app_process">Проверка app_process...</string>
+    <string name="diagnostic_checking_port">Проверка порта 8127</string>
+    <string name="diagnostic_checking_slibpath">Проверка читаемости LibPath...</string>
+    <string name="diagnostic_checking_shizuku">Проверка подключения к Shizuku</string>
+    <string name="diagnostic_checking_root">Проверка Root доступа</string>
+    <string name="diagnostic_result_success">Получилось</string>
+    <string name="diagnostic_result_failed">Ошибка</string>
+    <string name="diagnostic_item_setsid">setsid существует</string>
+    <string name="diagnostic_item_app_process">app_process существует</string>
+    <string name="diagnostic_item_port">Порт 8127 не занят</string>
+    <string name="diagnostic_item_slibpath">LibPath доступен для чтения</string>
+    <string name="diagnostic_item_shizuku">Shizuku подключён</string>
+    <string name="diagnostic_item_root">Доступ к Root</string>
+    <string name="diagnostic_item_adb">ADB Wi-Fi отладка</string>
+    <string name="diagnostic_checking_adb">Проверка ADB подключения...</string>
+    <string name="diagnostic_item_shizuku_install">Shizuku установлен</string>
+    <string name="diagnostic_checking_shizuku_install">Проверка наличия Shizuku</string>
+    <string name="diagnostic_share_log">Отправить логи</string>
+    <string name="diagnostic_checking_restart_server">Сервис перезапускается...</string>
+    <string name="diagnostic_item_restart_server">Перезапустить сервис</string>
+    <string name="diagnostic_checking_log_start">Запуск logcat...</string>
+    <string name="diagnostic_item_log_start">Запустить logcat</string>
+    <string name="diagnostic_checking_log_stop">Остановка logcat...</string>
+    <string name="diagnostic_item_log_stop">Остановить logcat</string>
+    <string name="diagnostic_share_log_file_not_found">Файл логов не найден</string>
+    <string name="settings_multi_window_mode_summary">Режим плавающего окна переводит текущее приложение в фоновый режим (например, при запуске смарт-панели).</string>
+    <string name="settings_multi_window_mode">Триггер плавающего окна</string>
+    <string name="settings_start_on_boot_summary">Запускать автоматически при загрузке</string>
+    <string name="settings_start_on_boot">Запускать при загрузке</string>
+    <string name="background_launcher_alias">Переместить в фон</string>
+    <string name="persistent_notification_summary">нажмите чтобы запустить в фоне</string>
+    <!-- Trigger Settings -->
+    <string name="settings_trigger">Триггеры</string>
+    <string name="settings_trigger_summary">Настройка путей для запуска триггеров в фоне</string>
+    <string name="settings_trigger_persistent_notification">Постоянное уведомление</string>
+    <string name="settings_trigger_persistent_notification_summary">Показывать постоянное уведомление для быстрого перевода в фоновый режим</string>
+    <string name="settings_trigger_background_launcher">Ярлык перевода в фоновый режим</string>
+    <string name="settings_trigger_background_launcher_summary">Добавляет иконку запуска для перевода текущего приложения в фоновый режим одним нажатием. Её нельзя нажать прямо с главного экрана; используйте сторонние приложения для жестов или системные боковые панели для запуска поверх других приложений.</string>
+    <string name="settings_trigger_shortcut_app">Приложение-ярлык </string>
+    <string name="settings_trigger_shortcut_app_summary">Установите вспомогательное приложение, которое добавляет иконку; нажмите на неё, чтобы перевести текущее приложение в фон. Её нельзя нажать прямо с главного экрана; используйте сторонние приложения для жестов или системные боковые панели для запуска поверх других приложений.</string>
+    <string name="shortcut_app_install_hint">APK-файл сохранён в папку Download/BackgroundRun/, пожалуйста, установите его вручную.</string>
+    <!-- About -->
+    <string name="action_about">О нас</string>
+    <!-- Stop -->
+    <string name="action_stop">Остановить сервис</string>
+    <string name="dialog_stop_message">Сервис будет остановлен.</string>
+    <!-- Restart -->
+    <string name="action_restart">Перезапустить сервис</string>
+    <string name="dialog_restart_message">Север будет перезапущен это произойдёт через 10 секунд.</string>
+    <!-- Misc -->
+    <string name="dialog_cannot_open_browser_title">Браузер не открылся</string>
+    <string name="toast_copied_to_clipboard_with_text"><![CDATA[<b>%s</b> скопирован в буфер обмена.]]></string>
+    <!-- Tile -->
+    <string name="tile_title">Работа в фоне</string>
+    <!-- Notification -->
+    <string name="notification_task_resume_channel_name">Задача в фоне работает</string>
+    <string name="notification_task_resume_channel_description">Уведомлять, какие приложения работают в фоне</string>
+    <string name="notification_task_resume_title">Работа в фоне</string>
+    <string name="notification_task_resume_text">Апка %s запущена</string>
+    <string name="notification_task_resume_action">Завершить работу в фоне</string>
+    <!-- Home - Notification -->
+    <string name="home_notification_title">Уведомление</string>
+    <string name="home_notification_description"><![CDATA[Разрешение на отправку уведомлений необходимо, чтобы показывать, какие приложения работают в фоновом режиме, а также для возможности возвращать их на передний план прямо из уведомления.]]></string>
+    <string name="home_notification_button">Предоставить разрешения</string>
+    <!-- Home - Server Need Update -->
+    <string name="home_server_need_update_title">Требуется обновление сервиса</string>
+    <string name="home_server_need_update_description"><![CDATA[Версия сервиса несовместима со встроенной версией и требует обновления.]]></string>
+    <string name="home_server_need_update_button">Обновить</string>
+    <!-- Home - Service Start -->
+    <string name="home_service_start_title">Сервис запущен</string>
+    <string name="home_service_start_description"><![CDATA[Сервис не запущен. Понадобится 5-10 секунд для запуска сервиса.]]></string>
+    <string name="home_service_start_root_description"><![CDATA[Сервис не запущен. Понадобится 5-10 секунд для запуска сервиса. Если ваше устройство не имеет root прав, пожалуйста используйте режим отладки ADB.]]></string>
+    <string name="home_service_start_adb_description"><![CDATA[Этот сервис не работает. Понадобится 5-10 минут для запуска сервиса. ADB отладка по Wi-Fi запущена и подключена.]]></string>
+    <string name="home_service_start_button">Запуск</string>
+    <!-- Version -->
+    <string name="version_mode_unknow">unknow</string>
+    <string name="version_mode_free">free</string>
+    <string name="version_mode_pro">pro</string>
+    <!-- Home - Add Tile -->
+    <string name="home_add_tile_title">Советы по использованию: добавьте кнопку в статус бар.</string>
+    <string name="home_add_tile_description"><![CDATA[После добавления кнопки в быстрые параметры шторки уведомлений, вы можете быстро перевести приложение в фоновый режим, опустив шторку уведомлений вниз и коснувшись кнопки в статус баре.]]></string>
+    <string name="home_add_tile_button">Добавить описание</string>
+    <string name="home_add_tile_video_tutorial">Видео инструкция</string>
+    <string name="home_tips_smart_side_bar_title">Советы по использованию: используйте смарт-панель</string>
+    <string name="home_tips_smart_side_bar_description">Смартфоны таких брендов, как OnePlus и Xiaomi, оснащены смарт-панелью (боковой панелью), где вы можете нажать «В фоновом режиме», чтобы перевести текущее запущенное приложение в фон.</string>
+    <string name="home_tips_smart_side_bar_button">Открыть функцию триггера</string>
+    <string name="home_tips_media_tek_title">Рекомендации для платформы на чипах MediaTek</string>
+    <string name="home_tips_media_tek_description">Версия Shizuku v13.6.0 несовместима с платформами MediaTek и не сможет запустить службу. Пожалуйста, проверьте свою версию Shizuku и выберите другую версию.</string>
+    <!-- Home - App List -->
+    <string name="dialog_app_list_stop_task_message">Вы уверены что хотите остановить?</string>
+    <!-- Toast -->
+    <string name="toast_server_start">Background Run запускается, пожалуйста подождите 5 секунд.</string>
+    <string name="toast_server_restart_retry">Background Run  запускается, подождите 5 секунд, и повторите попытку.</string>
+    <string name="toast_task_background">Приложение успешно работает в фоне</string>
+    <string name="toast_upgrade_pro">Обновитесь доступа к Pro функциям</string>
+    <string name="toast_loading">Загрузка</string>
+    <string name="toast_add_tile">Нельзя добавить более одной кнопки в панель статус бара.</string>
+    <string name="toast_add_tile_error">Не поддерживается. Пожалуйста, добавьте это через редактор статус бара.</string>
+    <string name="toast_network_error">Ошибка подключения к сети.</string>
+    <string name="toast_start_server_failed">Ошибка запуска сервиса:</string>
+    <string name="toast_root_required">Невозможно открыть root оболочку, попробуйте ещё раз…</string>
+    <string name="toast_background_service_disallowed">Невозможно запустить сервис соединения. \n Пожалуйста, разрешите этому приложению работать в фоне.</string>
+    <string name="toast_adb_not_paired">Устройство ADB не сопряжено, сначала выполните сопряжение</string>
+    <string name="toast_shizuku_not_authorized">Shizuku не авторизирован, пожалуйста, предоставьте сначала разрешение</string>
+    <string name="toast_root_not_available">Доступ к Root правам не обнаружен, пожалуйста проверьте ваше устройство</string>
+    <string name="toast_server_starting">Запуск сервера, пожалуйста подождите…</string>
+    <!-- Purchase -->
+    <string name="purchase_pro">Купить Pro версию</string>
+    <string name="purchase_resume">Восстановить покупку</string>
+    <string name="dialog_pro_need">Нужна Pro версия</string>
+    <string name="dialog_pro_need_view">Вы можете просматривать текущее состояние фоновых приложений и управлять ими.</string>
+    <!-- Switch Move -->
+    <string name="switch_move">Метод перемещения</string>
+    <string name="switch_move_display">Переместить задачу приложения (по умолчанию)</string>
+    <string name="switch_move_recents">Пробуждение из списка недавних приложений</string>
+    <!-- Floating Settings -->
+    <string name="settings_floating">Настройки плавающей кнопки</string>
+    <string name="settings_floating_summary">Плавающая кнопка позволяет в любое время проверить состояние фонового приложения.</string>
+    <string name="settings_floating_enabled">Включить плавающую кнопку</string>
+    <string name="settings_floating_auto_hide">Автоскрытие</string>
+    <string name="settings_floating_size">Размер</string>
+    <string name="settings_floating_opacity">Непрозрачность</string>
+    <string name="settings_floating_vertical_position">Позиционирование по вертикали</string>
+    <string name="settings_floating_horizontal_position">Позиционирование по горизонтали</string>
+    <string name="settings_floating_restore_defaults">Восстановить настройки по умолчанию</string>
+    <string name="settings_floating_restore_defaults_confirm_message">Вы уверены что хотите восстановить настройки по умолчанию для плавающей кнопки?</string>
+    <string name="settings_floating_left">Лево</string>
+    <string name="settings_floating_right">Право</string>
+    <string name="perm_title">Обнаружение разрешений</string>
+    <string name="perm_overlay_title">Разрешение плавающего окна</string>
+    <string name="perm_battery_title">Оптимизация батареи</string>
+    <string name="perm_status_on">Включено</string>
+    <string name="perm_status_off">Выключено, нажмите для активации</string>
+    <string name="perm_status_on_blocked">Уведомления заблокированы</string>
+    <string name="perm_battery_summary_on">Отключить оптимизацию батареи (рекомендовано)</string>
+    <string name="perm_battery_summary_off">Оптимизация может привести к закрытию плавающего окна, нажмите, чтобы установить.</string>
+    <string name="perm_notification_listener_title">Отключите уведомление «Отображать поверх других приложений».</string>
+    <string name="perm_notif_summary">Плавающее быстрое управление</string>
+    <!-- Home - Floating Promo -->
+    <string name="home_floating_promo_title">Плавающее быстрое управление</string>
+    <string name="home_floating_promo_description_pro">Проведите пальцем от края экрана, чтобы быстро управлять фоновыми приложениями.</string>
+    <string name="home_floating_promo_description_trial">Эксклюзивная функция для пользователей Pro: начните 7-дневный бесплатный пробный период прямо сейчас!</string>
+    <string name="home_floating_promo_description_expired">Trial версия окончена, пожалуйста обновитесь про для продолжения использования</string>
+    <string name="home_floating_promo_description_extend">Срок действия пробного периода истек, продлите его на 7 дней, посмотрев %d рекламы</string>
+    <string name="home_floating_promo_button_watch_ad">Просмотрите рекламу для продолжения использования</string>
+    <string name="home_floating_promo_button_enable">Включить плавающее окно</string>
+    <string name="home_floating_promo_button_trial">Начни с семидневный пробный период</string>
+    <string name="home_floating_promo_button_upgrade">Обновить до Pro версии</string>
+    <string name="toast_floating_trial_started">Семидневная trial версия плавающего окна начата</string>
+    <string name="toast_floating_trial_expired">Trial версия плавающего окна окончена</string>
+    <string name="toast_ad_watched">Реклама просмотрена, trial версия продлена на 7 дней!</string>
+    <string name="toast_ad_failed">Ошибка загрузки рекламы, попробуйте ещё раз</string>
+    <string name="toast_ad_loading">Загрузка рекламы пожалуйста подождите…</string>
+    <!-- Home - Floating Promo Trial Banner -->
+    <string name="home_floating_promo_trial_banner">⏰ Trial: осталось %d  дней,  обновитесь к Pro для безлимитного доступа</string>
+    <string name="home_floating_promo_ad_remaining">📺 Просмотрите %d  больше рекламы, для продолжения пробного периода</string>
+    <!-- Settings - Floating Trial Info -->
+    <string name="settings_floating_trial_remaining">⏰ Trial: осталось %d дней</string>
+    <string name="settings_floating_trial_summary">Обновитесь к Pro для безлимитного доступа</string>
+    <string name="settings_floating_trial_expired_title">⚠️ Пробный режим окончен</string>
+    <string name="settings_floating_trial_expired_summary">Нажмите здесь для обновления к Pro и продолжайте использовать плавающее окно</string>
+    <string name="settings_floating_trial_available_title">Доступна семидневная пробная версия</string>
+    <string name="settings_floating_trial_available_summary">Включите плавающее окно, чтобы начать пробный период.</string>
+    <!-- Floating Window Empty State -->
+    <string name="floating_empty_text">Фоновых приложений пока нет</string>
+    <string name="xposed_description">Позволяет запускать службы и предотвращать перезапуск фоновых приложений.</string>
+    <!-- Settings - Xposed Enhanced Mode -->
+    <string name="settings_xposed_title">Расширенный режим (Xposed)</string>
+    <string name="settings_xposed_summary">Предотвратите перезапуск фоновых приложений системой</string>
+    <string name="settings_xposed_service_status">Сервис подключён</string>
+    <string name="settings_xposed_hook_status">Статус перехвата</string>
+    <string name="settings_xposed_not_connected">Не подключено к сервису</string>
+    <string name="settings_xposed_reboot_hint"> (если было недавно активировано перезапустите устройство)</string>
+    <string name="settings_xposed_activated">Сервис подключён</string>
+    <string name="settings_xposed_module_activated">Модуль активен</string>
+    <string name="settings_xposed_module_not_activated">Модуль неактивен</string>
+    <string name="settings_xposed_hook_activated">Перехват установлен</string>
+    <string name="settings_xposed_hook_not_activated"> Перехват не установлен</string>
+    <string name="toast_adb_port_searching">Поиск порта ADB, пожалуйста включите отладку по Wi-Fi и попробуйте ещё раз</string>
+    <string name="keep_alive_title">Оставлять экран включённым</string>
+    <!-- Permission -->
+    <string name="permission_task_label">Контроль задач</string>
+    <string name="permission_task_description">Позволять приложению отправлять команды управления задачами в фоновом режиме</string>
+</resources>
