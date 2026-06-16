@@ -32,7 +32,7 @@
     <string name="adb_pairing_tutorial_step3">Enter the pairing code in the notification to complete pairing.</string>
     <string name="adb_pairing_tutorial_step4">Return to this app and connect.</string>
     <string name="about_phone">Про телефон</string>
-    <string name="development_settings">Опції розробника </string>
+    <string name="development_settings">Опції розробника</string>
     <string name="notification_settings">Опції сповіщень</string>
     <!-- ADB Pairing Notification -->
     <string name="notification_channel_adb_pairing">ADB Pairing</string>
