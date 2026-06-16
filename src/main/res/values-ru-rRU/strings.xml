@@ -58,7 +58,7 @@
     <string name="settings_black_night_theme">DARK mode тема</string>
     <string name="settings_black_night_theme_summary">Используйте DARK mode тему, если ночной режим включен</string>
     <string name="settings_pro">Настройки Pro</string>
-    <string name="settings_multi_app">Мультифоновые приложения</string>
+    <string name="settings_multi_app">Мульти Фоновые приложения</string>
     <string name="settings_multi_app_summary">В фоновом режиме может работать несколько приложений.</string>
     <string name="settings_translation_contributors">Авторы перевода</string>
     <string name="settings_translation">Участвовать в переводе</string>
