@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">バックグラウンド実行中</string>
+    <!-- To translators: you can leave your here -->
+    <string name="translation_contributors">arrows79 (90toyotanoah)</string>
+    <!-- Home - Status -->
+    <string name="home_status_service_is_running">サービス稼働中</string>
+    <string name="home_status_service_not_running">サービスが稼働できませんでした</string>
+    <string name="home_status_service_version">バージョン%2$s,%1$s</string>
+    <!-- Home - Shizuku Permission -->
+    <string name="home_shizuku_permission_title">Shizukuを許可してください</string>
+    <string name="home_working_mode_title">作業モード</string>
+    <string name="home_working_mode_shizuku">Shizuku</string>
+    <string name="home_working_mode_root">Root</string>
+    <string name="home_working_mode_adb">ADB</string>
+    <string name="home_shizuku_permission_description"><![CDATA[なぜしずくが必要なのですか？
+<br>バックグラウンドプロセスを動作するためADB権限を必要とします。しずくはこのサービスを提供します。しずくを使用するにはインストールし、使用する必要があります。<br>%s]]></string>
+    <string name="home_shizuku_permission_button">承認</string>
+    <!-- Home - ADB Permission -->
+    <string name="home_adb_permission_title">ADBワイヤレスデバッグ</string>
+    <string name="home_adb_permission_description"><![CDATA[Why ADB mode?<br>Background processes require ADB privileges. This mode connects directly to the device\'s wireless debugging service without requiring Shizuku or Root.<br><br>Prerequisites:<br>1. Enable <b>Wireless Debugging</b> in Developer Options<br>2. <b>Pair</b> this app with the device<br>3. <b>Connect</b> to the ADB service]]></string>
+    <string name="home_adb_permission_button_pair">ADB Pair</string>
+    <!-- ADB Pairing Tutorial -->
+    <string name="adb_pairing_tutorial_title">Pair with your device</string>
+    <string name="adb_pairing_tutorial_network_warning">Must connect to Wi-Fi or wired Ethernet to complete this setup.</string>
+    <string name="adb_pairing_tutorial_notification">A notification will help you complete the pairing.</string>
+    <string name="adb_pairing_tutorial_notification_blocked">The pairing process needs you to interact with a notification. Please allow this app to post notifications.</string>
+    <string name="adb_pairing_tutorial_step1">Enable \"Developer options\". Go to \"About phone\" and tap \"Build number\" 7 times.</string>
+    <string name="adb_pairing_tutorial_step1_hint">Developer options are not detected.</string>
+    <string name="adb_pairing_tutorial_step1_enabled">Developer options detected (you can skip this step)</string>
+    <string name="adb_pairing_tutorial_step2">Enter \"Developer options\" - \"Wireless debugging\". Tap \"Pair device with pairing code\", you will see a six-digit code.</string>
+    <string name="adb_pairing_tutorial_step2_hint">Please note, left part of the \"Wireless debugging\" option is clickable, tapping it will open a new page. Only turning on the switch on the right is incorrect.</string>
+    <string name="adb_pairing_tutorial_step3">Enter the pairing code in the notification to complete pairing.</string>
+    <string name="adb_pairing_tutorial_step4">Return to this app and connect.</string>
+    <string name="about_phone">About phone</string>
+    <string name="development_settings">Developer options</string>
+    <string name="notification_settings">Notification options</string>
+    <!-- ADB Pairing Notification -->
+    <string name="notification_channel_adb_pairing">ADB Pairing</string>
+    <string name="notification_adb_pairing_searching_title">Searching for pairing service</string>
+    <string name="notification_adb_pairing_service_found_title">Pairing service found</string>
+    <string name="notification_adb_pairing_input_pairing_code">Enter pairing code</string>
+    <string name="notification_adb_pairing_stop_searching">Stop searching</string>
+    <string name="notification_adb_pairing_working_title">Pairing in progress</string>
+    <string name="notification_adb_pairing_succeed_title">Pairing successful</string>
+    <string name="notification_adb_pairing_succeed_text">You can now connect to ADB.</string>
+    <string name="notification_adb_pairing_failed_title">Pairing failed</string>
+    <string name="dialog_adb_pairing_pairing_code">Pairing code</string>
+    <string name="cannot_connect_port">Can\'t connect to wireless debugging service.</string>
+    <string name="pairing_code_wrong">Pairing code is wrong.</string>
+    <string name="adb_error_key_store">Unable to generate key for wireless debugging.\nThis may be because KeyStore mechanism of this device is broken.</string>
+    <!-- Home - Learn more -->
+    <string name="home_learn_more_title">Learn Background Run</string>
+    <string name="home_learn_more_description">Learn how to use Background Run</string>
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_language">Language</string>
+    <string name="settings_user_interface">Appearance</string>
+    <string name="settings_black_night_theme">Black night theme</string>
+    <string name="settings_black_night_theme_summary">Use the pure black theme if night mode is enabled</string>
+    <string name="settings_pro">Pro Settings</string>
+    <string name="settings_multi_app">Multi Background App</string>
+    <string name="settings_multi_app_summary">Multiple applications can be run in the background.</string>
+    <string name="settings_translation_contributors">Translation contributors</string>
+    <string name="settings_translation">Participate in translation</string>
+    <string name="settings_translation_summary">Help us translate %s into your language</string>
+    <string name="settings_use_system_color">Use system theme color</string>
+    <string name="settings_action">Action Settings</string>
+    <string name="settings_diagnostic">Diagnostic Service</string>
+    <string name="settings_diagnostic_summary">If the service fails to start or encounters an error during startup, you can check for problems here.</string>
+    <string name="diagnostic_title">Diagnostic</string>
+    <string name="diagnostic_start">Start Detection</string>
+    <string name="diagnostic_progress_format">%d%%</string>
+    <string name="diagnostic_checking_setsid">Checking setsid...</string>
+    <string name="diagnostic_checking_app_process">Checking app_process...</string>
+    <string name="diagnostic_checking_port">Checking port 8127...</string>
+    <string name="diagnostic_checking_slibpath">Checking LibPath readable...</string>
+    <string name="diagnostic_checking_shizuku">Checking Shizuku connection...</string>
+    <string name="diagnostic_checking_root">Checking Root permission...</string>
+    <string name="diagnostic_result_success">Success</string>
+    <string name="diagnostic_result_failed">Failed</string>
+    <string name="diagnostic_item_setsid">setsid exists</string>
+    <string name="diagnostic_item_app_process">app_process exists</string>
+    <string name="diagnostic_item_port">Port 8127 not occupied</string>
+    <string name="diagnostic_item_slibpath">LibPath is readable</string>
+    <string name="diagnostic_item_shizuku">Shizuku connected</string>
+    <string name="diagnostic_item_root">Root permission</string>
+    <string name="diagnostic_item_adb">ADB wireless debugging</string>
+    <string name="diagnostic_checking_adb">Checking ADB connection...</string>
+    <string name="diagnostic_item_shizuku_install">Shizuku installed</string>
+    <string name="diagnostic_checking_shizuku_install">Checking Shizuku installation...</string>
+    <string name="diagnostic_share_log">Share Log</string>
+    <string name="diagnostic_checking_restart_server">Restarting service...</string>
+    <string name="diagnostic_item_restart_server">Restart service</string>
+    <string name="diagnostic_checking_log_start">Starting logcat...</string>
+    <string name="diagnostic_item_log_start">Start logcat</string>
+    <string name="diagnostic_checking_log_stop">Stopping logcat...</string>
+    <string name="diagnostic_item_log_stop">Stop logcat</string>
+    <string name="diagnostic_share_log_file_not_found">Log file not found</string>
+    <string name="settings_multi_window_mode_summary">Floating window mode triggers the current application to the background, such as when the smart sidebar is launched.</string>
+    <string name="settings_multi_window_mode">Floating window Trigger</string>
+    <string name="settings_start_on_boot_summary">Start automatically on boot</string>
+    <string name="settings_start_on_boot">Start on boot</string>
+    <string name="background_launcher_alias">Move to Background</string>
+    <string name="persistent_notification_summary">click to background run</string>
+    <!-- Trigger Settings -->
+    <string name="settings_trigger">Triggers</string>
+    <string name="settings_trigger_summary">Configure ways to trigger background run</string>
+    <string name="settings_trigger_persistent_notification">Persistent Notification</string>
+    <string name="settings_trigger_persistent_notification_summary">Show a persistent notification to quickly trigger background run</string>
+    <string name="settings_trigger_background_launcher">Move to Background Shortcut</string>
+    <string name="settings_trigger_background_launcher_summary">Add a launcher icon to move the current app to background with one tap. Cannot be tapped from home screen directly; use with gesture apps or system sidebars to launch from within other apps.</string>
+    <string name="settings_trigger_shortcut_app">Shortcut App</string>
+    <string name="settings_trigger_shortcut_app_summary">Install a helper app that adds an icon in the app, tap to move the current app to background. Cannot be tapped from home screen directly; use with gesture apps or system sidebars to launch from within other apps.</string>
+    <string name="shortcut_app_install_hint">APK saved to Download/BackgroundRun/, please install it manually.</string>
+    <!-- About -->
+    <string name="action_about">About</string>
+    <!-- Stop -->
+    <string name="action_stop">Stop Service</string>
+    <string name="dialog_stop_message">Service will be stop.</string>
+    <!-- Restart -->
+    <string name="action_restart">Restart Service</string>
+    <string name="dialog_restart_message">Service will restart, It will take about 10 seconds.</string>
+    <!-- Misc -->
+    <string name="dialog_cannot_open_browser_title">Can\'t start browser</string>
+    <string name="toast_copied_to_clipboard_with_text"><![CDATA[<b>%s</b> has been copied to clipboard.]]></string>
+    <!-- Tile -->
+    <string name="tile_title">Background Run</string>
+    <!-- Notification -->
+    <string name="notification_task_resume_channel_name">Background Task Running</string>
+    <string name="notification_task_resume_channel_description">Notify which apps are running in the background</string>
+    <string name="notification_task_resume_title">Background Running</string>
+    <string name="notification_task_resume_text">App: %s is running</string>
+    <string name="notification_task_resume_action">Exit Background</string>
+    <!-- Home - Notification -->
+    <string name="home_notification_title">Notification</string>
+    <string name="home_notification_description"><![CDATA[Notification permissions are required to notify you which apps are running in the background and to provide a method to bring them back to the foreground in the notification.]]></string>
+    <string name="home_notification_button">Grant Permissions</string>
+    <!-- Home - Server Need Update -->
+    <string name="home_server_need_update_title">Service Need Upgrade</string>
+    <string name="home_server_need_update_description"><![CDATA[The service version is incompatible with the built-in version and needs to be updated.]]></string>
+    <string name="home_server_need_update_button">Upgrade</string>
+    <!-- Home - Service Start -->
+    <string name="home_service_start_title">Service Start</string>
+    <string name="home_service_start_description"><![CDATA[The service is not running. It will take 5-10 seconds to start the service.]]></string>
+    <string name="home_service_start_root_description"><![CDATA[The service is not running. It will take 5-10 seconds to start the service. If your device does not have Root access, please use ADB mode.]]></string>
+    <string name="home_service_start_adb_description"><![CDATA[The service is not running. It will take 5-10 seconds to start the service. ADB Wireless Debugging must be enabled and connected.]]></string>
+    <string name="home_service_start_button">Start</string>
+    <!-- Version -->
+    <string name="version_mode_unknow">unknow</string>
+    <string name="version_mode_free">free</string>
+    <string name="version_mode_pro">pro</string>
+    <!-- Home - Add Tile -->
+    <string name="home_add_tile_title">Use Tips: Add Quick Settings Tile</string>
+    <string name="home_add_tile_description"><![CDATA[After adding a Tile, you can quickly switch the app to run in the background by tapping the Tile in the swipe-down status bar.]]></string>
+    <string name="home_add_tile_button">Add Tile</string>
+    <string name="home_add_tile_video_tutorial">Video Tutorial</string>
+    <string name="home_tips_smart_side_bar_title">Use Tips: Smart SideBar</string>
+    <string name="home_tips_smart_side_bar_description">Phones from brands like OnePlus and Xiaomi have a Smart Sidebar where you can click \"Background Run\" to switch the currently running app to the background.</string>
+    <string name="home_tips_smart_side_bar_button">Open Trigger Feature</string>
+    <string name="home_tips_media_tek_title">MediaTek Platform Tips</string>
+    <string name="home_tips_media_tek_description">Shizuku version v13.6.0 is incompatible with MediaTek platforms and will fail to start the service. Please check your Shizuku version and select an alternative version.</string>
+    <!-- Home - App List -->
+    <string name="dialog_app_list_stop_task_message">Are you sure you want to stop?</string>
+    <!-- Toast -->
+    <string name="toast_server_start">Background Run is starting, please wait 5 seconds.</string>
+    <string name="toast_server_restart_retry">Background Run is starting, please wait 5 seconds retry.</string>
+    <string name="toast_task_background">Background Run Success</string>
+    <string name="toast_upgrade_pro">Upgrade to Pro Success</string>
+    <string name="toast_loading">Loading</string>
+    <string name="toast_add_tile">Only one of the same tile is allowed.</string>
+    <string name="toast_add_tile_error">Not supported. Please add it from the status bar editor.</string>
+    <string name="toast_network_error">Network Error.</string>
+    <string name="toast_start_server_failed">Service failed to start:</string>
+    <string name="toast_root_required">Can\'t open root shell, try again…</string>
+    <string name="toast_background_service_disallowed">Unable to start pairing service.\nPlease allow this app to run in the background.</string>
+    <string name="toast_adb_not_paired">ADB device not paired, please pair first</string>
+    <string name="toast_shizuku_not_authorized">Shizuku not authorized, please grant permission first</string>
+    <string name="toast_root_not_available">Root access not available, please check your device</string>
+    <string name="toast_server_starting">Starting server, please wait…</string>
+    <!-- Purchase -->
+    <string name="purchase_pro">Purchase Pro Version</string>
+    <string name="purchase_resume">Resume purchase</string>
+    <string name="dialog_pro_need">Pro version required</string>
+    <string name="dialog_pro_need_view">You can view the current status of background applications and control them.</string>
+    <!-- Switch Move -->
+    <string name="switch_move">Switch Move Method</string>
+    <string name="switch_move_display">move app stack (default)</string>
+    <string name="switch_move_recents">Wake up from recent tasks</string>
+    <!-- Floating Settings -->
+    <string name="settings_floating">Floating Button Settings</string>
+    <string name="settings_floating_summary">The floating button allows you to check the status of the background application at any time.</string>
+    <string name="settings_floating_enabled">Enable Floating Button</string>
+    <string name="settings_floating_auto_hide">Auto Hide</string>
+    <string name="settings_floating_size">Size</string>
+    <string name="settings_floating_opacity">Opacity</string>
+    <string name="settings_floating_vertical_position">Vertical Position</string>
+    <string name="settings_floating_horizontal_position">Horizontal Position</string>
+    <string name="settings_floating_restore_defaults">Restore Default Settings</string>
+    <string name="settings_floating_restore_defaults_confirm_message">Are you sure you want to restore all floating button settings to their defaults?</string>
+    <string name="settings_floating_left">Left</string>
+    <string name="settings_floating_right">Right</string>
+    <string name="perm_title">Permission Detection</string>
+    <string name="perm_overlay_title">Floating Window Permission</string>
+    <string name="perm_battery_title">Battery Optimization</string>
+    <string name="perm_status_on">Enabled</string>
+    <string name="perm_status_off">Disabled, click to set</string>
+    <string name="perm_status_on_blocked">Notification blocked</string>
+    <string name="perm_battery_summary_on">Battery optimization disabled (Recommended)</string>
+    <string name="perm_battery_summary_off">Optimizing, may cause floating window to close, click to set</string>
+    <string name="perm_notification_listener_title">Turn off \"Display over other apps\" notification</string>
+    <string name="perm_notif_summary">Tap to grant Background Run permission to disable the notification</string>
+    <!-- Home - Floating Promo -->
+    <string name="home_floating_promo_title">Floating Quick Control</string>
+    <string name="home_floating_promo_description_pro">Swipe from the edge of the screen to quickly control background apps</string>
+    <string name="home_floating_promo_description_trial">Pro exclusive feature, start your 7-day free trial now</string>
+    <string name="home_floating_promo_description_expired">Trial has ended, upgrade to Pro to continue using</string>
+    <string name="home_floating_promo_description_extend">Trial expired, watch %d ads to extend 7 days</string>
+    <string name="home_floating_promo_button_watch_ad">Watch Ad to Extend</string>
+    <string name="home_floating_promo_button_enable">Enable Floating</string>
+    <string name="home_floating_promo_button_trial">Start 7-Day Trial</string>
+    <string name="home_floating_promo_button_upgrade">Upgrade to Pro</string>
+    <string name="toast_floating_trial_started">7-day floating window trial has started</string>
+    <string name="toast_floating_trial_expired">Floating window trial has ended</string>
+    <string name="toast_ad_watched">Ad watched successfully, trial extended by 7 days!</string>
+    <string name="toast_ad_failed">Ad failed to load, please try again</string>
+    <string name="toast_ad_loading">Loading ad, please wait…</string>
+    <!-- Home - Floating Promo Trial Banner -->
+    <string name="home_floating_promo_trial_banner">⏰ Trial: %d days remaining - Upgrade to Pro for unlimited access</string>
+    <string name="home_floating_promo_ad_remaining">📺 Watch %d more ads to extend trial</string>
+    <!-- Settings - Floating Trial Info -->
+    <string name="settings_floating_trial_remaining">⏰ Trial: %d days remaining</string>
+    <string name="settings_floating_trial_summary">Upgrade to Pro for unlimited access</string>
+    <string name="settings_floating_trial_expired_title">⚠️ Trial has ended</string>
+    <string name="settings_floating_trial_expired_summary">Tap here to upgrade to Pro and continue using floating window</string>
+    <string name="settings_floating_trial_available_title">🎁 7-day free trial available</string>
+    <string name="settings_floating_trial_available_summary">Enable floating window to start your trial</string>
+    <!-- Floating Window Empty State -->
+    <string name="floating_empty_text">No background apps yet</string>
+    <string name="xposed_description">Can launch services and prevent background applications from restarting.</string>
+    <!-- Settings - Xposed Enhanced Mode -->
+    <string name="settings_xposed_title">Enhanced Mode (Xposed)</string>
+    <string name="settings_xposed_summary">Prevent background apps from being restarted by system</string>
+    <string name="settings_xposed_service_status">Service Connection</string>
+    <string name="settings_xposed_hook_status">Hook Mount Status</string>
+    <string name="settings_xposed_not_connected">Not connected to service</string>
+    <string name="settings_xposed_reboot_hint"> (if just activated, please reboot)</string>
+    <string name="settings_xposed_activated">Service connected</string>
+    <string name="settings_xposed_module_activated">Module activated</string>
+    <string name="settings_xposed_module_not_activated">Module not activated</string>
+    <string name="settings_xposed_hook_activated">Hook mounted</string>
+    <string name="settings_xposed_hook_not_activated">Hook not mounted</string>
+    <string name="toast_adb_port_searching">Searching for ADB port, please enable wireless debugging and try again</string>
+    <string name="keep_alive_title">Keep Screen Alive</string>
+    <!-- Permission -->
+    <string name="permission_task_label">Task Control</string>
+    <string name="permission_task_description">Allows the app to send task control commands to Background Run</string>
+</resources>
