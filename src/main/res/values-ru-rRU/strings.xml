@@ -2,6 +2,7 @@
 <resources>
     <string name="app_name">Background Run</string>
     <!-- To translators: you can leave your here -->
+    <string name="translation_contributors">Samuill</string>
     <!-- Home - Status -->
     <string name="home_status_service_is_running">Служба работает</string>
     <string name="home_status_service_not_running">Служба не работает</string>
