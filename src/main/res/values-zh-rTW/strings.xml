@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">後台掛機</string>
+    <!-- To translators: you can leave your here -->
+    <string name="translation_contributors"></string>
+    <!-- Home - Status -->
+    <string name="home_status_service_is_running">服務運作中</string>
+    <string name="home_status_service_not_running">服務尚未執行</string>
+    <string name="home_status_service_version">版本 %2$s，%1$s</string>
+    <!-- Home - Shizuku Permission -->
+    <string name="home_shizuku_permission_title">Shizuku 權限</string>
+    <string name="home_working_mode_title">運作模式</string>
+    <string name="home_working_mode_shizuku">Shizuku</string>
+    <string name="home_working_mode_root">Root</string>
+    <string name="home_working_mode_adb">ADB</string>
+    <string name="home_shizuku_permission_description"><![CDATA[為什麼需要 Shizuku？<br>背景處理程序需要 ADB 權限才能運作。Shizuku 提供了這個介面。您需要先安裝並執行 Shizuku 並進行授權才能使用。<br>%s]]></string>
+    <string name="home_shizuku_permission_button">授權</string>
+    <!-- Home - ADB Permission -->
+    <string name="home_adb_permission_title">ADB 無線偵錯</string>
+    <string name="home_adb_permission_description"><![CDATA[為什麼選擇 ADB 模式？<br>背景處理程序需要 ADB 權限。此模式直接連線到裝置的無線偵錯服務，無需 Shizuku 或 Root。<br><br>先決條件：<br>1. 在開發人員選項中啟用<b>無線偵錯</b><br>2. 將此應用程式與裝置<b>配對</b><br>3. <b>連線</b>至 ADB 服務]]></string>
+    <string name="home_adb_permission_button_pair">ADB 配對</string>
+    <!-- ADB Pairing Tutorial -->
+    <string name="adb_pairing_tutorial_title">與您的裝置配對</string>
+    <string name="adb_pairing_tutorial_network_warning">必須連線至 Wi-Fi 或有線乙太網路才能完成此設定。</string>
+    <string name="adb_pairing_tutorial_notification">通知將協助您完成配對。</string>
+    <string name="adb_pairing_tutorial_notification_blocked">配對程序需要您與通知互動。請允許此應用程式發布通知。</string>
+    <string name="adb_pairing_tutorial_step1">啟用「開發人員選項」。前往「關於手機」並輕觸「版本號碼」7 次。</string>
+    <string name="adb_pairing_tutorial_step1_hint">未偵測到開發人員選項。</string>
+    <string name="adb_pairing_tutorial_step1_enabled">偵測到開發人員選項（您可以跳過此步驟）</string>
+    <string name="adb_pairing_tutorial_step2">進入 \"開發人員選項\" - \"無線偵錯\"。輕觸 \"使用配對碼配對裝置\"，您會看到一組六位數代碼。</string>
+    <string name="adb_pairing_tutorial_step2_hint">請注意，\"無線偵錯\" 選項的左側部分是可點擊的，輕觸它會開啟新頁面。僅開啟右側的開關是不正確的。</string>
+    <string name="adb_pairing_tutorial_step3">在通知中輸入配對碼以完成配對。</string>
+    <string name="adb_pairing_tutorial_step4">返回此應用程式並連線。</string>
+    <string name="about_phone">關於手機</string>
+    <string name="development_settings">開發人員選項</string>
+    <string name="notification_settings">通知選項</string>
+    <!-- ADB Pairing Notification -->
+    <string name="notification_channel_adb_pairing">ADB 配對</string>
+    <string name="notification_adb_pairing_searching_title">正在搜尋配對服務</string>
+    <string name="notification_adb_pairing_service_found_title">已找到配對服務</string>
+    <string name="notification_adb_pairing_input_pairing_code">輸入配對碼</string>
+    <string name="notification_adb_pairing_stop_searching">停止搜尋</string>
+    <string name="notification_adb_pairing_working_title">正在配對</string>
+    <string name="notification_adb_pairing_succeed_title">配對成功</string>
+    <string name="notification_adb_pairing_succeed_text">您現在可以連線到 ADB。</string>
+    <string name="notification_adb_pairing_failed_title">配對失敗</string>
+    <string name="dialog_adb_pairing_pairing_code">配對碼</string>
+    <string name="cannot_connect_port">無法連線到無線偵錯服務。</string>
+    <string name="pairing_code_wrong">配對碼錯誤。</string>
+    <string name="adb_error_key_store">無法為無線偵錯產生金鑰。\n這可能是因為此裝置的 KeyStore 機制已損壞。</string>
+    <!-- Home - Learn more -->
+    <string name="home_learn_more_title">了解後台掛機</string>
+    <string name="home_learn_more_description">了解如何使用後台掛機</string>
+    <!-- Settings -->
+    <string name="settings_title">設定</string>
+    <string name="settings_language">語言</string>
+    <string name="settings_user_interface">外觀</string>
+    <string name="settings_black_night_theme">純黑夜間主題</string>
+    <string name="settings_black_night_theme_summary">啟用夜間模式時使用純黑主題</string>
+    <string name="settings_pro">專業版設定</string>
+    <string name="settings_multi_app">多重背景應用程式</string>
+    <string name="settings_multi_app_summary">多個應用程式可在背景執行。</string>
+    <string name="settings_translation_contributors">翻譯貢獻者</string>
+    <string name="settings_translation">參與翻譯</string>
+    <string name="settings_translation_summary">協助我們將 %s 翻譯為您的語言</string>
+    <string name="settings_use_system_color">使用系統主題顏色</string>
+    <string name="settings_action">操作設定</string>
+    <string name="settings_diagnostic">診斷服務</string>
+    <string name="settings_diagnostic_summary">如果服務啟動失敗或在啟動期間發生錯誤，您可以在這裡檢查問題。</string>
+    <string name="diagnostic_title">診斷</string>
+    <string name="diagnostic_start">開始偵測</string>
+    <string name="diagnostic_progress_format">%d%%</string>
+    <string name="diagnostic_checking_setsid">正在檢查 setsid……</string>
+    <string name="diagnostic_checking_app_process">正在檢查 app_process……</string>
+    <string name="diagnostic_checking_port">正在檢查連接埠 8127……</string>
+    <string name="diagnostic_checking_slibpath">正在檢查 LibPath 是否可讀……</string>
+    <string name="diagnostic_checking_shizuku">正在檢查 Shizuku 連線……</string>
+    <string name="diagnostic_checking_root">正在檢查 Root 權限……</string>
+    <string name="diagnostic_result_success">成功</string>
+    <string name="diagnostic_result_failed">失敗</string>
+    <string name="diagnostic_item_setsid">setsid 存在</string>
+    <string name="diagnostic_item_app_process">app_process 存在</string>
+    <string name="diagnostic_item_port">連接埠 8127 未被佔用</string>
+    <string name="diagnostic_item_slibpath">LibPath 可讀取</string>
+    <string name="diagnostic_item_shizuku">Shizuku 已連接</string>
+    <string name="diagnostic_item_root">Root 權限</string>
+    <string name="diagnostic_item_adb">ADB 無線偵錯</string>
+    <string name="diagnostic_checking_adb">正在檢查 ADB 連線……</string>
+    <string name="diagnostic_item_shizuku_install">Shizuku 已安裝</string>
+    <string name="diagnostic_checking_shizuku_install">正在檢查 Shizuku 安裝……</string>
+    <string name="diagnostic_share_log">分享日誌</string>
+    <string name="diagnostic_checking_restart_server">正在重新啟動服務……</string>
+    <string name="diagnostic_item_restart_server">重新啟動服務</string>
+    <string name="diagnostic_checking_log_start">正在啟動 logcat……</string>
+    <string name="diagnostic_item_log_start">啟動 logcat</string>
+    <string name="diagnostic_checking_log_stop">正在停止 logcat……</string>
+    <string name="diagnostic_item_log_stop">停止 logcat</string>
+    <string name="diagnostic_share_log_file_not_found">找不到日誌檔案</string>
+    <string name="settings_multi_window_mode_summary">懸浮窗模式會觸發當前應用程式進入背景，例如啟動智慧側邊欄時。</string>
+    <string name="settings_multi_window_mode">懸浮窗觸發</string>
+    <string name="settings_start_on_boot_summary">開機自動啟動</string>
+    <string name="settings_start_on_boot">開機啟動</string>
+    <string name="background_launcher_alias">移至背景</string>
+    <string name="persistent_notification_summary">點擊以背景執行</string>
+    <!-- Trigger Settings -->
+    <string name="settings_trigger">觸發條件</string>
+    <string name="settings_trigger_summary">設定觸發背景執行的方式</string>
+    <string name="settings_trigger_persistent_notification">常駐通知</string>
+    <string name="settings_trigger_persistent_notification_summary">顯示常駐通知以快速觸發背景執行</string>
+    <string name="settings_trigger_background_launcher">移至背景捷徑</string>
+    <string name="settings_trigger_background_launcher_summary">新增啟動器圖示，只需輕觸一下即可將目前應用程式移至背景。無法直接從主畫面輕觸；請搭配手勢應用程式或系統側邊欄從其他應用程式內啟動。</string>
+    <string name="settings_trigger_shortcut_app">捷徑應用程式</string>
+    <string name="settings_trigger_shortcut_app_summary">安裝在應用程式中新增圖示的輔助應用程式，輕觸即可將目前應用程式移至背景。無法直接從主畫面輕觸；請搭配手勢應用程式或系統側邊欄從其他應用程式內啟動。</string>
+    <string name="shortcut_app_install_hint">APK 已儲存至 Download/BackgroundRun/，請手動安裝。</string>
+    <!-- About -->
+    <string name="action_about">關於</string>
+    <!-- Stop -->
+    <string name="action_stop">停止服務</string>
+    <string name="dialog_stop_message">服務將會停止。</string>
+    <!-- Restart -->
+    <string name="action_restart">重新啟動服務</string>
+    <string name="dialog_restart_message">服務將重新啟動，大約需要 10 秒。</string>
+    <!-- Misc -->
+    <string name="dialog_cannot_open_browser_title">無法開啟瀏覽器</string>
+    <string name="toast_copied_to_clipboard_with_text"><![CDATA[<b>%s</b> 已複製到剪貼簿。]]></string>
+    <!-- Tile -->
+    <string name="tile_title">後台掛機</string>
+    <!-- Notification -->
+    <string name="notification_task_resume_channel_name">後台任務運行</string>
+    <string name="notification_task_resume_channel_description">通知哪些應用程式正在後台運行</string>
+    <string name="notification_task_resume_title">後台運行</string>
+    <string name="notification_task_resume_text">應用程式：%s 正在運行</string>
+    <string name="notification_task_resume_action">退出後台</string>
+    <!-- Home - Notification -->
+    <string name="home_notification_title">通知</string>
+    <string name="home_notification_description"><![CDATA[需要通知權限，以便通知您哪些應用程式正在後台運行，並在通知中提供將其帶回前台的方法。]]></string>
+    <string name="home_notification_button">授予權限</string>
+    <!-- Home - Server Need Update -->
+    <string name="home_server_need_update_title">服務需要升級</string>
+    <string name="home_server_need_update_description"><![CDATA[服務版本與內建版本不相容，需要更新。]]></string>
+    <string name="home_server_need_update_button">升級</string>
+    <!-- Home - Service Start -->
+    <string name="home_service_start_title">服務啟動</string>
+    <string name="home_service_start_description"><![CDATA[服務未運行。啟動服務需時 5-10 秒。]]></string>
+    <string name="home_service_start_root_description"><![CDATA[服務未運行。啟動服務需要 5-10 秒。如果您的裝置沒有 Root 權限，請使用 ADB 模式。]]></string>
+    <string name="home_service_start_adb_description"><![CDATA[服務未運行。啟動服務需要 5-10 秒。必須啟用並連線 ADB 無線偵錯。]]></string>
+    <string name="home_service_start_button">啟動</string>
+    <!-- Version -->
+    <string name="version_mode_unknow">未知</string>
+    <string name="version_mode_free">免費</string>
+    <string name="version_mode_pro">專業版</string>
+    <!-- Home - Add Tile -->
+    <string name="home_add_tile_title">使用提示：新增快速設定圖塊</string>
+    <string name="home_add_tile_description"><![CDATA[新增圖塊後，您可以透過點擊下拉狀態欄中的圖塊，快速將應用程式切換為背景執行。]]></string>
+    <string name="home_add_tile_button">新增圖塊</string>
+    <string name="home_add_tile_video_tutorial">影片教學</string>
+    <string name="home_tips_smart_side_bar_title">使用提示：智慧側邊欄</string>
+    <string name="home_tips_smart_side_bar_description">OnePlus 和 Xiaomi 等品牌的手機具有智慧側邊欄，您可以在其中點擊 \"後台掛機\"，將目前執行的應用程式切換至背景執行。</string>
+    <string name="home_tips_smart_side_bar_button">開啟觸發功能</string>
+    <string name="home_tips_media_tek_title">MediaTek 平台提示</string>
+    <string name="home_tips_media_tek_description">Shizuku v13.6.0 版本與 MediaTek 平台不相容，將無法啟動服務。請檢查您的 Shizuku 版本並選擇其他版本。</string>
+    <!-- Home - App List -->
+    <string name="dialog_app_list_stop_task_message">您確定要停止嗎？</string>
+    <!-- Toast -->
+    <string name="toast_server_start">後台掛機正在啟動，請等待 5 秒。</string>
+    <string name="toast_server_restart_retry">後台掛機正在啟動，請等待 5 秒後重試。</string>
+    <string name="toast_task_background">後台掛機成功</string>
+    <string name="toast_upgrade_pro">升級至專業版成功</string>
+    <string name="toast_loading">載入中</string>
+    <string name="toast_add_tile">僅允許新增一個相同的圖塊。</string>
+    <string name="toast_add_tile_error">不支援。請從狀態列編輯器中新增。</string>
+    <string name="toast_network_error">網路錯誤。</string>
+    <string name="toast_start_server_failed">服務啟動失敗：</string>
+    <string name="toast_root_required">無法開啟 Root Shell，請重試…</string>
+    <string name="toast_background_service_disallowed">無法啟動配對服務。\n請允許此應用程式在背景中運行。</string>
+    <string name="toast_adb_not_paired">ADB 裝置未配對，請先進行配對</string>
+    <string name="toast_shizuku_not_authorized">Shizuku 未獲授權，請先授予權限</string>
+    <string name="toast_root_not_available">Root 權限不可用，請檢查您的裝置</string>
+    <string name="toast_server_starting">正在啟動伺服器，請稍候…</string>
+    <!-- Purchase -->
+    <string name="purchase_pro">購買專業版</string>
+    <string name="purchase_resume">恢復購買</string>
+    <string name="dialog_pro_need">需要專業版</string>
+    <string name="dialog_pro_need_view">您可以查看背景應用程式的目前狀態並進行控制。</string>
+    <!-- Switch Move -->
+    <string name="switch_move">切換移動方式</string>
+    <string name="switch_move_display">移動應用程式堆疊 (預設)</string>
+    <string name="switch_move_recents">從最近任務喚醒</string>
+    <!-- Floating Settings -->
+    <string name="settings_floating">懸浮按鈕設定</string>
+    <string name="settings_floating_summary">懸浮按鈕可讓您隨時查看背景應用程式的狀態。</string>
+    <string name="settings_floating_enabled">啟用懸浮按鈕</string>
+    <string name="settings_floating_auto_hide">自動隱藏</string>
+    <string name="settings_floating_size">大小</string>
+    <string name="settings_floating_opacity">不透明度</string>
+    <string name="settings_floating_vertical_position">垂直位置</string>
+    <string name="settings_floating_horizontal_position">水平位置</string>
+    <string name="settings_floating_restore_defaults">恢復預設設定</string>
+    <string name="settings_floating_restore_defaults_confirm_message">您確定要將所有懸浮按鈕設定恢復為預設值嗎？</string>
+    <string name="settings_floating_left">左</string>
+    <string name="settings_floating_right">右</string>
+    <string name="perm_title">權限偵測</string>
+    <string name="perm_overlay_title">懸浮視窗權限</string>
+    <string name="perm_battery_title">電池最佳化</string>
+    <string name="perm_status_on">已啟用</string>
+    <string name="perm_status_off">已停用，點擊設定</string>
+    <string name="perm_status_on_blocked">通知已封鎖</string>
+    <string name="perm_battery_summary_on">已停用電池最佳化（建議）</string>
+    <string name="perm_battery_summary_off">正在最佳化，可能導致懸浮視窗關閉，點擊設定</string>
+    <string name="perm_notification_listener_title">關閉「顯示在其他應用程式上方」通知</string>
+    <string name="perm_notif_summary">點擊授予背景執行權限以停用通知</string>
+    <!-- Home - Floating Promo -->
+    <string name="home_floating_promo_title">懸浮快捷控制</string>
+    <string name="home_floating_promo_description_pro">從螢幕邊緣滑動以快速控制背景應用程式</string>
+    <string name="home_floating_promo_description_trial">Pro 專屬功能，立即開始 7 天免費試用</string>
+    <string name="home_floating_promo_description_expired">試用已結束，升級至 Pro 以繼續使用</string>
+    <string name="home_floating_promo_description_extend">試用已過期，觀看 %d 則廣告以延長 7 天</string>
+    <string name="home_floating_promo_button_watch_ad">觀看廣告以延長</string>
+    <string name="home_floating_promo_button_enable">啟用懸浮窗</string>
+    <string name="home_floating_promo_button_trial">開始 7 天試用</string>
+    <string name="home_floating_promo_button_upgrade">升級至 Pro</string>
+    <string name="toast_floating_trial_started">7 天懸浮窗試用已開始</string>
+    <string name="toast_floating_trial_expired">懸浮窗試用已結束</string>
+    <string name="toast_ad_watched">廣告觀看成功，試用期已延長 7 天！</string>
+    <string name="toast_ad_failed">廣告載入失敗，請重試</string>
+    <string name="toast_ad_loading">正在載入廣告，請稍候…</string>
+    <!-- Home - Floating Promo Trial Banner -->
+    <string name="home_floating_promo_trial_banner">⏰ 試用：剩餘 %d 天 - 升級至 Pro 版以獲得無限使用</string>
+    <string name="home_floating_promo_ad_remaining">{count, plural, other{📺 再觀看 <b>#</b> 則廣告以延長試用期}}</string>
+    <!-- Settings - Floating Trial Info -->
+    <string name="settings_floating_trial_remaining">⏰ 試用：剩餘 %d 天</string>
+    <string name="settings_floating_trial_summary">升級至 Pro 版以獲得無限使用</string>
+    <string name="settings_floating_trial_expired_title">⚠️ 試用已結束</string>
+    <string name="settings_floating_trial_expired_summary">點擊此處升級至 Pro 版並繼續使用懸浮視窗</string>
+    <string name="settings_floating_trial_available_title">🎁 提供 7 天免費試用</string>
+    <string name="settings_floating_trial_available_summary">啟用懸浮視窗以開始試用</string>
+    <!-- Floating Window Empty State -->
+    <string name="floating_empty_text">尚無背景應用程式</string>
+    <string name="xposed_description">可以啟動服務並防止背景應用程式重新啟動。</string>
+    <!-- Settings - Xposed Enhanced Mode -->
+    <string name="settings_xposed_title">增強模式 (Xposed)</string>
+    <string name="settings_xposed_summary">防止背景應用程式被系統重新啟動</string>
+    <string name="settings_xposed_service_status">服務連線</string>
+    <string name="settings_xposed_hook_status">Hook 掛載狀態</string>
+    <string name="settings_xposed_not_connected">未連線至服務</string>
+    <string name="settings_xposed_reboot_hint"> (若剛啟用，請重新啟動)</string>
+    <string name="settings_xposed_activated">服務已連線</string>
+    <string name="settings_xposed_module_activated">模組已啟用</string>
+    <string name="settings_xposed_module_not_activated">模組未啟用</string>
+    <string name="settings_xposed_hook_activated">Hook 已掛載</string>
+    <string name="settings_xposed_hook_not_activated">Hook 未掛載</string>
+    <string name="toast_adb_port_searching">正在搜尋 ADB 連接埠，請啟用無線偵錯並再試一次</string>
+    <string name="keep_alive_title">保持螢幕常亮</string>
+    <!-- Permission -->
+    <string name="permission_task_label">工作控制</string>
+    <string name="permission_task_description">允許應用程式傳送工作控制指令至「背景執行」</string>
+</resources>
