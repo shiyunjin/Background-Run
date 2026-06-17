@@ -110,7 +110,7 @@
     <string name="settings_trigger_background_launcher">Ярлык перевода в фоновый режим</string>
     <string name="settings_trigger_background_launcher_summary">Добавляет иконку запуска для перевода текущего приложения в фоновый режим одним нажатием. Её нельзя нажать прямо с главного экрана; используйте сторонние приложения для жестов или системные боковые панели для запуска поверх других приложений.</string>
     <string name="settings_trigger_shortcut_app">Приложение-ярлык </string>
-    <string name="settings_trigger_shortcut_app_summary">Установите вспомогательное приложение, которое добавляет иконку; нажмите на неё, чтобы перевести текущее приложение в фон. Её нельзя нажать прямо с главного экрана; используйте сторонние приложения для жестов или системные боковые панели для запуска поверх других приложений.</string>
+    <string name="settings_trigger_shortcut_app_summary">Устанавливает мини-приложение для обхода ограничений системы. Позволяет отправлять текущую задачу в фон в один тап через сторонние панели и жесты.</string>
     <string name="shortcut_app_install_hint">APK-файл сохранён в папку Download/BackgroundRun/, пожалуйста, установите его вручную.</string>
     <!-- About -->
     <string name="action_about">О нас</string>
