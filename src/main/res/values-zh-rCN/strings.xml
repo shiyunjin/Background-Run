@@ -2,6 +2,7 @@
 <resources>
     <string name="app_name">后台挂机</string>
     <!-- To translators: you can leave your here -->
+    <string name="translation_contributors"></string>
     <!-- Home - Status -->
     <string name="home_status_service_is_running">服务运行中</string>
     <string name="home_status_service_not_running">服务未运行</string>
