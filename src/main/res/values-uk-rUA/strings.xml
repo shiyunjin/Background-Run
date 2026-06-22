@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Background Run</string>
+    <!-- To translators: you can leave your here -->
+    <string name="translation_contributors">Samuill</string>
+    <!-- Home - Status -->
+    <string name="home_status_service_is_running">Сервіс працює</string>
+    <string name="home_status_service_not_running">Сервіс не працює</string>
+    <string name="home_status_service_version">Версія %2$s, %1$s</string>
+    <!-- Home - Shizuku Permission -->
+    <string name="home_shizuku_permission_title">Дозвіл Shizuku </string>
+    <string name="home_working_mode_title">Режим роботи</string>
+    <string name="home_working_mode_shizuku">Shizuku</string>
+    <string name="home_working_mode_root">Root</string>
+    <string name="home_working_mode_adb">ADB</string>
+    <string name="home_shizuku_permission_description"><![CDATA[Навіщо вам Shizuku? <br>Фонові процеси потребують привілеїв ADB для роботи. Shizuku надає цей інтерфейс. Вам потрібно встановити та запустити Shizuku і авторизувати його, перш ніж ви зможете ним скористатися.<br>%s]]></string>
+    <string name="home_shizuku_permission_button">Авторизуватись</string>
+    <!-- Home - ADB Permission -->
+    <string name="home_adb_permission_title">Бездротове налагодження ADB</string>
+    <string name="home_adb_permission_description"><![CDATA[Чому режим ADB?<br>Фонові процеси потребують привілеїв ADB. Цей режим підключається безпосередньо до служби бездротового налагодження пристрою без потреби у Shizuku або Root.<br><br>Попередні вимоги:<br>1. Увімкніть <b>Бездротове налагодження</b> у Параметрах розробника<br>2. <b>З\'єднайте</b> цей додаток з пристроєм<br>3. <b>Підключіться</b> до служби ADB]]></string>
+    <string name="home_adb_permission_button_pair">Сполучення ADB</string>
+    <!-- ADB Pairing Tutorial -->
+    <string name="adb_pairing_tutorial_title">З\'єднання з вашим пристроєм</string>
+    <string name="adb_pairing_tutorial_network_warning">Необхідно підключитися до Wi-Fi або дротового Ethernet, щоб завершити це налаштування.</string>
+    <string name="adb_pairing_tutorial_notification">Сповіщення допоможе вам завершити з\'єднання.</string>
+    <string name="adb_pairing_tutorial_notification_blocked">Процес з\'єднання вимагає взаємодії зі сповіщенням. Будь ласка, дозвольте цьому додатку надсилати сповіщення.</string>
+    <string name="adb_pairing_tutorial_step1">Увімкніть \"Параметри розробника\". Перейдіть до \"Про телефон\" і натисніть \"Номер збірки\" 7 разів.</string>
+    <string name="adb_pairing_tutorial_step1_hint">Параметри розробника не знайдено.</string>
+    <string name="adb_pairing_tutorial_step1_enabled">Параметри розробника виявлено (ви можете пропустити цей крок)</string>
+    <string name="adb_pairing_tutorial_step2">Відкрийте \"Параметри розробника\" - \"Бездротове налагодження\". Натисніть \"З\'єднати пристрій за допомогою коду сполучення\", ви побачите шестизначний код.</string>
+    <string name="adb_pairing_tutorial_step2_hint">Зверніть увагу, ліва частина опції \"Бездротове налагодження\" доступна для натискання, натискання на неї відкриє нову сторінку. Лише вмикання перемикача праворуч є неправильним.</string>
+    <string name="adb_pairing_tutorial_step3">Введіть код сполучення зі сповіщення, щоб завершити сполучення.</string>
+    <string name="adb_pairing_tutorial_step4">Поверніться до цього додатка та підключіться.</string>
+    <string name="about_phone">Про телефон</string>
+    <string name="development_settings">Опції розробника</string>
+    <string name="notification_settings">Опції сповіщень</string>
+    <!-- ADB Pairing Notification -->
+    <string name="notification_channel_adb_pairing">З\'єднання ADB</string>
+    <string name="notification_adb_pairing_searching_title">Пошук для з\'єднання сервісу</string>
+    <string name="notification_adb_pairing_service_found_title">Сервіс з\'єднання знайдений</string>
+    <string name="notification_adb_pairing_input_pairing_code">Введіть код з\'єднання</string>
+    <string name="notification_adb_pairing_stop_searching">Зупинити пошук</string>
+    <string name="notification_adb_pairing_working_title">Процес з\'єднання</string>
+    <string name="notification_adb_pairing_succeed_title">Успішно з\'єднана</string>
+    <string name="notification_adb_pairing_succeed_text">Ви можете зараз підключитися до ADB.</string>
+    <string name="notification_adb_pairing_failed_title">З\'єднання не вийшло</string>
+    <string name="dialog_adb_pairing_pairing_code">Код з\'єднання</string>
+    <string name="cannot_connect_port">Неможливо підключитися до режиму відладки по Wi-Fi</string>
+    <string name="pairing_code_wrong">Код з\'єднання невірний</string>
+    <string name="adb_error_key_store">Не вдалося згенерувати ключ для бездротового налагодження.\nЦе може бути пов\'язано з тим, що механізм KeyStore цього пристрою пошкоджений.</string>
+    <!-- Home - Learn more -->
+    <string name="home_learn_more_title">Дослідити Background Run</string>
+    <string name="home_learn_more_description">Дослідити як використовувати Background Run</string>
+    <!-- Settings -->
+    <string name="settings_title">Налаштування</string>
+    <string name="settings_language">Мова</string>
+    <string name="settings_user_interface">Зовнішній вигляд</string>
+    <string name="settings_black_night_theme">Чорна нічна тема</string>
+    <string name="settings_black_night_theme_summary">Використовувати повністю чорну тему, якщо ввімкнено нічний режим</string>
+    <string name="settings_pro">Налаштування Pro</string>
+    <string name="settings_multi_app">Кілька фонових програм</string>
+    <string name="settings_multi_app_summary">Кілька програм можуть працювати у фоновому режимі.</string>
+    <string name="settings_translation_contributors">Учасники перекладу</string>
+    <string name="settings_translation">Взяти участь у перекладі</string>
+    <string name="settings_translation_summary">Допоможіть нам %s перекласти на вашу мову</string>
+    <string name="settings_use_system_color">Використовувати кольорову схему системи</string>
+    <string name="settings_action">Сервіс подій</string>
+    <string name="settings_diagnostic">Сервіс діагностики</string>
+    <string name="settings_diagnostic_summary">Якщо службу не вдається запустити або під час запуску виникає помилка, ви можете перевірити проблеми тут.</string>
+    <string name="diagnostic_title">Діагностика</string>
+    <string name="diagnostic_start">Запуск детекції</string>
+    <string name="diagnostic_progress_format">%d%%</string>
+    <string name="diagnostic_checking_setsid">Перевірка setsid...</string>
+    <string name="diagnostic_checking_app_process">Перевірка app_process...</string>
+    <string name="diagnostic_checking_port">Перевірка порта 8127</string>
+    <string name="diagnostic_checking_slibpath">Перевірка доступності LibPath для читання...</string>
+    <string name="diagnostic_checking_shizuku">Перевірка підключення до Shizuku</string>
+    <string name="diagnostic_checking_root">Перевірка доступу до Root</string>
+    <string name="diagnostic_result_success">Успішно</string>
+    <string name="diagnostic_result_failed">Помилка</string>
+    <string name="diagnostic_item_setsid">setsid існує</string>
+    <string name="diagnostic_item_app_process">app_process існує</string>
+    <string name="diagnostic_item_port">Порт 8127 не зайнятий</string>
+    <string name="diagnostic_item_slibpath">LibPath доступний для читання</string>
+    <string name="diagnostic_item_shizuku">Shizuku підключений</string>
+    <string name="diagnostic_item_root">Root-дозвіл</string>
+    <string name="diagnostic_item_adb">Бездротове налагодження ADB</string>
+    <string name="diagnostic_checking_adb">Перевірка підключення до ADB...</string>
+    <string name="diagnostic_item_shizuku_install">Shizuku встановлено</string>
+    <string name="diagnostic_checking_shizuku_install">Перевірка наявності Shizuku</string>
+    <string name="diagnostic_share_log">Відіслати log файл</string>
+    <string name="diagnostic_checking_restart_server">Перезапуск сервісу...</string>
+    <string name="diagnostic_item_restart_server">Перезапустити сервіс</string>
+    <string name="diagnostic_checking_log_start">Запуск logcat...</string>
+    <string name="diagnostic_item_log_start">Запуск logcat</string>
+    <string name="diagnostic_checking_log_stop">Зупинка logcat...</string>
+    <string name="diagnostic_item_log_stop">Зупинити logcat</string>
+    <string name="diagnostic_share_log_file_not_found">Файл логів не знайдений</string>
+    <string name="settings_multi_window_mode_summary">Режим плаваючого вікна переводить поточну програму у фоновий режим, наприклад, під час запуску розумної бічної панелі.</string>
+    <string name="settings_multi_window_mode">Тригер плаваючого вікна</string>
+    <string name="settings_start_on_boot_summary">Запускатися автоматично при завантаженні</string>
+    <string name="settings_start_on_boot">Запускати при завантаженні</string>
+    <string name="background_launcher_alias">Перемістити у фоновий режим</string>
+    <string name="persistent_notification_summary">натисніть для запуску у фоновому режимі</string>
+    <!-- Trigger Settings -->
+    <string name="settings_trigger">Тригери</string>
+    <string name="settings_trigger_summary">Налаштування способів запуску у фоновому режимі</string>
+    <string name="settings_trigger_persistent_notification">Постійне сповіщення</string>
+    <string name="settings_trigger_persistent_notification_summary">Показувати постійне сповіщення для швидкого запуску у фоновому режимі</string>
+    <string name="settings_trigger_background_launcher">Ярлик переміщення у фоновий режим</string>
+    <string name="settings_trigger_background_launcher_summary">Додайте значок запуску, щоб перемістити поточний додаток у фон одним натисканням. Його не можна натиснути з головного екрана безпосередньо; використовуйте разом із додатками для жестів або системними бічними панелями для запуску з інших додатків.</string>
+    <string name="settings_trigger_shortcut_app">Програма-ярлик</string>
+    <string name="settings_trigger_shortcut_app_summary">Встановіть допоміжний додаток, який додає значок у додатку; натисніть його, щоб перемістити поточний додаток у фон. Його не можна натиснути з головного екрана безпосередньо; використовуйте разом із додатками для жестів або системними бічними панелями для запуску з інших додатків.</string>
+    <string name="shortcut_app_install_hint">APK збережено до Download/BackgroundRun/, будь ласка, встановіть його вручну.</string>
+    <!-- About -->
+    <string name="action_about">Про програму</string>
+    <!-- Stop -->
+    <string name="action_stop">Зупинити сервіс</string>
+    <string name="dialog_stop_message">Сервіс буде зупинено.</string>
+    <!-- Restart -->
+    <string name="action_restart">Перезапустити сервіс</string>
+    <string name="dialog_restart_message">Службу буде перезапущено, це займе близько 10 секунд.</string>
+    <!-- Misc -->
+    <string name="dialog_cannot_open_browser_title">Не вдалося запустити браузер</string>
+    <string name="toast_copied_to_clipboard_with_text"><![CDATA[<b>%s</b> скопійовано в буфер обміну.]]></string>
+    <!-- Tile -->
+    <string name="tile_title">Фоновий запуск</string>
+    <!-- Notification -->
+    <string name="notification_task_resume_channel_name">Виконання фонового завдання</string>
+    <string name="notification_task_resume_channel_description">Повідомляє про те, які додатки працюють у фоні</string>
+    <string name="notification_task_resume_title">Фонове виконання</string>
+    <string name="notification_task_resume_text">Додаток: %s працює</string>
+    <string name="notification_task_resume_action">Завершити роботу в фоні</string>
+    <!-- Home - Notification -->
+    <string name="home_notification_title">Сповіщення</string>
+    <string name="home_notification_description"><![CDATA[Потрібні дозволи на сповіщення, щоб інформувати вас про те, які додатки працюють у фоні, і надати можливість повернути їх на передній план через сповіщення.]]></string>
+    <string name="home_notification_button">Надати дозволи</string>
+    <!-- Home - Server Need Update -->
+    <string name="home_server_need_update_title">Службу потрібно оновити</string>
+    <string name="home_server_need_update_description"><![CDATA[Версія служби несумісна з вбудованою версією і потребує оновлення.]]></string>
+    <string name="home_server_need_update_button">Оновити</string>
+    <!-- Home - Service Start -->
+    <string name="home_service_start_title">Запуск сервісу</string>
+    <string name="home_service_start_description"><![CDATA[Сервіс не запущено. Запуск сервісу займе 5-10 секунд.]]></string>
+    <string name="home_service_start_root_description"><![CDATA[Служба не запущена. Запуск служби займе 5-10 секунд. Якщо ваш пристрій не має доступу Root, будь ласка, використовуйте режим ADB.]]></string>
+    <string name="home_service_start_adb_description"><![CDATA[Сервіс не запущено. Запуск сервісу займе 5-10 секунд. Необхідно увімкнути та підключити бездротове налагодження ADB.]]></string>
+    <string name="home_service_start_button">Запустити</string>
+    <!-- Version -->
+    <string name="version_mode_unknow">невідомо</string>
+    <string name="version_mode_free">безкоштовна</string>
+    <string name="version_mode_pro">pro</string>
+    <!-- Home - Add Tile -->
+    <string name="home_add_tile_title">Поради: Додати плитку швидких налаштувань</string>
+    <string name="home_add_tile_description"><![CDATA[Після додавання плитки ви зможете швидко перевести додаток у фоновий режим, натиснувши на неї в панелі сповіщень, що розкривається зверху.]]></string>
+    <string name="home_add_tile_button">Додати плитку</string>
+    <string name="home_add_tile_video_tutorial">Відеоінструкція</string>
+    <string name="home_tips_smart_side_bar_title">Поради: Розумна бічна панель</string>
+    <string name="home_tips_smart_side_bar_description">Смартфони таких брендів, як OnePlus та Xiaomi, мають розумну бічну панель, де ви можете натиснути \"Фоновий запуск\", щоб перевести додаток, що наразі запущено, у фоновий режим.</string>
+    <string name="home_tips_smart_side_bar_button">Увімкнути функцію тригера</string>
+    <string name="home_tips_media_tek_title">Поради для платформи MediaTek</string>
+    <string name="home_tips_media_tek_description">Версія Shizuku v13.6.0 несумісна з платформами MediaTek, тому не вдасться запустити службу. Перевірте версію Shizuku та виберіть іншу версію.</string>
+    <!-- Home - App List -->
+    <string name="dialog_app_list_stop_task_message">Ви впевнені, що хочете зупинити?</string>
+    <!-- Toast -->
+    <string name="toast_server_start">Запускається фоновий режим, будь ласка, зачекайте 5 секунд.</string>
+    <string name="toast_server_restart_retry">Запускається фоновий режим, будь ласка, зачекайте 5 секунд для повторної спроби.</string>
+    <string name="toast_task_background">Робота у фоновому режимі успішна</string>
+    <string name="toast_upgrade_pro">Оновлення до Pro-версії успішне</string>
+    <string name="toast_loading">Завантаження</string>
+    <string name="toast_add_tile">Дозволено лише одну однакову плитку.</string>
+    <string name="toast_add_tile_error">Не підтримується. Будь ласка, додайте з редактора рядка стану.</string>
+    <string name="toast_network_error">Помилка мережі.</string>
+    <string name="toast_start_server_failed">Не вдалося запустити службу:</string>
+    <string name="toast_root_required">Не вдається відкрити root-оболонку, спробуйте ще раз…</string>
+    <string name="toast_background_service_disallowed">Не вдалося запустити сервіс сполучення.\nДозвольте цій програмі працювати у фоновому режимі.</string>
+    <string name="toast_adb_not_paired">Пристрій ADB не сполучено, спершу виконайте сполучення</string>
+    <string name="toast_shizuku_not_authorized">Shizuku не авторизовано, спершу надайте дозвіл</string>
+    <string name="toast_root_not_available">Доступ root недоступний, перевірте свій пристрій</string>
+    <string name="toast_server_starting">Запуск сервера, зачекайте…</string>
+    <!-- Purchase -->
+    <string name="purchase_pro">Купити Pro-версію</string>
+    <string name="purchase_resume">Відновити покупку</string>
+    <string name="dialog_pro_need">Потрібна версія Pro</string>
+    <string name="dialog_pro_need_view">Ви можете переглядати поточний статус фонових додатків та керувати ними.</string>
+    <!-- Switch Move -->
+    <string name="switch_move">Змінити метод переміщення</string>
+    <string name="switch_move_display">переміщувати стек додатків (за замовчуванням)</string>
+    <string name="switch_move_recents">Пробудження з останніх завдань</string>
+    <!-- Floating Settings -->
+    <string name="settings_floating">Налаштування плаваючої кнопки</string>
+    <string name="settings_floating_summary">Плаваюча кнопка дозволяє в будь-який час перевіряти статус фонового додатка.</string>
+    <string name="settings_floating_enabled">Увімкнути плаваючу кнопку</string>
+    <string name="settings_floating_auto_hide">Автоприховування</string>
+    <string name="settings_floating_size">Розмір</string>
+    <string name="settings_floating_opacity">Непрозорість</string>
+    <string name="settings_floating_vertical_position">Вертикальне положення</string>
+    <string name="settings_floating_horizontal_position">Горизонтальне положення</string>
+    <string name="settings_floating_restore_defaults">Відновити налаштування за замовчуванням</string>
+    <string name="settings_floating_restore_defaults_confirm_message">Ви впевнені, що хочете відновити типові налаштування плаваючої кнопки?</string>
+    <string name="settings_floating_left">Ліворуч</string>
+    <string name="settings_floating_right">Праворуч</string>
+    <string name="perm_title">Виявлення дозволів</string>
+    <string name="perm_overlay_title">Дозвіл на плаваюче вікно</string>
+    <string name="perm_battery_title">Оптимізація батареї</string>
+    <string name="perm_status_on">Увімкнено</string>
+    <string name="perm_status_off">Вимкнено, натисніть для налаштування</string>
+    <string name="perm_status_on_blocked">Сповіщення заблоковано</string>
+    <string name="perm_battery_summary_on">Оптимізацію батареї вимкнено (Рекомендовано)</string>
+    <string name="perm_battery_summary_off">Оптимізується, може призвести до закриття плаваючого вікна, натисніть для налаштування</string>
+    <string name="perm_notification_listener_title">Вимкнути сповіщення \"Відображення поверх інших застосунків\"</string>
+    <string name="perm_notif_summary">Натисніть, щоб надати дозвіл Background Run для вимкнення сповіщення</string>
+    <!-- Home - Floating Promo -->
+    <string name="home_floating_promo_title">Плаваюче швидке керування</string>
+    <string name="home_floating_promo_description_pro">Проведіть від краю екрана, щоб швидко керувати фоновими застосунками</string>
+    <string name="home_floating_promo_description_trial">Ексклюзивна функція Pro, почніть свій 7-денний безкоштовний пробний період вже зараз</string>
+    <string name="home_floating_promo_description_expired">Пробний період завершено, перейдіть на Pro, щоб продовжити користування</string>
+    <string name="home_floating_promo_description_extend">Термін дії пробної версії завершився, подивіться %d {count, plural, one{рекламний ролик} few{рекламні ролики} many{рекламних роликів} other{рекламних роликів}}, щоб продовжити на 7 днів</string>
+    <string name="home_floating_promo_button_watch_ad">Подивитися рекламу для продовження</string>
+    <string name="home_floating_promo_button_enable">Увімкнути плаваюче вікно</string>
+    <string name="home_floating_promo_button_trial">Почати 7-денний пробний період</string>
+    <string name="home_floating_promo_button_upgrade">Перейти на Pro</string>
+    <string name="toast_floating_trial_started">7-денний пробний період плаваючого вікна розпочався</string>
+    <string name="toast_floating_trial_expired">Пробний період плаваючого вікна завершено</string>
+    <string name="toast_ad_watched">Рекламу успішно переглянуто, пробний період продовжено на 7 днів!</string>
+    <string name="toast_ad_failed">Не вдалося завантажити рекламу, будь ласка, спробуйте ще раз</string>
+    <string name="toast_ad_loading">Завантаження реклами, будь ласка, зачекайте…</string>
+    <!-- Home - Floating Promo Trial Banner -->
+    <string name="home_floating_promo_trial_banner">⏰ Пробний період: залишилося %d днів - Оновіться до Pro для необмеженого доступу</string>
+    <string name="home_floating_promo_ad_remaining">📺 Подивіться ще %d {count, plural, one{рекламний ролик} few{рекламні ролики} many{рекламних роликів} other{рекламних роликів}}, щоб продовжити пробний період</string>
+    <!-- Settings - Floating Trial Info -->
+    <string name="settings_floating_trial_remaining">⏰ Пробний період: залишилося %d днів</string>
+    <string name="settings_floating_trial_summary">Перейдіть на Pro для необмеженого доступу</string>
+    <string name="settings_floating_trial_expired_title">⚠️ Пробний період завершено</string>
+    <string name="settings_floating_trial_expired_summary">Натисніть тут, щоб перейти на Pro і продовжити використовувати плаваюче вікно</string>
+    <string name="settings_floating_trial_available_title">🎁 Доступний 7-денний безкоштовний пробний період</string>
+    <string name="settings_floating_trial_available_summary">Увімкніть плаваюче вікно, щоб розпочати пробний період</string>
+    <!-- Floating Window Empty State -->
+    <string name="floating_empty_text">Поки немає фонових застосунків</string>
+    <string name="xposed_description">Може запускати сервіси та запобігати перезапуску фонових застосунків.</string>
+    <!-- Settings - Xposed Enhanced Mode -->
+    <string name="settings_xposed_title">Розширений режим (Xposed)</string>
+    <string name="settings_xposed_summary">Запобігати перезапуску фонових застосунків системою</string>
+    <string name="settings_xposed_service_status">Підключення до сервісу</string>
+    <string name="settings_xposed_hook_status">Статус підключення хука</string>
+    <string name="settings_xposed_not_connected">Не підключено до сервісу</string>
+    <string name="settings_xposed_reboot_hint"> (якщо щойно активовано, будь ласка, перезавантажте)</string>
+    <string name="settings_xposed_activated">Сервіс підключено</string>
+    <string name="settings_xposed_module_activated">Модуль активовано</string>
+    <string name="settings_xposed_module_not_activated">Модуль не активовано</string>
+    <string name="settings_xposed_hook_activated">Хук підключено</string>
+    <string name="settings_xposed_hook_not_activated">Хук не підключено</string>
+    <string name="toast_adb_port_searching">Пошук порту ADB, будь ласка, увімкніть бездротове налагодження і спробуйте знову</string>
+    <string name="keep_alive_title">Не вимикати екран</string>
+    <!-- Permission -->
+    <string name="permission_task_label">Керування завданнями</string>
+    <string name="permission_task_description">Дозволяє додатку надсилати команди керування завданнями до Background Run</string>
+</resources>
