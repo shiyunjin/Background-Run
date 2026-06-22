@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">バックグラウンド実行中</string>
+    <!-- To translators: you can leave your here -->
+    <string name="translation_contributors">arrows79 (90toyotanoah)</string>
+    <!-- Home - Status -->
+    <string name="home_status_service_is_running">サービス稼働中</string>
+    <string name="home_status_service_not_running">サービスが稼働できませんでした</string>
+    <string name="home_status_service_version">バージョン%2$s,%1$s</string>
+    <!-- Home - Shizuku Permission -->
+    <string name="home_shizuku_permission_title">Shizukuを許可してください</string>
+    <string name="home_working_mode_title">作業モード</string>
+    <string name="home_working_mode_shizuku">Shizuku</string>
+    <string name="home_working_mode_root">Root</string>
+    <string name="home_working_mode_adb">ADB</string>
+    <string name="home_shizuku_permission_description"><![CDATA[なぜしずくが必要なのですか？
+<br>バックグラウンドプロセスを動作するためADB権限を必要とします。しずくはこのサービスを提供します。しずくを使用するにはインストールし、使用する必要があります。<br>%s]]></string>
+    <string name="home_shizuku_permission_button">承認</string>
+    <!-- Home - ADB Permission -->
+    <string name="home_adb_permission_title">ADBワイヤレスデバッグ</string>
+    <string name="home_adb_permission_description"><![CDATA[なぜADBモードか？<br>バックグラウンドプロセスにはADB権限が必要です。このモードは、ShizukuやRootを必要とせず、デバイスのワイヤレスデバッグサービスに直接接続します。<br><br>前提条件：<br>1. 開発者向けオプションで<b>ワイヤレスデバッグ</b>を有効にする<br>2. このアプリをデバイスと<b>ペアリング</b>する<br>3. ADBサービスに<b>接続</b>する]]></string>
+    <string name="home_adb_permission_button_pair">ADBペア</string>
+    <!-- ADB Pairing Tutorial -->
+    <string name="adb_pairing_tutorial_title">デバイスとペアリングする</string>
+    <string name="adb_pairing_tutorial_network_warning">この設定を完了するには、Wi-Fiまたは有線イーサネットに接続する必要があります。</string>
+    <string name="adb_pairing_tutorial_notification">通知がペアリングの完了を支援します。</string>
+    <string name="adb_pairing_tutorial_notification_blocked">ペアリングプロセスでは通知を操作する必要があります。このアプリが通知を投稿することを許可してください。</string>
+    <string name="adb_pairing_tutorial_step1">「開発者向けオプション」を有効にします。「端末情報」に移動し、「ビルド番号」を7回タップします。</string>
+    <string name="adb_pairing_tutorial_step1_hint">開発者向けオプションが検出されません。</string>
+    <string name="adb_pairing_tutorial_step1_enabled">開発者向けオプションが検出されました (この手順はスキップできます)</string>
+    <string name="adb_pairing_tutorial_step2">「開発者向けオプション」-「ワイヤレスデバッグ」に入ります。「ペア設定コードによるデバイスのペア設定」をタップすると、6桁のコードが表示されます。</string>
+    <string name="adb_pairing_tutorial_step2_hint">注意：「ワイヤレスデバッグ」オプションの左側部分はクリック可能で、タップすると新しいページが開きます。右側のスイッチをオンにするだけでは正しくありません。</string>
+    <string name="adb_pairing_tutorial_step3">通知にペアリングコードを入力してペアリングを完了します。</string>
+    <string name="adb_pairing_tutorial_step4">このアプリに戻り、接続します。</string>
+    <string name="about_phone">端末情報</string>
+    <string name="development_settings">開発者向けオプション</string>
+    <string name="notification_settings">通知オプション</string>
+    <!-- ADB Pairing Notification -->
+    <string name="notification_channel_adb_pairing">ADBペアリング</string>
+    <string name="notification_adb_pairing_searching_title">ペアリングサービスを検索中</string>
+    <string name="notification_adb_pairing_service_found_title">ペアリングサービスが見つかりました</string>
+    <string name="notification_adb_pairing_input_pairing_code">ペアリングコードを入力</string>
+    <string name="notification_adb_pairing_stop_searching">検索を停止</string>
+    <string name="notification_adb_pairing_working_title">ペアリング進行中</string>
+    <string name="notification_adb_pairing_succeed_title">ペアリングに成功しました</string>
+    <string name="notification_adb_pairing_succeed_text">これでADBに接続できます。</string>
+    <string name="notification_adb_pairing_failed_title">ペアリングに失敗しました</string>
+    <string name="dialog_adb_pairing_pairing_code">ペアリングコード</string>
+    <string name="cannot_connect_port">ワイヤレスデバッグサービスに接続できません。</string>
+    <string name="pairing_code_wrong">ペアリングコードが間違っています。</string>
+    <string name="adb_error_key_store">ワイヤレスデバッグ用の鍵を生成できません。\nこれは、このデバイスのKeyStoreメカニズムが破損している可能性があります。</string>
+    <!-- Home - Learn more -->
+    <string name="home_learn_more_title">バックグラウンド実行の学習</string>
+    <string name="home_learn_more_description">バックグラウンド実行の使い方を学ぶ</string>
+    <!-- Settings -->
+    <string name="settings_title">設定</string>
+    <string name="settings_language">言語</string>
+    <string name="settings_user_interface">外観</string>
+    <string name="settings_black_night_theme">ブラックナイトテーマ</string>
+    <string name="settings_black_night_theme_summary">ナイトモード有効時に純粋な黒のテーマを使用する</string>
+    <string name="settings_pro">Pro設定</string>
+    <string name="settings_multi_app">マルチバックグラウンドアプリ</string>
+    <string name="settings_multi_app_summary">複数のアプリケーションをバックグラウンドで実行できます。</string>
+    <string name="settings_translation_contributors">翻訳貢献者</string>
+    <string name="settings_translation">翻訳に参加する</string>
+    <string name="settings_translation_summary">%s のあなたの言語への翻訳にご協力ください</string>
+    <string name="settings_use_system_color">システムのテーマカラーを使用する</string>
+    <string name="settings_action">アクション設定</string>
+    <string name="settings_diagnostic">診断サービス</string>
+    <string name="settings_diagnostic_summary">サービスの開始に失敗したり、起動中にエラーが発生した場合に、ここで問題を確認できます。</string>
+    <string name="diagnostic_title">診断</string>
+    <string name="diagnostic_start">検出を開始</string>
+    <string name="diagnostic_progress_format">%d%%</string>
+    <string name="diagnostic_checking_setsid">setsidをチェック中…</string>
+    <string name="diagnostic_checking_app_process">app_processをチェック中…</string>
+    <string name="diagnostic_checking_port">ポート8127をチェック中…</string>
+    <string name="diagnostic_checking_slibpath">LibPathの読み取り可否をチェック中…</string>
+    <string name="diagnostic_checking_shizuku">Shizuku接続をチェック中…</string>
+    <string name="diagnostic_checking_root">Root権限をチェック中…</string>
+    <string name="diagnostic_result_success">成功</string>
+    <string name="diagnostic_result_failed">失敗</string>
+    <string name="diagnostic_item_setsid">setsidが存在します</string>
+    <string name="diagnostic_item_app_process">app_processが存在します</string>
+    <string name="diagnostic_item_port">ポート8127は占有されていません</string>
+    <string name="diagnostic_item_slibpath">LibPathは読み取り可能です</string>
+    <string name="diagnostic_item_shizuku">Shizukuに接続しました</string>
+    <string name="diagnostic_item_root">Root権限</string>
+    <string name="diagnostic_item_adb">ADBワイヤレスデバッグ</string>
+    <string name="diagnostic_checking_adb">ADB接続をチェック中…</string>
+    <string name="diagnostic_item_shizuku_install">Shizukuがインストールされています</string>
+    <string name="diagnostic_checking_shizuku_install">Shizukuのインストールをチェック中…</string>
+    <string name="diagnostic_share_log">ログを共有</string>
+    <string name="diagnostic_checking_restart_server">サービスを再起動中…</string>
+    <string name="diagnostic_item_restart_server">サービスを再起動</string>
+    <string name="diagnostic_checking_log_start">logcatを開始中…</string>
+    <string name="diagnostic_item_log_start">logcatを開始</string>
+    <string name="diagnostic_checking_log_stop">logcatを停止中…</string>
+    <string name="diagnostic_item_log_stop">logcatを停止</string>
+    <string name="diagnostic_share_log_file_not_found">ログファイルが見つかりません</string>
+    <string name="settings_multi_window_mode_summary">フローティングウィンドウモードは、スマートサイドバー起動時などに、現在のアプリケーションをバックグラウンドに移行させます。</string>
+    <string name="settings_multi_window_mode">フローティングウィンドウトリガー</string>
+    <string name="settings_start_on_boot_summary">起動時に自動的に開始する</string>
+    <string name="settings_start_on_boot">起動時に開始</string>
+    <string name="background_launcher_alias">バックグラウンドに移動</string>
+    <string name="persistent_notification_summary">タップしてバックグラウンド実行</string>
+    <!-- Trigger Settings -->
+    <string name="settings_trigger">トリガー</string>
+    <string name="settings_trigger_summary">バックグラウンド実行をトリガーする方法を設定する</string>
+    <string name="settings_trigger_persistent_notification">永続的な通知</string>
+    <string name="settings_trigger_persistent_notification_summary">バックグラウンド実行を素早くトリガーするための永続的な通知を表示する</string>
+    <string name="settings_trigger_background_launcher">バックグラウンドへ移動ショートカット</string>
+    <string name="settings_trigger_background_launcher_summary">現在のアプリをワンタップでバックグラウンドに移動するランチャーアイコンを追加します。ホーム画面からは直接タップできません。ジェスチャーアプリやシステムサイドバーと併用して他のアプリ内から起動してください。</string>
+    <string name="settings_trigger_shortcut_app">ショートカットアプリ</string>
+    <string name="settings_trigger_shortcut_app_summary">アプリ内にアイコンを追加するヘルパーアプリをインストールし、タップして現在のアプリをバックグラウンドに移動します。ホーム画面からは直接タップできません。ジェスチャーアプリやシステムサイドバーと併用して他のアプリ内から起動してください。</string>
+    <string name="shortcut_app_install_hint">APKがDownload/BackgroundRun/に保存されました。手動でインストールしてください。</string>
+    <!-- About -->
+    <string name="action_about">概要</string>
+    <!-- Stop -->
+    <string name="action_stop">サービスを停止</string>
+    <string name="dialog_stop_message">サービスが停止されます。</string>
+    <!-- Restart -->
+    <string name="action_restart">サービスを再起動</string>
+    <string name="dialog_restart_message">サービスが再起動されます。約10秒かかります。</string>
+    <!-- Misc -->
+    <string name="dialog_cannot_open_browser_title">ブラウザを起動できません</string>
+    <string name="toast_copied_to_clipboard_with_text"><![CDATA[<b>%s</b> がクリップボードにコピーされました。]]></string>
+    <!-- Tile -->
+    <string name="tile_title">バックグラウンド実行</string>
+    <!-- Notification -->
+    <string name="notification_task_resume_channel_name">バックグラウンドタスク実行中</string>
+    <string name="notification_task_resume_channel_description">バックグラウンドで実行中のアプリを通知します</string>
+    <string name="notification_task_resume_title">バックグラウンド実行中</string>
+    <string name="notification_task_resume_text">アプリ: %s が実行中</string>
+    <string name="notification_task_resume_action">バックグラウンドを終了</string>
+    <!-- Home - Notification -->
+    <string name="home_notification_title">通知</string>
+    <string name="home_notification_description"><![CDATA[バックグラウンドで実行中のアプリを通知し、通知からフォアグラウンドに戻す方法を提供するには、通知権限が必要です。]]></string>
+    <string name="home_notification_button">権限を許可する</string>
+    <!-- Home - Server Need Update -->
+    <string name="home_server_need_update_title">サービスのアップグレードが必要です</string>
+    <string name="home_server_need_update_description"><![CDATA[サービスバージョンが内蔵バージョンと互換性がないため、更新する必要があります。]]></string>
+    <string name="home_server_need_update_button">アップグレード</string>
+    <!-- Home - Service Start -->
+    <string name="home_service_start_title">サービス開始</string>
+    <string name="home_service_start_description"><![CDATA[サービスが実行されていません。サービスの開始には5〜10秒かかります。]]></string>
+    <string name="home_service_start_root_description"><![CDATA[サービスが実行されていません。サービスの開始には5〜10秒かかります。お使いのデバイスにRootアクセス権がない場合は、ADBモードを使用してください。]]></string>
+    <string name="home_service_start_adb_description"><![CDATA[サービスが実行されていません。サービスの開始には5〜10秒かかります。ADBワイヤレスデバッグを有効にして接続する必要があります。]]></string>
+    <string name="home_service_start_button">開始</string>
+    <!-- Version -->
+    <string name="version_mode_unknow">不明</string>
+    <string name="version_mode_free">無料</string>
+    <string name="version_mode_pro">プロ</string>
+    <!-- Home - Add Tile -->
+    <string name="home_add_tile_title">使用のヒント: クイック設定タイルを追加</string>
+    <string name="home_add_tile_description"><![CDATA[タイルを追加すると、ステータスバーを下にスワイプした際にタイルをタップすることで、アプリを素早くバックグラウンド実行に切り替えられます。]]></string>
+    <string name="home_add_tile_button">タイルを追加</string>
+    <string name="home_add_tile_video_tutorial">ビデオチュートリアル</string>
+    <string name="home_tips_smart_side_bar_title">使用のヒント: スマートサイドバー</string>
+    <string name="home_tips_smart_side_bar_description">OnePlusやXiaomiなどのブランドのスマートフォンにはスマートサイドバーがあり、「バックグラウンド実行」をクリックすると現在実行中のアプリをバックグラウンドに切り替えられます。</string>
+    <string name="home_tips_smart_side_bar_button">トリガー機能を開く</string>
+    <string name="home_tips_media_tek_title">MediaTekプラットフォームのヒント</string>
+    <string name="home_tips_media_tek_description">Shizukuバージョンv13.6.0はMediaTekプラットフォームと互換性がなく、サービスの開始に失敗します。Shizukuのバージョンを確認し、代替バージョンを選択してください。</string>
+    <!-- Home - App List -->
+    <string name="dialog_app_list_stop_task_message">停止してもよろしいですか？</string>
+    <!-- Toast -->
+    <string name="toast_server_start">バックグラウンド実行が開始中です。5秒お待ちください。</string>
+    <string name="toast_server_restart_retry">バックグラウンド実行が開始中です。5秒待ってから再試行してください。</string>
+    <string name="toast_task_background">バックグラウンド実行に成功しました</string>
+    <string name="toast_upgrade_pro">Proへのアップグレードに成功しました</string>
+    <string name="toast_loading">読み込み中</string>
+    <string name="toast_add_tile">同じタイルは1つしか許可されません。</string>
+    <string name="toast_add_tile_error">サポートされていません。ステータスバーエディタから追加してください。</string>
+    <string name="toast_network_error">ネットワークエラー。</string>
+    <string name="toast_start_server_failed">サービスの開始に失敗しました：</string>
+    <string name="toast_root_required">Rootシェルを開けません。再試行してください…</string>
+    <string name="toast_background_service_disallowed">ペアリングサービスを開始できません。\nこのアプリがバックグラウンドで実行されることを許可してください。</string>
+    <string name="toast_adb_not_paired">ADBデバイスがペアリングされていません。最初にペアリングしてください</string>
+    <string name="toast_shizuku_not_authorized">Shizukuが承認されていません。最初に権限を許可してください</string>
+    <string name="toast_root_not_available">Rootアクセスが利用できません。デバイスを確認してください</string>
+    <string name="toast_server_starting">サーバーを起動中です。お待ちください…</string>
+    <!-- Purchase -->
+    <string name="purchase_pro">Proバージョンを購入</string>
+    <string name="purchase_resume">購入を再開する</string>
+    <string name="dialog_pro_need">Proバージョンが必要です</string>
+    <string name="dialog_pro_need_view">バックグラウンドアプリケーションの現在のステータスを表示し、それらを制御できます。</string>
+    <!-- Switch Move -->
+    <string name="switch_move">移動方法の切り替え</string>
+    <string name="switch_move_display">アプリスタックを移動 (デフォルト)</string>
+    <string name="switch_move_recents">最近のタスクから復帰</string>
+    <!-- Floating Settings -->
+    <string name="settings_floating">フローティングボタン設定</string>
+    <string name="settings_floating_summary">フローティングボタンを使用すると、バックグラウンドアプリケーションのステータスをいつでも確認できます。</string>
+    <string name="settings_floating_enabled">フローティングボタンを有効にする</string>
+    <string name="settings_floating_auto_hide">自動非表示</string>
+    <string name="settings_floating_size">サイズ</string>
+    <string name="settings_floating_opacity">不透明度</string>
+    <string name="settings_floating_vertical_position">垂直位置</string>
+    <string name="settings_floating_horizontal_position">水平位置</string>
+    <string name="settings_floating_restore_defaults">デフォルト設定に戻す</string>
+    <string name="settings_floating_restore_defaults_confirm_message">すべてのフローティングボタン設定をデフォルトに戻してもよろしいですか？</string>
+    <string name="settings_floating_left">左</string>
+    <string name="settings_floating_right">右</string>
+    <string name="perm_title">権限の検出</string>
+    <string name="perm_overlay_title">フローティングウィンドウの権限</string>
+    <string name="perm_battery_title">バッテリー最適化</string>
+    <string name="perm_status_on">有効</string>
+    <string name="perm_status_off">無効、タップして設定</string>
+    <string name="perm_status_on_blocked">通知がブロックされました</string>
+    <string name="perm_battery_summary_on">バッテリー最適化が無効です (推奨)</string>
+    <string name="perm_battery_summary_off">最適化中、フローティングウィンドウが閉じる可能性があります。タップして設定</string>
+    <string name="perm_notification_listener_title">「他のアプリの上に重ねて表示」通知をオフにする</string>
+    <string name="perm_notif_summary">タップしてバックグラウンド実行に通知を無効にする権限を許可</string>
+    <!-- Home - Floating Promo -->
+    <string name="home_floating_promo_title">フローティングクイックコントロール</string>
+    <string name="home_floating_promo_description_pro">画面の端からスワイプしてバックグラウンドアプリを素早く制御</string>
+    <string name="home_floating_promo_description_trial">Pro限定機能、今すぐ7日間の無料トライアルを開始</string>
+    <string name="home_floating_promo_description_expired">トライアル期間が終了しました。Proにアップグレードして引き続き使用してください</string>
+    <string name="home_floating_promo_description_extend">トライアル期間が終了しました。%d個の広告を視聴して7日間延長</string>
+    <string name="home_floating_promo_button_watch_ad">広告を視聴して延長</string>
+    <string name="home_floating_promo_button_enable">フローティングを有効にする</string>
+    <string name="home_floating_promo_button_trial">7日間の無料トライアルを開始</string>
+    <string name="home_floating_promo_button_upgrade">Proにアップグレード</string>
+    <string name="toast_floating_trial_started">7日間のフローティングウィンドウトライアルが開始されました</string>
+    <string name="toast_floating_trial_expired">フローティングウィンドウのトライアル期間が終了しました</string>
+    <string name="toast_ad_watched">広告の視聴に成功し、トライアルが7日間延長されました！</string>
+    <string name="toast_ad_failed">広告の読み込みに失敗しました。もう一度お試しください</string>
+    <string name="toast_ad_loading">広告を読み込み中です。お待ちください…</string>
+    <!-- Home - Floating Promo Trial Banner -->
+    <string name="home_floating_promo_trial_banner">⏰ トライアル: 残り%d日 - 無制限アクセスのためにProにアップグレード</string>
+    <string name="home_floating_promo_ad_remaining">📺 あと%d個の広告を視聴してトライアルを延長</string>
+    <!-- Settings - Floating Trial Info -->
+    <string name="settings_floating_trial_remaining">⏰ トライアル: 残り%d日</string>
+    <string name="settings_floating_trial_summary">無制限アクセスのためにProにアップグレード</string>
+    <string name="settings_floating_trial_expired_title">⚠️ トライアルが終了しました</string>
+    <string name="settings_floating_trial_expired_summary">ここをタップしてProにアップグレードし、フローティングウィンドウを引き続き使用する</string>
+    <string name="settings_floating_trial_available_title">🎁 7日間の無料トライアルが利用可能</string>
+    <string name="settings_floating_trial_available_summary">フローティングウィンドウを有効にしてトライアルを開始する</string>
+    <!-- Floating Window Empty State -->
+    <string name="floating_empty_text">まだバックグラウンドアプリはありません</string>
+    <string name="xposed_description">サービスを起動し、バックグラウンドアプリケーションが再起動されるのを防ぐことができます。</string>
+    <!-- Settings - Xposed Enhanced Mode -->
+    <string name="settings_xposed_title">拡張モード (Xposed)</string>
+    <string name="settings_xposed_summary">バックグラウンドアプリがシステムによって再起動されるのを防ぐ</string>
+    <string name="settings_xposed_service_status">サービス接続</string>
+    <string name="settings_xposed_hook_status">フックマウント状態</string>
+    <string name="settings_xposed_not_connected">サービスに接続されていません</string>
+    <string name="settings_xposed_reboot_hint"> (有効にしたばかりの場合は、再起動してください)</string>
+    <string name="settings_xposed_activated">サービスに接続しました</string>
+    <string name="settings_xposed_module_activated">モジュールが有効化されました</string>
+    <string name="settings_xposed_module_not_activated">モジュールが有効化されていません</string>
+    <string name="settings_xposed_hook_activated">フックがマウントされました</string>
+    <string name="settings_xposed_hook_not_activated">フックがマウントされていません</string>
+    <string name="toast_adb_port_searching">ADBポートを検索中です。ワイヤレスデバッグを有効にして、もう一度お試しください</string>
+    <string name="keep_alive_title">画面を常にオン</string>
+    <!-- Permission -->
+    <string name="permission_task_label">タスク制御</string>
+    <string name="permission_task_description">アプリがバックグラウンド実行へタスク制御コマンドを送信することを許可します</string>
+</resources>
